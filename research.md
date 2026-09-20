@@ -75,9 +75,33 @@ My broader scientific interests include:
 - Photonic technologies for industrial applications
 - Optical methods for energy and photovoltaic diagnostics
 
-## Publications & Scientific Work
+## Selected Publications & Scientific Work
 
-Selected publications, conference contributions and research projects will be added here.
+### Efficient, high-power, ytterbium-fiber-laser-pumped picosecond optical parametric oscillator
+
+**O. Kokabee, A. Esteban-Martin, M. Ebrahim-Zadeh**  
+*Optics Letters*, 35, 3210–3212 (2010)  
+[DOI: 10.1364/OL.35.003210](https://doi.org/10.1364/OL.35.003210)
+
+### Extended-cavity, tunable, GHz-repetition-rate femtosecond optical parametric oscillator pumped at 76 MHz
+
+**O. Kokabee, A. Esteban-Martin, M. Ebrahim-Zadeh**  
+*Optics Express*, 17, 15635–15640 (2009)  
+[DOI: 10.1364/OE.17.015635](https://doi.org/10.1364/OE.17.015635)
+
+### Optimum output coupling in optical oscillators using an antiresonant ring interferometer
+
+**A. Esteban-Martin, O. Kokabee, M. Ebrahim-Zadeh**  
+*Optics Letters*, 35, 2786–2788 (2010)  
+[DOI: 10.1364/OL.35.002786](https://doi.org/10.1364/OL.35.002786)
+
+### Femtosecond nonlinear frequency conversion based on BiB₃O₆
+
+**V. Petrov, M. Ghotbi, O. Kokabee, et al.**  
+*Laser & Photonics Reviews*, 4, 53–98 (2010)  
+[DOI: 10.1002/lpor.200810075](https://doi.org/10.1002/lpor.200810075)
+
+[View my full publication record on Google Scholar](YOUR-GOOGLE-SCHOLAR-LINK)
 
 ## Current Interests
 
