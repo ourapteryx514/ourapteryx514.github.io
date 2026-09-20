@@ -380,10 +380,9 @@ body {
 /* Reduce empty space below homepage content */
 
 .page-content {
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .recent-note-home:last-child {
-  padding-bottom: 0px;
-  margin-bottom: 0;
+  padding-bottom: 0;
 }
