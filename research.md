@@ -4,7 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-# Research
 
 My academic work focuses on photonics, ultrafast lasers and optical parametric oscillators.
 
