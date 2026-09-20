@@ -148,3 +148,12 @@ body {
   }
 
 }
+/* Remove duplicated site name from footer */
+
+.footer-heading {
+  display: none;
+}
+
+.contact-list > li:first-child {
+  display: none;
+}
