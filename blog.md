@@ -28,6 +28,16 @@ Personal notes, photographs, books, travel, science, technology and observations
       {{ post.date | date: "%d %B %Y" }}
     </p>
 
+{% if post.categories %}
+<p style="font-size:13px; color:#777; margin:4px 0 8px;">
+  {% for category in post.categories %}
+    <span style="display:inline-block; padding:3px 9px; margin-right:5px; border:1px solid #ddd; border-radius:14px;">
+      {{ category }}
+    </span>
+  {% endfor %}
+</p>
+{% endif %}
+
     <h2>
       <a href="{{ post.url | relative_url }}">
         {{ post.title }}
