@@ -76,17 +76,44 @@ title: Home
 
 {% for post in site.posts limit:3 %}
 
-<div class="recent-note">
+<div class="recent-note-home">
 
-<h3>
-<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-</h3>
+  {% if post.image %}
+  <div>
+    <a href="{{ post.url | relative_url }}">
+      <img
+        src="{{ post.image | relative_url }}"
+        alt="{{ post.title | escape }}"
+        style="width:180px; height:120px; object-fit:cover; border-radius:8px; display:block;">
+    </a>
+  </div>
+  {% endif %}
 
-<p class="post-date">
-{{ post.date | date: "%d %B %Y" }}
-</p>
+  <div class="recent-note-text">
 
-{{ post.excerpt }}
+    <p class="post-date">
+      {{ post.date | date: "%d %B %Y" }}
+    </p>
+
+    <h3>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h3>
+
+    <div>
+      {{ post.excerpt }}
+    </div>
+
+    <a href="{{ post.url | relative_url }}">
+      Read more →
+    </a>
+
+  </div>
+
+</div>
+
+{% endfor %}
 
 </div>
 
