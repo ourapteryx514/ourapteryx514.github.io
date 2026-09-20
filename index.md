@@ -23,10 +23,7 @@ title: Home
       energy, industrial technology and international business.
     </p>
 
-    <p>
-      This website is where I collect my research, projects,
-      professional interests and personal notes.
-    </p>
+
 
   </div>
 
