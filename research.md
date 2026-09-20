@@ -5,7 +5,13 @@ permalink: /research/
 ---
 
 # RESEARCH
-
+<div class="research-focus">
+  <span>Ultrafast Photonics</span>
+  <span>Nonlinear Optics</span>
+  <span>Optical Parametric Oscillators</span>
+  <span>Mid-IR</span>
+  <span>Laser Systems</span>
+</div>
 My research background is in **photonics, ultrafast lasers, and nonlinear optics**, with particular focus on optical parametric oscillators and frequency conversion from the visible to the mid-infrared.
 
 ## Doctoral Research
