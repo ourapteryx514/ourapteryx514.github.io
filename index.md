@@ -32,11 +32,6 @@ title: Home
 
 </div>
 
-
-<div class="section-title">
-  <h2>Explore</h2>
-</div>
-
 <div class="cards">
 
   <div class="card">
