@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# About Me
 
 I am a physicist with a background in photonics, ultrafast lasers and optical parametric oscillators.
 
