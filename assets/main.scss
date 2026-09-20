@@ -3,6 +3,10 @@
 
 @import "minima";
 
+:root {
+  --hero-padding-top: 5px;
+  --hero-padding-bottom: 8px;
+}
 
 /* =========================================================
    GENERAL LAYOUT
@@ -54,7 +58,7 @@ body {
   display: flex;
   align-items: center;
   gap: 55px;
-  padding: 60px 0 70px;
+  padding: var(--hero-padding-top) 0 var(--hero-padding-bottom);
 }
 
 .profile-photo {
