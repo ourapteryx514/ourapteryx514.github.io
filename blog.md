@@ -1,6 +1,6 @@
 ---
 layout: clean-page
-title: Daily Notes
+title: Blog
 permalink: /blog/
 ---
 
