@@ -101,7 +101,7 @@ My broader scientific interests include:
 *Laser & Photonics Reviews*, 4, 53–98 (2010)  
 [DOI: 10.1002/lpor.200810075](https://doi.org/10.1002/lpor.200810075)
 
-[View my full publication record on Google Scholar](YOUR-GOOGLE-SCHOLAR-LINK)
+[View my full publication record on Google Scholar]([YOUR-GOOGLE-SCHOLAR-LINK](https://scholar.google.com/citations?user=-Sx9B48AAAAJ&hl=en))
 
 ## Current Interests
 
