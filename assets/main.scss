@@ -294,3 +294,39 @@ body {
     height: 260px;
   }
 }
+/* Recent notes on homepage */
+
+.recent-note-home {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 25px;
+  padding: 25px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.recent-note-text h3 {
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+
+.recent-note-text h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.recent-note-text h3 a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+
+  .recent-note-home {
+    grid-template-columns: 1fr;
+  }
+
+  .recent-note-home img {
+    width: 100% !important;
+    height: 200px !important;
+  }
+
+}
