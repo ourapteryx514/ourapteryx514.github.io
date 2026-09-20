@@ -5,12 +5,28 @@ permalink: /research/
 ---
 
 # RESEARCH
-<div class="research-focus">
-  <span>Ultrafast Photonics</span>
-  <span>Nonlinear Optics</span>
-  <span>Optical Parametric Oscillators</span>
-  <span>Mid-IR</span>
-  <span>Laser Systems</span>
+<div style="display:flex; flex-wrap:wrap; gap:10px; margin:22px 0 35px;">
+
+  <span style="display:inline-block; padding:7px 13px; border:1px solid #dddddd; border-radius:20px; font-size:14px; color:#555; background:#fafafa;">
+    Ultrafast Photonics
+  </span>
+
+  <span style="display:inline-block; padding:7px 13px; border:1px solid #dddddd; border-radius:20px; font-size:14px; color:#555; background:#fafafa;">
+    Nonlinear Optics
+  </span>
+
+  <span style="display:inline-block; padding:7px 13px; border:1px solid #dddddd; border-radius:20px; font-size:14px; color:#555; background:#fafafa;">
+    Optical Parametric Oscillators
+  </span>
+
+  <span style="display:inline-block; padding:7px 13px; border:1px solid #dddddd; border-radius:20px; font-size:14px; color:#555; background:#fafafa;">
+    Mid-IR
+  </span>
+
+  <span style="display:inline-block; padding:7px 13px; border:1px solid #dddddd; border-radius:20px; font-size:14px; color:#555; background:#fafafa;">
+    Laser Systems
+  </span>
+
 </div>
 My research background is in **photonics, ultrafast lasers, and nonlinear optics**, with particular focus on optical parametric oscillators and frequency conversion from the visible to the mid-infrared.
 
