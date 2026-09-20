@@ -85,7 +85,6 @@ body {
 }
 
 .card {
-  display: block;
   padding: 28px;
   border: 1px solid #e5e5e5;
   border-radius: 12px;
@@ -94,7 +93,13 @@ body {
   transition: transform 0.15s ease,
               box-shadow 0.15s ease;
 }
+.card a {
+  text-decoration: none;
+}
 
+.card a:hover {
+  text-decoration: underline;
+}
 .card:hover {
   text-decoration: none;
   transform: translateY(-3px);
