@@ -38,27 +38,33 @@ title: Home
 
 <div class="cards">
 
-  <a class="card" href="{{ '/research/' | relative_url }}">
-    <h3>Research</h3>
+  <div class="card">
+    <h3>
+      <a href="{{ '/research/' | relative_url }}">Research</a>
+    </h3>
     <p>
       Photonics, ultrafast lasers, optical parametric oscillators
       and related scientific work.
     </p>
-  </a>
+  </div>
 
-  <a class="card" href="{{ '/projects/' | relative_url }}">
-    <h3>Projects</h3>
+  <div class="card">
+    <h3>
+      <a href="{{ '/projects/' | relative_url }}">Projects</a>
+    </h3>
     <p>
       Selected technical, industrial and interdisciplinary projects.
     </p>
-  </a>
+  </div>
 
-  <a class="card" href="{{ '/blog/' | relative_url }}">
-    <h3>Daily Notes</h3>
+  <div class="card">
+    <h3>
+      <a href="{{ '/blog/' | relative_url }}">Daily Notes</a>
+    </h3>
     <p>
       Photographs, observations, books, travel, science and everyday notes.
     </p>
-  </a>
+  </div>
 
 </div>
 
