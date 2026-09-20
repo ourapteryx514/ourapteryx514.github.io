@@ -16,15 +16,11 @@ Personal notes, photographs, books, travel, science, technology and observations
 
 <article class="blog-entry">
 
-  {% if post.image %}
-  <a href="{{ post.url | relative_url }}">
-    <img
-     <img
-  src="{{ post.image | relative_url }}"
-  alt="{{ post.title }}"
-  style="width:220px; height:150px; object-fit:cover; border-radius:8px;">
-  </a>
-  {% endif %}
+{% if post.image %}
+<div>
+  <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" style="width:220px; height:150px; object-fit:cover; border-radius:8px; display:block;"></a>
+</div>
+{% endif %}
 
   <div class="blog-entry-content">
 
