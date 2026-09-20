@@ -4,6 +4,12 @@ title: Contact
 permalink: /contact/
 ---
 
-# CONTACT
+# CONTACTS
 
-You can contact me through email, LinkedIn or other professional channels.
+If you would like to get in touch regarding research, technical projects, industry, or collaboration, you can reach me through the following channels.
+
+### Email
+[Your email address](mailto:omid@kokabee.com)
+
+### LinkedIn
+[LinkedIn Profile](https://www.linkedin.com/in/omidkokabee/)
