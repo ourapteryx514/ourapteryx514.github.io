@@ -7,4 +7,6 @@ categories: personal
 
 This is my first note on my personal website.
 
-I created this website as a place to keep my thoughts, photographs, research interests and things I encounter in everyday life.
+![A walk in Yeşilköy](/assets/images/yesilkoy-walk.jpeg)
+
+Today I took a walk in Yeşilköy and decided to start documenting small moments from everyday life.
