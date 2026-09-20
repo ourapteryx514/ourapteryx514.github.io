@@ -6,12 +6,6 @@ permalink: /research/
 
 # RESEARCH
 
----
-layout: clean-page
-title: Research
-permalink: /research/
----
-
 My research background is in **photonics, ultrafast lasers, and nonlinear optics**, with particular focus on optical parametric oscillators and frequency conversion from the visible to the mid-infrared.
 
 ## Doctoral Research
