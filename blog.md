@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-# Daily Notes
+# Blog
 
 Personal observations, photographs, reading notes, travel, science and other things I find worth recording.
 
