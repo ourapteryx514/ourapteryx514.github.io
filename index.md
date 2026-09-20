@@ -5,8 +5,8 @@ title: Home
 
 <div class="hero">
 
-  <img src="{{ '/assets/images/profile.jpg' | relative_url }}"
-       alt="Your Name"
+  <img src="{{ '/assets/images/profile.jpeg' | relative_url }}"
+       alt="OMID KOKABEE"
        class="profile-photo">
 
   <div class="hero-text">
