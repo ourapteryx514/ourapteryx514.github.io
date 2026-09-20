@@ -2,6 +2,7 @@ title: OMID KOKABEE
 description: Personal website, research, professional work and daily notes
 theme: minima
 
+# Minima 2.x navigation
 header_pages:
   - index.md
   - about.md
@@ -9,3 +10,13 @@ header_pages:
   - projects.md
   - blog.md
   - contact.md
+
+# Minima 3.x navigation
+minima:
+  nav_pages:
+    - index.md
+    - about.md
+    - research.md
+    - projects.md
+    - blog.md
+    - contact.md
