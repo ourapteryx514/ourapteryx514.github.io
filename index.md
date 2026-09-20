@@ -32,6 +32,7 @@ title: Home
 
 </div>
 
+
 <div class="section-title">
   <h2>Explore</h2>
 </div>
@@ -68,6 +69,7 @@ title: Home
 
 </div>
 
+
 <div class="section-title">
   <h2>Recent Notes</h2>
 </div>
@@ -76,46 +78,42 @@ title: Home
 
 {% for post in site.posts limit:3 %}
 
-<div class="recent-note-home">
+  <div class="recent-note-home">
 
-  {% if post.image %}
-  <div>
-    <a href="{{ post.url | relative_url }}">
-      <img
-        src="{{ post.image | relative_url }}"
-        alt="{{ post.title | escape }}"
-        style="width:180px; height:120px; object-fit:cover; border-radius:8px; display:block;">
-    </a>
-  </div>
-  {% endif %}
-
-  <div class="recent-note-text">
-
-    <p class="post-date">
-      {{ post.date | date: "%d %B %Y" }}
-    </p>
-
-    <h3>
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h3>
-
+    {% if post.image %}
     <div>
-      {{ post.excerpt }}
+      <a href="{{ post.url | relative_url }}">
+        <img
+          src="{{ post.image | relative_url }}"
+          alt="{{ post.title | escape }}"
+          style="width:180px; height:120px; object-fit:cover; border-radius:8px; display:block;">
+      </a>
+    </div>
+    {% endif %}
+
+    <div class="recent-note-text">
+
+      <p class="post-date">
+        {{ post.date | date: "%d %B %Y" }}
+      </p>
+
+      <h3>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h3>
+
+      <div>
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ post.url | relative_url }}">
+        Read more →
+      </a>
+
     </div>
 
-    <a href="{{ post.url | relative_url }}">
-      Read more →
-    </a>
-
   </div>
-
-</div>
-
-{% endfor %}
-
-</div>
 
 {% endfor %}
 
