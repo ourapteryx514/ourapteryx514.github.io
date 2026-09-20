@@ -19,9 +19,10 @@ Personal notes, photographs, books, travel, science, technology and observations
   {% if post.image %}
   <a href="{{ post.url | relative_url }}">
     <img
-      src="{{ post.image | relative_url }}"
-      alt="{{ post.title }}"
-      class="blog-thumbnail">
+     <img
+  src="{{ post.image | relative_url }}"
+  alt="{{ post.title }}"
+  style="width:220px; height:150px; object-fit:cover; border-radius:8px;">
   </a>
   {% endif %}
 
