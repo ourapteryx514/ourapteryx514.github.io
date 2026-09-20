@@ -4,5 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
+#BLOG
 
 You can contact me through email, LinkedIn or other professional channels.
