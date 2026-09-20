@@ -33,6 +33,25 @@ body {
   margin-left: 22px;
 }
 
+/* Header refinement */
+
+.site-header {
+  min-height: 64px;
+}
+
+.site-title {
+  font-size: 22px;
+  letter-spacing: 0;
+}
+
+.site-nav {
+  line-height: 64px;
+}
+
+.site-nav .page-link {
+  font-size: 15px;
+  margin-left: 24px;
+}
 
 /* Homepage hero */
 
@@ -110,6 +129,22 @@ body {
   margin-top: 0;
 }
 
+/* Footer */
+
+.site-footer {
+  margin-top: 70px;
+  padding: 35px 0;
+  border-top: 1px solid #eeeeee;
+}
+
+.footer-heading {
+  font-size: 18px;
+}
+
+.footer-col-wrapper {
+  font-size: 14px;
+  color: #777;
+}
 
 /* Recent notes */
 
