@@ -6,14 +6,6 @@ permalink: /blog/
 
 # BLOG
 
----
-layout: clean-page
-title: Blog
-permalink: /blog/
----
-
-# BLOG
-
 <p class="blog-intro">
 Personal notes, photographs, books, travel, science, technology and observations from everyday life.
 </p>
