@@ -4,7 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-# Blog
 
 Personal observations, photographs, reading notes, travel, science and other things I find worth recording.
 
