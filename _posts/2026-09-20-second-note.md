@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-post
 title: "My Second Note"
 date: 2026-09-20
 categories: personal
