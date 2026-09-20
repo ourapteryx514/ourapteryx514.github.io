@@ -59,10 +59,10 @@ title: Home
 
   <div class="card">
     <h3>
-      <a href="{{ '/blog/' | relative_url }}">Daily Notes</a>
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
     </h3>
     <p>
-      Photographs, observations, books, travel, science and everyday notes.
+      Personal notes, photographs, books, travel, science and everyday observations.
     </p>
   </div>
 
