@@ -3,6 +3,9 @@ layout: blog-post
 title: "My First Note"
 date: 2026-09-20
 categories: personal
+categories:
+  - Personal
+  - Istanbul
 image: /assets/images/yesilkoy-walk.jpeg
 ---
 
