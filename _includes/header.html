@@ -4,7 +4,10 @@
 
     {% if page.url contains '/fa/' %}
 
-    <!-- PERSIAN HEADER -->
+    <!-- ===================================================
+         PERSIAN HEADER
+         =================================================== -->
+
     <div class="custom-header persian-header" dir="rtl">
 
       <span class="header-brand persian-brand">
@@ -29,12 +32,28 @@
         <a href="{{ '/fa/blog/' | relative_url }}">وبلاگ</a>
         <a href="{{ '/fa/contact/' | relative_url }}">تماس</a>
 
-        {% assign english_url = page.url | remove_first: '/fa' %}
 
-        <a class="language-switch"
-           href="{{ english_url | relative_url }}">
-          EN
-        </a>
+        <!-- Language switch -->
+
+        {% if page.layout == 'fa-blog-post' %}
+
+          <!-- Persian article → English blog -->
+          <a class="language-switch"
+             href="{{ '/blog/' | relative_url }}">
+            EN
+          </a>
+
+        {% else %}
+
+          <!-- Persian normal page → equivalent English page -->
+          {% assign english_url = page.url | remove_first: '/fa' %}
+
+          <a class="language-switch"
+             href="{{ english_url | relative_url }}">
+            EN
+          </a>
+
+        {% endif %}
 
       </nav>
 
@@ -43,7 +62,10 @@
 
     {% else %}
 
-    <!-- ENGLISH HEADER -->
+    <!-- ===================================================
+         ENGLISH HEADER
+         =================================================== -->
+
     <div class="custom-header english-header">
 
       <span class="header-brand">
@@ -68,10 +90,26 @@
         <a href="{{ '/blog/' | relative_url }}">Blog</a>
         <a href="{{ '/contact/' | relative_url }}">Contact</a>
 
-        <a class="language-switch"
-           href="{{ '/fa' | append: page.url | relative_url }}">
-          فارسی
-        </a>
+
+        <!-- Language switch -->
+
+        {% if page.layout == 'blog-post' %}
+
+          <!-- English article → Persian blog -->
+          <a class="language-switch"
+             href="{{ '/fa/blog/' | relative_url }}">
+            فارسی
+          </a>
+
+        {% else %}
+
+          <!-- English normal page → equivalent Persian page -->
+          <a class="language-switch"
+             href="{{ '/fa' | append: page.url | relative_url }}">
+            فارسی
+          </a>
+
+        {% endif %}
 
       </nav>
 
@@ -101,6 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
       button.setAttribute("aria-expanded", opened);
 
       button.textContent = opened ? "✕" : "☰";
+
     });
 
   }
