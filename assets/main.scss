@@ -393,3 +393,55 @@ body {
 .fa-page li {
   text-align: right;
 }
+/* =========================================================
+   CUSTOM BILINGUAL NAVIGATION
+   ========================================================= */
+
+.custom-nav {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+
+.custom-nav a {
+  font-size: 15px;
+  color: #333;
+  text-decoration: none;
+}
+
+.custom-nav a:hover {
+  text-decoration: underline;
+}
+
+.language-switch {
+  font-weight: 600;
+  padding-left: 18px;
+  border-left: 1px solid #dddddd;
+}
+
+.persian-nav {
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.persian-nav .language-switch {
+  padding-left: 0;
+  padding-right: 18px;
+  border-left: none;
+  border-right: 1px solid #dddddd;
+}
+
+@media screen and (max-width: 700px) {
+
+  .custom-nav {
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 10px 0;
+  }
+
+  .custom-nav a {
+    font-size: 14px;
+  }
+}
