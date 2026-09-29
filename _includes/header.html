@@ -1,28 +1,26 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper" style="max-width:1250px;">
+  <div class="wrapper bilingual-header-wrapper">
 
     {% if page.url contains '/fa/' %}
 
-    <!-- Persian header -->
-    <div style="
-      width:100%;
-      min-height:82px;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      flex-wrap:nowrap;
-      gap:30px;
-    ">
+    <!-- PERSIAN HEADER -->
+    <div class="custom-header persian-header" dir="rtl">
 
-      <!-- Persian navigation on LEFT -->
-      <nav dir="rtl" style="
-        display:flex;
-        align-items:center;
-        gap:22px;
-        white-space:nowrap;
-        font-family:'IRANSansWeb',Tahoma,Arial,sans-serif;
-      ">
+      <span class="header-brand persian-brand">
+        امید کوکبی
+      </span>
+
+      <button class="menu-toggle"
+              type="button"
+              aria-label="باز کردن منو"
+              aria-controls="persian-navigation"
+              aria-expanded="false">
+        ☰
+      </button>
+
+      <nav id="persian-navigation"
+           class="custom-nav persian-nav">
 
         <a href="{{ '/fa/' | relative_url }}">خانه</a>
         <a href="{{ '/fa/about/' | relative_url }}">درباره من</a>
@@ -33,62 +31,35 @@
 
         {% assign english_url = page.url | remove_first: '/fa' %}
 
-        <a href="{{ english_url | relative_url }}"
-           style="
-             font-weight:400;
-             padding-right:18px;
-             border-right:1px solid #ddd;
-           ">
+        <a class="language-switch"
+           href="{{ english_url | relative_url }}">
           EN
         </a>
 
       </nav>
-
-      <!-- Persian name on RIGHT — NOT a hyperlink -->
-      <span style="
-        font-family:'IRANSansWeb',Tahoma,Arial,sans-serif;
-        font-size:32px;
-        font-weight:300;
-        line-height:1;
-        white-space:nowrap;
-        direction:rtl;
-      ">
-        امید کوکبی
-      </span>
 
     </div>
 
 
     {% else %}
 
-    <!-- English header -->
-    <div style="
-      width:100%;
-      min-height:82px;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      flex-wrap:nowrap;
-      gap:30px;
-    ">
+    <!-- ENGLISH HEADER -->
+    <div class="custom-header english-header">
 
-      <!-- English name on LEFT — NOT a hyperlink -->
-      <span style="
-        font-size:32px;
-        font-weight:300;
-        line-height:1;
-        white-space:nowrap;
-      ">
+      <span class="header-brand">
         OMID KOKABEE
       </span>
 
-      <!-- English navigation on RIGHT -->
-      <nav style="
-        display:flex;
-        align-items:center;
-        gap:22px;
-        white-space:nowrap;
-      ">
+      <button class="menu-toggle"
+              type="button"
+              aria-label="Open menu"
+              aria-controls="english-navigation"
+              aria-expanded="false">
+        ☰
+      </button>
+
+      <nav id="english-navigation"
+           class="custom-nav">
 
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/about/' | relative_url }}">About</a>
@@ -97,12 +68,8 @@
         <a href="{{ '/blog/' | relative_url }}">Blog</a>
         <a href="{{ '/contact/' | relative_url }}">Contact</a>
 
-        <a href="{{ '/fa' | append: page.url | relative_url }}"
-           style="
-             font-weight:400;
-             padding-left:18px;
-             border-left:1px solid #ddd;
-           ">
+        <a class="language-switch"
+           href="{{ '/fa' | append: page.url | relative_url }}">
           فارسی
         </a>
 
@@ -115,3 +82,28 @@
   </div>
 
 </header>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const button = document.querySelector(".menu-toggle");
+  const nav = document.querySelector(".custom-nav");
+
+  if (button && nav) {
+
+    button.addEventListener("click", function () {
+
+      nav.classList.toggle("menu-open");
+
+      const opened = nav.classList.contains("menu-open");
+
+      button.setAttribute("aria-expanded", opened);
+
+      button.textContent = opened ? "✕" : "☰";
+    });
+
+  }
+
+});
+</script>
