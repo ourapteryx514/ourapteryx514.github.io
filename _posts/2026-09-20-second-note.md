@@ -2,6 +2,7 @@
 layout: blog-post
 title: "At Home in Austin, Texas"
 date: 2026-09-20
+lang: en
 categories:
   - Personal
   - Research
