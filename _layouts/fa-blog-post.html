@@ -4,9 +4,24 @@ layout: default
 
 <article class="blog-post-page fa-page" dir="rtl" lang="fa">
 
-  <p style="font-size:14px; color:#888; margin-bottom:8px;">
+  <p class="blog-date">
     {{ page.date | date: "%Y/%m/%d" }}
   </p>
+
+  {% if page.categories %}
+  <p style="font-size:13px; color:#777; margin:5px 0 12px;">
+    {% for category in page.categories %}
+      <span style="
+        display:inline-block;
+        padding:3px 9px;
+        margin-left:5px;
+        border:1px solid #ddd;
+        border-radius:14px;">
+        {{ category }}
+      </span>
+    {% endfor %}
+  </p>
+  {% endif %}
 
   <h1 style="margin-top:0; margin-bottom:25px;">
     {{ page.title }}
@@ -16,10 +31,16 @@ layout: default
     {{ content }}
   </div>
 
-  <hr style="margin:50px 0 30px; border:0; border-top:1px solid #eee;">
+  <hr style="
+    margin:50px 0 25px;
+    border:0;
+    border-top:1px solid #eeeeee;
+  ">
 
   <p>
-    <a href="{{ '/fa/blog/' | relative_url }}">← بازگشت به وبلاگ</a>
+    <a href="{{ '/fa/blog/' | relative_url }}">
+      بازگشت به وبلاگ ←
+    </a>
   </p>
 
 </article>
