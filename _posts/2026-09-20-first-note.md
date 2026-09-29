@@ -1,16 +1,15 @@
 ---
 layout: blog-post
-title: "My First Note"
+title: "Omid in the Laser Lab (2009)"
 date: 2026-09-20
-categories: personal
 categories:
-  - Personal
-  - Istanbul
-image: /assets/images/yesilkoy-walk.jpeg
+  - Photonics
+  - Research
+  - Barcelona
+image: /assets/images/omid-laser-lab-barcelona.jpeg
+excerpt: "Back in 2009 at the Nonlinear Optics Lab at ICFO in Barcelona, working on a PPLN picosecond OPO pumped by a fiber laser."
 ---
 
-This is my first note on my personal website.
+![Omid in the Nonlinear Optics Lab at ICFO, Barcelona]({{ '/assets/images/omid-laser-lab-barcelona.jpeg' | relative_url }})
 
-![A walk in Yeşilköy](/assets/images/yesilkoy-walk.jpeg)
-
-Today I took a walk in Yeşilköy and decided to start documenting small moments from everyday life.
+Back in 2009 at the **Nonlinear Optics Lab at The Institute of Photonic Sciences (ICFO)** in Barcelona, Spain, while working on a **PPLN picosecond optical parametric oscillator (OPO)** pumped by a fiber laser.
