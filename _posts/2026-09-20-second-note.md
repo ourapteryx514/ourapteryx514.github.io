@@ -1,17 +1,19 @@
 ---
 layout: blog-post
-title: "My Second Note"
+title: "At Home in Austin, Texas"
 date: 2026-09-20
-categories: personal
 categories:
-  - Books
-  - History
-image: /assets/images/dubai.jpg
+  - Personal
+  - Research
+  - Texas
+image: /assets/images/omid-texas-01.jpeg
+excerpt: "At home in Austin, Texas, while studying at the University of Texas at Austin in September 2010."
 ---
 
-This is my second note on my personal website.
+<p style="color:#777; font-size:15px; margin-top:-15px; margin-bottom:25px;">
+Austin, Texas, USA · September 2010
+</p>
 
-![In Dubai](/assets/images/dubai.jpg)
+![At home in Austin, Texas]({{ '/assets/images/omid-texas-01.jpeg' | relative_url }})
 
-Today I took a walk in Yeşilköy and decided to start documenting small moments from everyday life.
-
+At that time, my only responsibility was to equip myself with more knowledge and skills so that I could become a more experienced and knowledgeable laser scientist.
