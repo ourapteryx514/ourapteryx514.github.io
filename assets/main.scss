@@ -398,27 +398,31 @@ body {
    CUSTOM BILINGUAL HEADER & NAVIGATION
    ========================================================= */
 
+/* Make header slightly wider than main content */
 .site-header .wrapper {
-  max-width: 1050px;
+  max-width: 1250px;
 }
 
 
 /* Main header row */
 
 .custom-header {
-  min-height: 72px;
+  min-height: 82px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
   gap: 35px;
 }
 
 
-/* Name / site brand */
+/* Name / brand */
 
 .header-brand {
-  flex-shrink: 0;
-  font-size: 22px;
+  flex: 0 0 auto;
+  width: auto;
+  font-size: 44px;
+  line-height: 1;
   font-weight: 600;
   letter-spacing: 0;
   color: #424242;
@@ -432,10 +436,26 @@ body {
 }
 
 
-/* English
-   Name = left
-   Navigation = right
+/* Navigation */
+
+.custom-nav {
+  width: auto !important;
+  flex: 0 1 auto;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: nowrap;
+}
+
+
+/* English:
+   OMID KOKABEE left
+   navigation right
 */
+
+.english-header {
+  direction: ltr;
+}
 
 .english-header .header-brand {
   order: 1;
@@ -443,16 +463,24 @@ body {
 
 .english-header .custom-nav {
   order: 2;
+  margin-left: auto;
+  direction: ltr;
 }
 
 
-/* Persian
-   Navigation = left
-   Name = right
+/* Persian:
+   navigation left
+   امید کوکبی right
 */
+
+.persian-header {
+  direction: ltr;
+}
 
 .persian-header .custom-nav {
   order: 1;
+  margin-right: auto;
+  direction: rtl;
 }
 
 .persian-header .header-brand {
@@ -463,25 +491,6 @@ body {
   direction: rtl;
   font-family: Tahoma, Arial, sans-serif;
   letter-spacing: 0;
-}
-
-
-/* Navigation */
-
-.custom-nav {
-  display: flex;
-  align-items: center;
-  gap: 26px;
-  flex-wrap: nowrap;
-}
-
-.english-header .custom-nav {
-  direction: ltr;
-}
-
-.persian-nav {
-  direction: rtl;
-  font-family: Tahoma, Arial, sans-serif;
 }
 
 
@@ -502,32 +511,31 @@ body {
 /* Language separator */
 
 .english-header .language-switch {
-  padding-left: 20px;
+  padding-left: 18px;
   border-left: 1px solid #dddddd;
   font-weight: 600;
 }
 
 .persian-header .language-switch {
-  padding-right: 20px;
+  padding-right: 18px;
   border-right: 1px solid #dddddd;
   font-weight: 600;
 }
 
 
-/* Mobile */
+/* Smaller screens */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
 
   .custom-header {
-    min-height: auto;
-    padding: 12px 0;
     flex-wrap: wrap;
-    gap: 12px;
+    padding: 12px 0;
+    gap: 15px;
   }
 
   .header-brand {
-    font-size: 20px;
     width: 100%;
+    font-size: 34px;
   }
 
   .english-header .header-brand {
@@ -539,17 +547,9 @@ body {
   }
 
   .custom-nav {
-    width: 100%;
+    width: 100% !important;
     flex-wrap: wrap;
     gap: 15px;
-  }
-
-  .english-header .custom-nav {
-    justify-content: flex-start;
-  }
-
-  .persian-header .custom-nav {
-    justify-content: flex-end;
   }
 
   .custom-nav a {
