@@ -14,9 +14,9 @@ title: Home
 
     <h1>OMID KOKABEE</h1>
 
-    <p class="subtitle">
-      Physicist · Photonics Researcher · Technology & Industry
-    </p>
+<p class="subtitle">
+  Physicist · Technology & Industry Consultant · International Business & Trade
+</p>
 
     <p>
       I am a physicist with a background in photonics, ultrafast lasers
