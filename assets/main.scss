@@ -389,16 +389,19 @@ body {
 .fa-page {
   direction: rtl;
   text-align: right;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: "IRANSansWeb", Tahoma, Arial, sans-serif;
   line-height: 2;
 }
 
 .fa-page h1,
 .fa-page h2,
 .fa-page h3,
+.fa-page h4,
 .fa-page p,
-.fa-page li {
-  text-align: right;
+.fa-page li,
+.fa-page a,
+.fa-page span {
+  font-family: "IRANSansWeb", Tahoma, Arial, sans-serif;
 }
 
 /* =========================================================
