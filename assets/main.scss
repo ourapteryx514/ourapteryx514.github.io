@@ -47,7 +47,6 @@ body {
   border-bottom: 1px solid #eeeeee;
 }
 
-
 /* Hide Minima's original site title */
 .site-title {
   display: none;
@@ -141,7 +140,7 @@ body {
 }
 
 
-/* Hamburger hidden on laptop / desktop */
+/* Hamburger hidden on desktop / tablet */
 
 .menu-toggle {
   display: none !important;
@@ -456,7 +455,9 @@ body {
 
 @media screen and (max-width: 600px) {
 
-  /* Header */
+  /* -------------------------------------------------------
+     MOBILE HEADER
+     ------------------------------------------------------- */
 
   .custom-header {
     min-height: 68px;
@@ -551,50 +552,64 @@ body {
   }
 
 
-  /* Homepage */
+  /* -------------------------------------------------------
+     HOMEPAGE HERO - MOBILE
+     ------------------------------------------------------- */
 
-  /* Homepage hero - mobile */
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
 
-.hero {
-  flex-direction: column;
-  align-items: center;
-  gap: 22px;
-}
+  .profile-photo {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+  }
 
-.profile-photo {
-  width: 160px;
-  height: 160px;
-  margin: 0 auto;
-}
+  .hero-text {
+    width: 100%;
+  }
 
-.hero-text {
-  width: 100%;
-}
+  /* Name centered */
 
-.hero-text h1 {
-  font-size: 36px;
-  text-align: center !important;
-}
+  .hero-text h1 {
+    font-size: 36px;
+    text-align: center !important;
+  }
 
-.hero-text .subtitle {
-  text-align: center !important;
-}
+  /* Subtitle centered */
 
-/* Normal paragraph alignment */
-.hero-text p:not(.subtitle) {
-  text-align: left !important;
-}
+  .hero-text .subtitle {
+    text-align: center !important;
+  }
 
-.hero-text p {
-  text-align: center !important;
-}
+  /* English explanatory paragraphs remain left aligned */
+
+  .hero-text p:not(.subtitle) {
+    text-align: left !important;
+  }
+
+  /* Persian explanatory paragraphs remain right aligned */
+
+  .fa-page .hero-text p:not(.subtitle) {
+    text-align: right !important;
+  }
+
+
+  /* -------------------------------------------------------
+     HOMEPAGE CARDS
+     ------------------------------------------------------- */
 
   .cards {
     grid-template-columns: 1fr;
   }
 
 
-  /* Blog */
+  /* -------------------------------------------------------
+     BLOG
+     ------------------------------------------------------- */
 
   .blog-entry {
     grid-template-columns: 1fr;
@@ -610,7 +625,9 @@ body {
   }
 
 
-  /* Homepage recent notes */
+  /* -------------------------------------------------------
+     HOMEPAGE RECENT NOTES
+     ------------------------------------------------------- */
 
   .recent-note-home {
     grid-template-columns: 1fr;
