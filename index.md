@@ -68,7 +68,6 @@ title: Home
   <h2>Recent Notes</h2>
 </div>
 
-
 {% assign english_posts = site.posts | where: "lang", "en" %}
 
 <div class="recent-notes">
