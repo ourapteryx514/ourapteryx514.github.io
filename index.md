@@ -5,9 +5,10 @@ title: Home
 
 <div class="hero">
 
-  <img src="{{ '/assets/images/profile.jpeg' | relative_url }}"
-       alt="OMID KOKABEE"
-       class="profile-photo">
+  <img
+    src="{{ '/assets/images/profile.jpeg' | relative_url }}"
+    alt="OMID KOKABEE"
+    class="profile-photo">
 
   <div class="hero-text">
 
@@ -23,11 +24,15 @@ title: Home
       energy, industrial technology and international business.
     </p>
 
-
+    <p>
+      This website is where I collect my research, projects,
+      professional interests and personal notes.
+    </p>
 
   </div>
 
 </div>
+
 
 <div class="cards">
 
@@ -66,9 +71,12 @@ title: Home
   <h2>Recent Notes</h2>
 </div>
 
+
+{% assign english_posts = site.posts | where_exp: "post", "post.lang != 'fa'" %}
+
 <div class="recent-notes">
 
-{% for post in site.posts limit:3 %}
+{% for post in english_posts limit:3 %}
 
   <div class="recent-note-home">
 
@@ -88,6 +96,21 @@ title: Home
       <p class="post-date">
         {{ post.date | date: "%d %B %Y" }}
       </p>
+
+      {% if post.categories %}
+      <p style="font-size:13px; color:#777; margin:4px 0 8px;">
+        {% for category in post.categories %}
+          <span style="
+            display:inline-block;
+            padding:3px 9px;
+            margin-right:5px;
+            border:1px solid #ddd;
+            border-radius:14px;">
+            {{ category }}
+          </span>
+        {% endfor %}
+      </p>
+      {% endif %}
 
       <h3>
         <a href="{{ post.url | relative_url }}">
