@@ -10,8 +10,8 @@ permalink: /fa/contact/
 
 ### ایمیل
 
-[ارسال ایمیل](mailto:YOUR-EMAIL)
+[ارسال ایمیل](mailto:omid@kokabee.com)
 
 ### LinkedIn
 
-[پروفایل LinkedIn](YOUR-LINKEDIN-URL)
+[پروفایل LinkedIn](https://www.linkedin.com/in/omidkokabee)
