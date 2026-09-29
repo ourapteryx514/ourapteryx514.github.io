@@ -393,9 +393,7 @@ body {
 .fa-page li {
   text-align: right;
 }
-/* =========================================================
-   CUSTOM BILINGUAL NAVIGATION
-   ========================================================= */
+
 /* =========================================================
    CUSTOM BILINGUAL NAVIGATION
    ========================================================= */
@@ -413,32 +411,33 @@ body {
   flex-wrap: nowrap;
 }
 
-/* English navigation */
+
+/* English navigation — align right */
 
 .custom-nav:not(.persian-nav) {
   direction: ltr;
-  justify-content: flex-start;
-  text-align: left;
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .custom-nav:not(.persian-nav) .language-switch {
-  margin-left: auto;
+  margin-left: 0;
   padding-left: 22px;
   border-left: 1px solid #dddddd;
 }
 
 
-/* Persian navigation */
+/* Persian navigation — align left */
 
 .persian-nav {
   direction: rtl;
-  justify-content: flex-start;
-  text-align: right;
+  justify-content: flex-end;
+  text-align: left;
   font-family: Tahoma, Arial, sans-serif;
 }
 
 .persian-nav .language-switch {
-  margin-right: auto;
+  margin-right: 0;
   padding-right: 22px;
   border-right: 1px solid #dddddd;
 
@@ -474,6 +473,14 @@ body {
 
   .custom-nav a {
     font-size: 14px;
+  }
+
+  .custom-nav:not(.persian-nav) {
+    justify-content: flex-start;
+  }
+
+  .persian-nav {
+    justify-content: flex-start;
   }
 
   .custom-nav:not(.persian-nav) .language-switch,
