@@ -3,10 +3,11 @@
 
 @import "minima";
 
-:root {
-  --hero-padding-top: 12px;
-  --hero-padding-bottom: 32px;
-}
+
+/* =========================================================
+   IRANSANS WEB FONT
+   ========================================================= */
+
 @font-face {
   font-family: "IRANSansWeb";
   src: url("{{ '/assets/fonts/IRANSansWeb.woff2' | relative_url }}") format("woff2");
@@ -14,9 +15,16 @@
   font-style: normal;
   font-display: swap;
 }
+
+
 /* =========================================================
    GENERAL LAYOUT
    ========================================================= */
+
+:root {
+  --hero-padding-top: 12px;
+  --hero-padding-bottom: 14px;
+}
 
 .wrapper {
   max-width: 1050px;
@@ -31,28 +39,112 @@ body {
 
 
 /* =========================================================
-   HEADER & NAVIGATION
+   BASIC HEADER
    ========================================================= */
 
 .site-header {
-  min-height: 64px;
   border-top: none;
   border-bottom: 1px solid #eeeeee;
 }
 
+
+/* Hide Minima's original site title */
 .site-title {
-   font-size: 22px;
-  font-weight: 600;
-  letter-spacing: 0;
+  display: none;
 }
 
-.site-nav {
-  line-height: 64px;
+
+/* =========================================================
+   BILINGUAL HEADER
+   ========================================================= */
+
+.bilingual-header-wrapper {
+  max-width: 1250px;
 }
 
-.site-nav .page-link {
+.custom-header {
+  min-height: 82px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 28px;
+}
+
+
+/* Brand / Name */
+
+.header-brand {
+  flex-shrink: 0;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 300;
+  color: #424242;
+  white-space: nowrap;
+}
+
+.english-header .header-brand {
+  font-weight: 300;
+}
+
+.persian-brand {
+  font-family: "IRANSansWeb", Tahoma, Arial, sans-serif !important;
+  font-weight: 300 !important;
+  direction: rtl;
+}
+
+
+/* Desktop navigation */
+
+.custom-nav {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: nowrap;
+}
+
+.english-header .custom-nav {
+  margin-left: auto;
+  direction: ltr;
+}
+
+.persian-header .custom-nav {
+  margin-right: auto;
+  direction: rtl;
+  font-family: "IRANSansWeb", Tahoma, Arial, sans-serif !important;
+}
+
+.custom-nav a {
   font-size: 15px;
-  margin-left: 24px;
+  font-weight: 300;
+  color: #333;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.custom-nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* Language separator */
+
+.english-header .language-switch {
+  padding-left: 18px;
+  border-left: 1px solid #dddddd;
+  font-weight: 300;
+}
+
+.persian-header .language-switch {
+  padding-right: 18px;
+  border-right: 1px solid #dddddd;
+  font-weight: 300;
+}
+
+
+/* Hamburger hidden on laptop / desktop */
+
+.menu-toggle {
+  display: none !important;
 }
 
 
@@ -117,8 +209,9 @@ body {
   border: 1px solid #e5e5e5;
   border-radius: 12px;
   color: inherit;
-  transition: transform 0.15s ease,
-              box-shadow 0.15s ease;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
 }
 
 .card:hover {
@@ -277,10 +370,6 @@ body {
   line-height: 1.8;
 }
 
-/*
-   Fixed-height photo area.
-   Entire image remains visible without cropping.
-*/
 .blog-post-body img {
   width: 100%;
   height: 420px;
@@ -310,11 +399,36 @@ body {
 
 
 /* =========================================================
+   PERSIAN PAGES
+   ========================================================= */
+
+.fa-page {
+  direction: rtl;
+  text-align: right;
+  font-family: "IRANSansWeb", Tahoma, Arial, sans-serif !important;
+  line-height: 2;
+}
+
+.fa-page * {
+  font-family: "IRANSansWeb", Tahoma, Arial, sans-serif !important;
+}
+
+.fa-page h1,
+.fa-page h2,
+.fa-page h3,
+.fa-page h4,
+.fa-page p,
+.fa-page li {
+  text-align: right;
+}
+
+
+/* =========================================================
    FOOTER
    ========================================================= */
 
 .site-footer {
-  margin-top: 5px;
+  margin-top: 15px;
   padding: 20px 0;
   border-top: 1px solid #eeeeee;
 }
@@ -340,7 +454,104 @@ body {
    MOBILE
    ========================================================= */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
+
+  /* Header */
+
+  .custom-header {
+    min-height: 68px;
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 10px 0;
+  }
+
+  .header-brand {
+    font-size: 28px;
+    font-weight: 300;
+  }
+
+  .persian-brand {
+    font-weight: 300 !important;
+  }
+
+
+  /* Hamburger */
+
+  .menu-toggle {
+    display: block !important;
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1;
+    cursor: pointer;
+    color: #333;
+    padding: 4px 6px;
+  }
+
+  .english-header .menu-toggle {
+    margin-left: auto;
+  }
+
+  .persian-header .menu-toggle {
+    margin-right: auto;
+  }
+
+
+  /* Mobile navigation */
+
+  .custom-nav {
+    display: none;
+    width: 100%;
+    margin: 14px 0 0 0 !important;
+    padding: 15px 0 5px;
+    border-top: 1px solid #eeeeee;
+    gap: 0;
+  }
+
+  .custom-nav.menu-open {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .english-header .custom-nav {
+    align-items: flex-start;
+  }
+
+  .persian-header .custom-nav {
+    align-items: flex-end;
+  }
+
+  .custom-nav a {
+    width: 100%;
+    padding: 9px 0;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .english-header .custom-nav a {
+    text-align: left;
+  }
+
+  .persian-header .custom-nav a {
+    text-align: right;
+  }
+
+
+  /* Language switch */
+
+  .english-header .language-switch,
+  .persian-header .language-switch {
+    padding-left: 0;
+    padding-right: 0;
+    border-left: none;
+    border-right: none;
+    margin-top: 6px;
+    font-weight: 300;
+  }
+
+
+  /* Homepage */
 
   .hero {
     flex-direction: column;
@@ -361,6 +572,9 @@ body {
     grid-template-columns: 1fr;
   }
 
+
+  /* Blog */
+
   .blog-entry {
     grid-template-columns: 1fr;
   }
@@ -374,6 +588,9 @@ body {
     height: 260px;
   }
 
+
+  /* Homepage recent notes */
+
   .recent-note-home {
     grid-template-columns: 1fr;
   }
@@ -381,223 +598,5 @@ body {
   .recent-note-home img {
     width: 100%;
     height: 200px;
-  }
-}
-/* Persian pages */
-
-.fa-page {
-  direction: rtl;
-  text-align: right;
-  font-family: "IRANSansWeb", Tahoma, Arial, sans-serif;
-  line-height: 2;
-}
-
-.fa-page h1,
-.fa-page h2,
-.fa-page h3,
-.fa-page h4,
-.fa-page p,
-.fa-page li,
-.fa-page a,
-.fa-page span {
-  font-family: "IRANSansWeb", Tahoma, Arial, sans-serif;
-}
-/* Force IRANSansWeb on Persian content */
-
-.fa-page,
-.fa-page * {
-  font-family: "IRANSansWeb", Tahoma, Arial, sans-serif !important;
-}
-/* =========================================================
-   BILINGUAL HEADER
-   ========================================================= */
-
-.bilingual-header-wrapper {
-  max-width: 1250px;
-}
-
-.custom-header {
-  min-height: 82px;
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 28px;
-}
-
-
-/* Brand / Name */
-
-.header-brand {
-  flex-shrink: 0;
-  font-size: 32px;
-  line-height: 1;
-  font-weight: 300;
-  color: #424242;
-  white-space: nowrap;
-}
-
-.persian-brand {
-  font-family: "IRANSansWeb", Tahoma, Arial, sans-serif;
-  direction: rtl;
-}
-
-
-/* Desktop navigation */
-
-.custom-nav {
-  display: flex;
-  align-items: center;
-  gap: 22px;
-  flex-wrap: nowrap;
-}
-
-.english-header .custom-nav {
-  margin-left: auto;
-  direction: ltr;
-}
-
-.persian-header .custom-nav {
-  margin-right: auto;
-  direction: rtl;
-  font-family: "IRANSansWeb", Tahoma, Arial, sans-serif;
-}
-
-.custom-nav a {
-  font-size: 15px;
-  color: #333;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.custom-nav a:hover {
-  text-decoration: underline;
-}
-
-
-/* Language separator */
-
-.english-header .language-switch {
-  padding-left: 18px;
-  border-left: 1px solid #dddddd;
-  font-weight: 600;
-}
-
-.persian-header .language-switch {
-  padding-right: 18px;
-  border-right: 1px solid #dddddd;
-  font-weight: 600;
-}
-
-
-/* Hamburger hidden on desktop */
-
-.menu-toggle {
-  display: none;
-}
-
-
-/* =========================================================
-   MOBILE MENU
-   ========================================================= */
-
-@media screen and (max-width: 700px) {
-
-  .custom-header {
-    min-height: 68px;
-    flex-wrap: wrap;
-    gap: 0;
-    padding: 10px 0;
-  }
-
-  .header-brand {
-    font-size: 28px;
-    font-weight: 300;
-  }
-
-
-  /* Hamburger */
-
-  .menu-toggle {
-    display: block;
-    border: 0;
-    background: transparent;
-    font-size: 30px;
-    line-height: 1;
-    cursor: pointer;
-    color: #333;
-    padding: 4px 6px;
-  }
-
-
-  /* English: name left, hamburger right */
-
-  .english-header .menu-toggle {
-    margin-left: auto;
-  }
-
-
-  /* Persian: name right, hamburger left */
-
-  .persian-header .menu-toggle {
-    margin-right: auto;
-  }
-
-
-  /* Hide navigation until hamburger is pressed */
-
-  .custom-nav {
-    display: none;
-    width: 100%;
-    margin: 14px 0 0 0 !important;
-    padding: 15px 0 5px;
-    border-top: 1px solid #eeeeee;
-    gap: 0;
-  }
-
-  .custom-nav.menu-open {
-    display: flex;
-    flex-direction: column;
-  }
-
-
-  /* English mobile links */
-
-  .english-header .custom-nav {
-    align-items: flex-start;
-  }
-
-
-  /* Persian mobile links */
-
-  .persian-header .custom-nav {
-    align-items: flex-end;
-  }
-
-
-  .custom-nav a {
-    width: 100%;
-    padding: 9px 0;
-    font-size: 15px;
-  }
-
-  .english-header .custom-nav a {
-    text-align: left;
-  }
-
-  .persian-header .custom-nav a {
-    text-align: right;
-  }
-
-
-  /* Remove language separator on mobile */
-
-  .english-header .language-switch,
-  .persian-header .language-switch {
-    padding-left: 0;
-    padding-right: 0;
-    border-left: none;
-    border-right: none;
-    margin-top: 6px;
-    font-weight: 600;
   }
 }
