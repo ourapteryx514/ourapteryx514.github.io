@@ -1,16 +1,28 @@
 <header class="site-header" role="banner">
-  <div class="wrapper">
+
+  <div class="wrapper" style="max-width:1250px;">
 
     {% if page.url contains '/fa/' %}
 
-    <div class="custom-header persian-header">
+    <!-- Persian header -->
+    <div style="
+      width:100%;
+      min-height:82px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      flex-wrap:nowrap;
+      gap:30px;
+    ">
 
-      <a class="header-brand persian-brand"
-         href="{{ '/fa/' | relative_url }}">
-        امید کوکبی
-      </a>
-
-      <nav class="custom-nav persian-nav" dir="rtl">
+      <!-- Persian navigation on LEFT -->
+      <nav dir="rtl" style="
+        display:flex;
+        align-items:center;
+        gap:22px;
+        white-space:nowrap;
+        font-family:Tahoma,Arial,sans-serif;
+      ">
 
         <a href="{{ '/fa/' | relative_url }}">خانه</a>
         <a href="{{ '/fa/about/' | relative_url }}">درباره من</a>
@@ -20,25 +32,63 @@
         <a href="{{ '/fa/contact/' | relative_url }}">تماس</a>
 
         {% assign english_url = page.url | remove_first: '/fa' %}
-        <a class="language-switch"
-           href="{{ english_url | relative_url }}">
+
+        <a href="{{ english_url | relative_url }}"
+           style="
+             font-weight:600;
+             padding-right:18px;
+             border-right:1px solid #ddd;
+           ">
           EN
         </a>
 
       </nav>
 
+      <!-- Persian name on RIGHT — NOT a hyperlink -->
+      <span style="
+        font-family:Tahoma,Arial,sans-serif;
+        font-size:44px;
+        font-weight:600;
+        line-height:1;
+        white-space:nowrap;
+        direction:rtl;
+      ">
+        امید کوکبی
+      </span>
+
     </div>
+
 
     {% else %}
 
-    <div class="custom-header english-header">
+    <!-- English header -->
+    <div style="
+      width:100%;
+      min-height:82px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      flex-wrap:nowrap;
+      gap:30px;
+    ">
 
-      <a class="header-brand"
-         href="{{ '/' | relative_url }}">
+      <!-- English name on LEFT — NOT a hyperlink -->
+      <span style="
+        font-size:44px;
+        font-weight:600;
+        line-height:1;
+        white-space:nowrap;
+      ">
         OMID KOKABEE
-      </a>
+      </span>
 
-      <nav class="custom-nav">
+      <!-- English navigation on RIGHT -->
+      <nav style="
+        display:flex;
+        align-items:center;
+        gap:22px;
+        white-space:nowrap;
+      ">
 
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/about/' | relative_url }}">About</a>
@@ -47,8 +97,12 @@
         <a href="{{ '/blog/' | relative_url }}">Blog</a>
         <a href="{{ '/contact/' | relative_url }}">Contact</a>
 
-        <a class="language-switch"
-           href="{{ '/fa' | append: page.url | relative_url }}">
+        <a href="{{ '/fa' | append: page.url | relative_url }}"
+           style="
+             font-weight:600;
+             padding-left:18px;
+             border-left:1px solid #ddd;
+           ">
           فارسی
         </a>
 
@@ -59,4 +113,5 @@
     {% endif %}
 
   </div>
+
 </header>
