@@ -559,7 +559,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 22px;
-  text-align: center;
 }
 
 .profile-photo {
@@ -570,7 +569,6 @@ body {
 
 .hero-text {
   width: 100%;
-  text-align: center;
 }
 
 .hero-text h1 {
@@ -580,6 +578,11 @@ body {
 
 .hero-text .subtitle {
   text-align: center !important;
+}
+
+/* Normal paragraph alignment */
+.hero-text p:not(.subtitle) {
+  text-align: left !important;
 }
 
 .hero-text p {
