@@ -7,6 +7,7 @@ categories:
   - یادداشت
   - اندیشه
 image: /assets/images/feynman-2.jpg
+excerpt: "تا وقتی دلایل و تفکرِ پشتِ هرچیزی رو درک نکرده باشیم، بازسازی ظواهر به تنهایی نتیجه‌ای در بر نخواهد داشت."
 permalink: /fa/blog/2026/09/29/cargo-cult/
 ---
 
