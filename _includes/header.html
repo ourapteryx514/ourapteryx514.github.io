@@ -3,6 +3,13 @@
 
     {% if page.url contains '/fa/' %}
 
+    <div class="custom-header persian-header">
+
+      <a class="header-brand persian-brand"
+         href="{{ '/fa/' | relative_url }}">
+        امید کوکبی
+      </a>
+
       <nav class="custom-nav persian-nav" dir="rtl">
 
         <a href="{{ '/fa/' | relative_url }}">خانه</a>
@@ -13,11 +20,23 @@
         <a href="{{ '/fa/contact/' | relative_url }}">تماس</a>
 
         {% assign english_url = page.url | remove_first: '/fa' %}
-        <a class="language-switch" href="{{ english_url | relative_url }}">EN</a>
+        <a class="language-switch"
+           href="{{ english_url | relative_url }}">
+          EN
+        </a>
 
       </nav>
 
+    </div>
+
     {% else %}
+
+    <div class="custom-header english-header">
+
+      <a class="header-brand"
+         href="{{ '/' | relative_url }}">
+        OMID KOKABEE
+      </a>
 
       <nav class="custom-nav">
 
@@ -34,6 +53,8 @@
         </a>
 
       </nav>
+
+    </div>
 
     {% endif %}
 
