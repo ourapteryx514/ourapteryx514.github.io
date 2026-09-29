@@ -5,7 +5,7 @@ date: 2026-09-29
 lang: fa
 categories:
   - شخصی
-image: /assets/images/your-photo.jpg
+image: /assets/images/feynman-1.jpg
 permalink: /fa/blog/2026/09/29/first-persian-note/
 ---
 
