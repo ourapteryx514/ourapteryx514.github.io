@@ -10,7 +10,7 @@ permalink: /blog/
 Personal notes, photographs, books, travel, science, technology and observations from everyday life.
 </p>
 
-{% assign english_posts = site.posts | where_exp: "post", "post.lang != 'fa'" %}
+{% assign english_posts = site.posts | where: "lang", "en" %}
 
 <div class="blog-list">
 
@@ -20,12 +20,10 @@ Personal notes, photographs, books, travel, science, technology and observations
 
   {% if post.image %}
   <div>
-    <a href="{{ post.url | relative_url }}">
-      <img
-        src="{{ post.image | relative_url }}"
-        alt="{{ post.title | escape }}"
-        style="width:220px; height:150px; object-fit:cover; border-radius:8px; display:block;">
-    </a>
+    <img
+      src="{{ post.image | relative_url }}"
+      alt="{{ post.title | escape }}"
+      style="width:220px; height:150px; object-fit:cover; border-radius:8px; display:block;">
   </div>
   {% endif %}
 
