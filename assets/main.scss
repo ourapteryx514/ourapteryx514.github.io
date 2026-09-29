@@ -395,54 +395,93 @@ body {
 }
 
 /* =========================================================
-   CUSTOM BILINGUAL NAVIGATION
+   CUSTOM BILINGUAL HEADER & NAVIGATION
    ========================================================= */
 
 .site-header .wrapper {
   max-width: 1050px;
 }
 
-.custom-nav {
-  width: 100%;
+
+/* Main header row */
+
+.custom-header {
   min-height: 72px;
   display: flex;
   align-items: center;
-  gap: 30px;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+
+/* Name / site brand */
+
+.header-brand {
+  flex-shrink: 0;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #424242;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.header-brand:hover {
+  color: #111;
+  text-decoration: none;
+}
+
+
+/* English
+   Name = left
+   Navigation = right
+*/
+
+.english-header .header-brand {
+  order: 1;
+}
+
+.english-header .custom-nav {
+  order: 2;
+}
+
+
+/* Persian
+   Navigation = left
+   Name = right
+*/
+
+.persian-header .custom-nav {
+  order: 1;
+}
+
+.persian-header .header-brand {
+  order: 2;
+}
+
+.persian-brand {
+  direction: rtl;
+  font-family: Tahoma, Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+
+/* Navigation */
+
+.custom-nav {
+  display: flex;
+  align-items: center;
+  gap: 26px;
   flex-wrap: nowrap;
 }
 
-
-/* English navigation — align right */
-
-.custom-nav:not(.persian-nav) {
+.english-header .custom-nav {
   direction: ltr;
-  justify-content: flex-end;
-  text-align: right;
 }
-
-.custom-nav:not(.persian-nav) .language-switch {
-  margin-left: 0;
-  padding-left: 22px;
-  border-left: 1px solid #dddddd;
-}
-
-
-/* Persian navigation — align left */
 
 .persian-nav {
   direction: rtl;
-  justify-content: flex-end;
-  text-align: left;
   font-family: Tahoma, Arial, sans-serif;
-}
-
-.persian-nav .language-switch {
-  margin-right: 0;
-  padding-right: 22px;
-  border-right: 1px solid #dddddd;
-
-  padding-left: 0;
-  border-left: none;
 }
 
 
@@ -460,33 +499,65 @@ body {
 }
 
 
+/* Language separator */
+
+.english-header .language-switch {
+  padding-left: 20px;
+  border-left: 1px solid #dddddd;
+  font-weight: 600;
+}
+
+.persian-header .language-switch {
+  padding-right: 20px;
+  border-right: 1px solid #dddddd;
+  font-weight: 600;
+}
+
+
 /* Mobile */
 
 @media screen and (max-width: 700px) {
 
-  .custom-nav {
+  .custom-header {
     min-height: auto;
     padding: 12px 0;
-    gap: 16px;
     flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .header-brand {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .english-header .header-brand {
+    text-align: left;
+  }
+
+  .persian-header .header-brand {
+    text-align: right;
+  }
+
+  .custom-nav {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .english-header .custom-nav {
+    justify-content: flex-start;
+  }
+
+  .persian-header .custom-nav {
+    justify-content: flex-end;
   }
 
   .custom-nav a {
     font-size: 14px;
   }
 
-  .custom-nav:not(.persian-nav) {
-    justify-content: flex-start;
-  }
-
-  .persian-nav {
-    justify-content: flex-start;
-  }
-
-  .custom-nav:not(.persian-nav) .language-switch,
-  .persian-nav .language-switch {
-    margin-left: 0;
-    margin-right: 0;
+  .english-header .language-switch,
+  .persian-header .language-switch {
     padding-left: 0;
     padding-right: 0;
     border-left: none;
