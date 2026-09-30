@@ -4,98 +4,200 @@ title: علاقه‌مندی‌ها
 permalink: /fa/interests/
 ---
 
-# علاقه‌مندی‌ها
+<div class="content-page interests-page">
 
-در کنار فعالیت‌های حرفه‌ای در فیزیک، فناوری و صنعت، موضوعات دیگری را نیز به‌صورت مستقل و با جدیت مطالعه و دنبال می‌کنم.
+  <!-- =====================================================
+       HERO
+       ===================================================== -->
 
-در این بخش، مقاله‌ها، یادداشت‌های مطالعاتی، منابع و مطالب مرتبط با این موضوعات را گردآوری می‌کنم.
+  <section class="page-hero interests-hero">
 
-<div class="interest-filters">
+    <p class="page-kicker">علاقه‌مندی‌ها</p>
 
-  <button class="interest-filter active" data-filter="all">
-    <strong>همه</strong>
-    <span>نمایش همه مطالب</span>
-  </button>
+    <h1>
+      مطالعه مستقل، کتاب‌خوانی و موضوعاتی که در بلندمدت دنبال می‌کنم.
+    </h1>
 
-  <button class="interest-filter" data-filter="ایران">
-    <strong>ایران</strong>
-    <span>تاریخ، جامعه، جغرافیا و فرهنگ</span>
-  </button>
-
-  <button class="interest-filter" data-filter="ترکمن‌ها">
-    <strong>ترکمن‌ها</strong>
-    <span>تاریخ، فرهنگ، مردم و آسیای مرکزی</span>
-  </button>
-
-  <button class="interest-filter" data-filter="زبان‌ها">
-    <strong>زبان‌ها</strong>
-    <span>زبان‌شناسی، ریشه‌شناسی و خط</span>
-  </button>
-
-  <button class="interest-filter" data-filter="حشره‌شناسی">
-    <strong>حشره‌شناسی</strong>
-    <span>حشرات، رده‌بندی، بوم‌شناسی و تکامل</span>
-  </button>
-
-  <button class="interest-filter" data-filter="کتاب">
-    <strong>کتاب و نقد کتاب</strong>
-    <span>کتاب‌ها، نقدها و یادداشت‌های مطالعاتی</span>
-  </button>
-
-</div>
-
-
-{% assign interest_posts = site.posts | where: "lang", "fa" | where: "section", "interests" %}
-
-<div class="blog-list interest-articles">
-
-{% for post in interest_posts %}
-
-<article class="blog-entry interest-article{% unless post.image %} no-image{% endunless %}"
-         data-tags="{{ post.tags | join: '|' }}">
-
-  {% if post.image %}
-  <div>
-    <img
-      src="{{ post.image | relative_url }}"
-      alt="{{ post.title | escape }}"
-      style="width:220px; height:150px; object-fit:cover; border-radius:8px; display:block;">
-  </div>
-  {% endif %}
-
-  <div class="blog-entry-content">
-
-    <p class="blog-date">
-      {{ post.date | date: "%Y/%m/%d" }}
+    <p class="page-lead">
+      در کنار فعالیت‌های حرفه‌ای در علم، فناوری و صنعت،
+      موضوعات دیگری را نیز به‌صورت مستقل و با جدیت دنبال می‌کنم.
+      این بخش مجموعه‌ای از
+      <strong>مقاله‌ها، یادداشت‌های مطالعاتی، منابع و مشاهدات</strong>
+      مرتبط با این حوزه‌هاست.
     </p>
 
-    {% if post.tags %}
-    <p class="interest-tags">
-      {% for tag in post.tags %}
-        <span>{{ tag }}</span>
-      {% endfor %}
-    </p>
-    {% endif %}
-
-    <h2>
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-
-    <div class="blog-excerpt">
-      {{ post.excerpt }}
+    <div class="page-focus">
+      <span>ایران</span>
+      <span>ترکمن‌ها</span>
+      <span>زبان‌ها</span>
+      <span>حشره‌شناسی</span>
+      <span>کتاب و نقد کتاب</span>
     </div>
 
-    <a class="read-more" href="{{ post.url | relative_url }}">
-      ادامه مطلب ←
-    </a>
+  </section>
 
-  </div>
 
-</article>
+  <!-- =====================================================
+       SUBJECT FILTERS
+       ===================================================== -->
 
-{% endfor %}
+  <section class="page-section interests-section">
+
+    <div class="section-heading">
+
+      <p class="section-number">۰۱</p>
+
+      <div>
+        <h2>مرور بر اساس موضوع</h2>
+        <p>
+          مطالب را بر اساس موضوع مورد نظر خود فیلتر کنید.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="interest-filter-bar">
+
+      <button
+        class="interest-filter-chip active"
+        data-filter="all">
+        همه
+      </button>
+
+      <button
+        class="interest-filter-chip"
+        data-filter="ایران">
+        ایران
+      </button>
+
+      <button
+        class="interest-filter-chip"
+        data-filter="ترکمن‌ها">
+        ترکمن‌ها
+      </button>
+
+      <button
+        class="interest-filter-chip"
+        data-filter="زبان‌ها">
+        زبان‌ها
+      </button>
+
+      <button
+        class="interest-filter-chip"
+        data-filter="حشره‌شناسی">
+        حشره‌شناسی
+      </button>
+
+      <button
+        class="interest-filter-chip"
+        data-filter="کتاب">
+        کتاب و نقد کتاب
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       ARTICLES
+       ===================================================== -->
+
+  <section class="page-section page-section-last interests-section">
+
+    <div class="section-heading">
+
+      <p class="section-number">۰۲</p>
+
+      <div>
+        <h2>مقاله‌ها و یادداشت‌ها</h2>
+        <p>
+          مقاله‌ها، یادداشت‌های پژوهشی، یادداشت‌های مطالعاتی و بررسی منابع.
+        </p>
+      </div>
+
+    </div>
+
+
+    {% assign interest_posts = site.posts
+       | where: "lang", "fa"
+       | where: "section", "interests" %}
+
+
+    <div class="interest-library">
+
+      {% for post in interest_posts %}
+
+      <article
+        class="interest-library-item{% unless post.image %} no-image{% endunless %}"
+        data-tags="{{ post.tags | join: '|' }}">
+
+        {% if post.image %}
+
+        <a
+          class="interest-library-image"
+          href="{{ post.url | relative_url }}">
+
+          <img
+            src="{{ post.image | relative_url }}"
+            alt="{{ post.title | escape }}">
+
+        </a>
+
+        {% endif %}
+
+
+        <div class="interest-library-content">
+
+          <div class="interest-library-meta">
+
+            <span class="interest-library-date">
+              {{ post.date | date: "%Y/%m/%d" }}
+            </span>
+
+            {% if post.tags %}
+
+            <div class="interest-library-tags">
+
+              {% for tag in post.tags %}
+                <span>{{ tag }}</span>
+              {% endfor %}
+
+            </div>
+
+            {% endif %}
+
+          </div>
+
+
+          <h3>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+
+
+          <div class="interest-library-excerpt">
+            {{ post.excerpt }}
+          </div>
+
+
+          <a
+            class="interest-library-link"
+            href="{{ post.url | relative_url }}">
+            ادامه مطلب ←
+          </a>
+
+        </div>
+
+      </article>
+
+      {% endfor %}
+
+    </div>
+
+  </section>
 
 </div>
 
@@ -103,8 +205,8 @@ permalink: /fa/interests/
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
-  const filters = document.querySelectorAll(".interest-filter");
-  const articles = document.querySelectorAll(".interest-article");
+  const filters = document.querySelectorAll(".interest-filter-chip");
+  const articles = document.querySelectorAll(".interest-library-item");
 
   filters.forEach(function (button) {
 
@@ -120,7 +222,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
       articles.forEach(function (article) {
 
-        const tags = article.dataset.tags.split("|");
+        const tags = article.dataset.tags
+          ? article.dataset.tags.split("|")
+          : [];
 
         if (selected === "all" || tags.includes(selected)) {
           article.style.display = "";
