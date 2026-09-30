@@ -334,109 +334,7 @@ body {
 
 
 /* =========================================================
-   06. INTERESTS
-   ========================================================= */
-
-.interest-filters {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  margin: 35px 0 50px;
-}
-
-.interest-filter {
-  appearance: none;
-  width: 100%;
-  padding: 18px 20px;
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  background: transparent;
-  text-align: left;
-  font: inherit;
-  color: inherit;
-  cursor: pointer;
-  transition:
-    transform 0.15s ease,
-    box-shadow 0.15s ease;
-}
-
-.interest-filter:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.07);
-}
-
-.interest-filter.active {
-  border-color: #999;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-}
-
-.interest-filter strong {
-  display: block;
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-
-.interest-filter span {
-  display: block;
-  font-size: 14px;
-  color: #777;
-}
-
-.fa-page .interest-filter {
-  text-align: right;
-}
-
-.interest-tags {
-  margin: 5px 0 8px;
-}
-
-.interest-tags span {
-  display: inline-block;
-  padding: 3px 9px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  border: 1px solid #ddd;
-  border-radius: 14px;
-  font-size: 13px;
-  color: #777;
-}
-
-.fa-page .interest-tags span {
-  margin-right: 0;
-  margin-left: 5px;
-}
-
-.interest-articles {
-  width: 100%;
-}
-
-.interest-article {
-  width: 100%;
-  padding: 28px 0;
-}
-
-.interest-article.no-image {
-  grid-template-columns: 1fr;
-}
-
-.interest-article.no-image .blog-entry-content {
-  width: 100%;
-  max-width: none;
-}
-
-.interest-article .blog-entry-content h2 {
-  font-size: 24px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-.interest-article .blog-excerpt {
-  max-width: 850px;
-}
-
-
-/* =========================================================
-   07. PERSIAN / RTL BASE
+   06. PERSIAN / RTL BASE
    ========================================================= */
 
 .fa-page {
@@ -461,7 +359,7 @@ body {
 
 
 /* =========================================================
-   08. MODERN CONTENT PAGES
+   07. MODERN CONTENT PAGES
    ========================================================= */
 
 .content-page {
@@ -554,7 +452,7 @@ body {
 
 
 /* =========================================================
-   09. ABOUT PAGE
+   08. ABOUT PAGE
    ========================================================= */
 
 .about-timeline {
@@ -807,7 +705,7 @@ body {
 
 
 /* =========================================================
-   10. RESEARCH PAGE
+   09. RESEARCH PAGE
    ========================================================= */
 
 .research-page .page-hero {
@@ -1043,8 +941,12 @@ body {
   color: #222;
   text-decoration: underline;
 }
+
+
+
+
 /* =========================================================
-   11. PROJECTS PAGE
+   10. PROJECTS PAGE
    ========================================================= */
 
 .projects-page .page-hero {
@@ -1060,9 +962,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   INDUSTRIAL TRADE
-   --------------------------------------------------------- */
+/* Industrial trade */
 
 .project-feature-layout {
   display: grid;
@@ -1114,9 +1014,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   SOLAR
-   --------------------------------------------------------- */
+/* Solar */
 
 .solar-project-feature {
   padding: 22px 24px;
@@ -1175,9 +1073,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   ENTREPRENEURSHIP
-   --------------------------------------------------------- */
+/* Entrepreneurship */
 
 .entrepreneurship-layout {
   display: grid;
@@ -1258,9 +1154,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   PROJECT WORK
-   --------------------------------------------------------- */
+/* Project work */
 
 .project-work-grid {
   display: grid;
@@ -1296,9 +1190,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   WORKING PRINCIPLES
-   --------------------------------------------------------- */
+/* Working principles */
 
 .project-principles {
   display: grid;
@@ -1325,9 +1217,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   PERSIAN PROJECTS
-   --------------------------------------------------------- */
+/* Persian projects */
 
 .fa-page .project-feature-text,
 .fa-page .project-sector-panel,
@@ -1346,12 +1236,9 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   RESPONSIVE
-   --------------------------------------------------------- */
+/* Projects responsive */
 
 @media screen and (max-width: 760px) {
-
   .projects-page .page-section {
     padding: 30px 0;
   }
@@ -1367,18 +1254,17 @@ body {
   .business-method-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
 }
 
 @media screen and (max-width: 480px) {
-
   .business-method-grid {
     grid-template-columns: 1fr;
   }
-
 }
+
+
 /* =========================================================
-   CONTACT PAGE
+   11. CONTACT PAGE
    ========================================================= */
 
 .contact-page .page-hero {
@@ -1394,9 +1280,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   CONTACT TOPICS
-   --------------------------------------------------------- */
+/* Contact topics */
 
 .contact-topic-grid {
   display: grid;
@@ -1435,9 +1319,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   CONTACT / SOCIAL LINKS
-   --------------------------------------------------------- */
+/* Contact and social links */
 
 .contact-links {
   display: grid;
@@ -1501,9 +1383,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   CONTACT NOTE
-   --------------------------------------------------------- */
+/* Contact note */
 
 .contact-note {
   max-width: 760px;
@@ -1528,9 +1408,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   PERSIAN CONTACT
-   --------------------------------------------------------- */
+/* Persian contact */
 
 .fa-page .contact-topic,
 .fa-page .contact-link-card,
@@ -1548,12 +1426,9 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   RESPONSIVE
-   --------------------------------------------------------- */
+/* Contact responsive */
 
 @media screen and (max-width: 760px) {
-
   .contact-page .page-section {
     padding: 30px 0;
   }
@@ -1566,11 +1441,9 @@ body {
     grid-template-columns: 78px minmax(0, 1fr) 24px;
     gap: 12px;
   }
-
 }
 
 @media screen and (max-width: 480px) {
-
   .contact-link-card {
     grid-template-columns: 1fr 24px;
   }
@@ -1588,10 +1461,216 @@ body {
     grid-column: 2;
     grid-row: 2;
   }
-
 }
+
+
 /* =========================================================
-   11. PERSIAN / RTL MODERN CONTENT PAGES
+   12. INTERESTS PAGE
+   ========================================================= */
+
+.interests-page .page-hero {
+  padding-bottom: 36px;
+}
+
+.interests-page .page-section {
+  padding: 36px 0;
+}
+
+.interests-page .section-heading {
+  margin-bottom: 22px;
+}
+
+
+/* Subject filters */
+
+.interest-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.interest-filter-chip {
+  appearance: none;
+  padding: 7px 13px;
+  border: 1px solid #dddddd;
+  border-radius: 999px;
+  background: #ffffff;
+  font: inherit;
+  font-size: 13px;
+  color: #555;
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.interest-filter-chip:hover {
+  border-color: #bdbdbd;
+  color: #222;
+}
+
+.interest-filter-chip.active {
+  border-color: #777;
+  background: #f5f5f5;
+  color: #222;
+  font-weight: 500;
+}
+
+
+/* Article library */
+
+.interest-library {
+  border-top: 1px solid #e8e8e8;
+}
+
+.interest-library-item {
+  display: grid;
+  grid-template-columns: 165px minmax(0, 1fr);
+  gap: 24px;
+  padding: 22px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.interest-library-item.no-image {
+  grid-template-columns: 1fr;
+}
+
+.interest-library-image {
+  display: block;
+  align-self: start;
+}
+
+.interest-library-image img {
+  display: block;
+  width: 165px;
+  height: 108px;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+.interest-library-content {
+  min-width: 0;
+}
+
+.interest-library-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px 12px;
+  margin-bottom: 5px;
+}
+
+.interest-library-date {
+  flex-shrink: 0;
+  font-size: 11.5px;
+  color: #999;
+}
+
+.interest-library-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.interest-library-tags span {
+  display: inline-block;
+  padding: 2px 7px;
+  border: 1px solid #e1e1e1;
+  border-radius: 999px;
+  background: #fafafa;
+  font-size: 10.5px;
+  color: #777;
+}
+
+.interest-library-content h3 {
+  margin: 0 0 6px;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.interest-library-content h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.interest-library-content h3 a:hover {
+  text-decoration: underline;
+}
+
+.interest-library-excerpt {
+  max-width: 720px;
+  margin-bottom: 6px;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: #5f5f5f;
+}
+
+.interest-library-excerpt p {
+  margin: 0;
+}
+
+.interest-library-link {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.interest-library-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Persian interests */
+
+.fa-page .interest-filter-bar {
+  justify-content: flex-start;
+}
+
+.fa-page .interest-filter-chip,
+.fa-page .interest-library-content,
+.fa-page .interest-library-meta,
+.fa-page .interest-library-excerpt {
+  text-align: right;
+}
+
+
+/* Interests responsive */
+
+@media screen and (max-width: 760px) {
+  .interests-page .page-section {
+    padding: 30px 0;
+  }
+
+  .interest-library-item {
+    grid-template-columns: 125px minmax(0, 1fr);
+    gap: 16px;
+    padding: 18px 0;
+  }
+
+  .interest-library-image img {
+    width: 125px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .interest-library-item {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .interest-library-image img {
+    width: 100%;
+    height: 190px;
+  }
+}
+
+
+/* =========================================================
+   13. PERSIAN / RTL MODERN CONTENT PAGES
    ========================================================= */
 
 .fa-page .content-page {
@@ -1670,7 +1749,7 @@ body {
 
 
 /* =========================================================
-   12. FOOTER
+   14. FOOTER
    ========================================================= */
 
 .site-footer {
@@ -1697,7 +1776,7 @@ body {
 
 
 /* =========================================================
-   13. TABLET / SMALL SCREEN
+   15. TABLET / SMALL SCREEN
    ========================================================= */
 
 @media screen and (max-width: 760px) {
@@ -1810,7 +1889,7 @@ body {
 
 
 /* =========================================================
-   14. MOBILE
+   16. MOBILE
    ========================================================= */
 
 @media screen and (max-width: 600px) {
@@ -1957,7 +2036,4 @@ body {
     height: 200px;
   }
 
-  .interest-filters {
-    grid-template-columns: 1fr;
-  }
 }
