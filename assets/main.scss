@@ -715,7 +715,17 @@ body {
   }
 
 }
+
 /* INTEREST ARTICLE LIST */
+
+.interest-articles {
+  width: 100%;
+}
+
+.interest-article {
+  width: 100%;
+  padding: 28px 0;
+}
 
 .interest-article.no-image {
   grid-template-columns: 1fr;
@@ -726,10 +736,12 @@ body {
   max-width: none;
 }
 
-.interest-articles {
-  width: 100%;
+.interest-article .blog-entry-content h2 {
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
-.interest-article {
-  width: 100%;
+.interest-article .blog-excerpt {
+  max-width: 850px;
 }
