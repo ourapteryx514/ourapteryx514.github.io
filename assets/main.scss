@@ -460,6 +460,121 @@ body {
 }
 
 
+
+
+/* =========================================================
+   LEGACY BLOG / INTERESTS LIST COMPATIBILITY
+   Keeps thumbnails working if an older page template still
+   uses .blog-entry / .blog-thumbnail classes.
+   ========================================================= */
+
+.blog-entry,
+.interest-article {
+  display: grid;
+  grid-template-columns: 165px minmax(0, 1fr);
+  gap: 24px;
+  padding: 22px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.blog-entry.no-image,
+.interest-article.no-image {
+  grid-template-columns: 1fr;
+}
+
+.blog-thumbnail {
+  display: block;
+  width: 165px;
+  height: 108px;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+.blog-entry-content {
+  min-width: 0;
+}
+
+.blog-entry-content h2 {
+  margin: 0 0 6px;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.blog-entry-content h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.blog-entry-content h2 a:hover {
+  text-decoration: underline;
+}
+
+.blog-excerpt {
+  max-width: 720px;
+  margin-bottom: 6px;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: #5f5f5f;
+}
+
+.blog-excerpt p {
+  margin: 0;
+}
+
+.read-more {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 760px) {
+
+  .blog-entry,
+  .interest-article {
+    grid-template-columns: 125px minmax(0, 1fr);
+    gap: 16px;
+    padding: 18px 0;
+  }
+
+  .blog-thumbnail {
+    width: 125px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+
+  .blog-entry,
+  .interest-article {
+    grid-template-columns: 105px minmax(0, 1fr);
+    gap: 13px;
+    padding: 16px 0;
+  }
+
+  .blog-thumbnail {
+    width: 105px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .blog-entry-content h2 {
+    font-size: 16px;
+  }
+
+  .blog-excerpt {
+    font-size: 13px;
+    line-height: 1.55;
+  }
+}
+
+
 /* =========================================================
    06. PERSIAN / RTL BASE
    ========================================================= */
