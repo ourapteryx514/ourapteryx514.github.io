@@ -4,69 +4,142 @@ title: Blog
 permalink: /blog/
 ---
 
-# BLOG
+<div class="content-page blog-page">
 
-<p class="blog-intro">
-Personal notes, photographs, books, travel, science, technology and observations from everyday life.
-</p>
+  <!-- =====================================================
+       HERO
+       ===================================================== -->
 
-{% assign english_posts = site.posts | where: "lang", "en" %}
-{% assign blog_posts = english_posts | where_exp: "post", "post.section != 'interests'" %}
+  <section class="page-hero blog-hero">
 
-<div class="blog-list">
+    <p class="page-kicker">BLOG</p>
 
-{% for post in blog_posts %}
+    <h1>
+      Notes, photographs and observations along the way.
+    </h1>
 
-<article class="blog-entry">
-
-  {% if post.image %}
-  <div>
-    <img
-      src="{{ post.image | relative_url }}"
-      alt="{{ post.title | escape }}"
-      style="width:220px; height:150px; object-fit:cover; border-radius:8px; display:block;">
-  </div>
-  {% endif %}
-
-  <div class="blog-entry-content">
-
-    <p class="blog-date">
-      {{ post.date | date: "%d %B %Y" }}
+    <p class="page-lead">
+      A more informal part of this website for
+      <strong>personal notes, science, books, travel, photographs,
+      memories and everyday observations</strong>.
     </p>
 
-    {% if post.categories %}
-    <p style="font-size:13px; color:#777; margin:4px 0 8px;">
-      {% for category in post.categories %}
-        <span style="
-          display:inline-block;
-          padding:3px 9px;
-          margin-right:5px;
-          border:1px solid #ddd;
-          border-radius:14px;">
-          {{ category }}
-        </span>
-      {% endfor %}
-    </p>
-    {% endif %}
-
-    <h2>
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-
-    <div class="blog-excerpt">
-      {{ post.excerpt }}
+    <div class="page-focus">
+      <span>Personal Notes</span>
+      <span>Science</span>
+      <span>Books</span>
+      <span>Travel</span>
+      <span>Photography</span>
     </div>
 
-    <a class="read-more" href="{{ post.url | relative_url }}">
-      Read more →
-    </a>
+  </section>
 
-  </div>
 
-</article>
+  <!-- =====================================================
+       POSTS
+       ===================================================== -->
 
-{% endfor %}
+  <section class="page-section page-section-last blog-section">
+
+    <div class="section-heading">
+
+      <p class="section-number">01</p>
+
+      <div>
+        <h2>Notes & Posts</h2>
+        <p>
+          The latest entries from my personal blog.
+        </p>
+      </div>
+
+    </div>
+
+
+    {% assign english_posts = site.posts | where: "lang", "en" %}
+    {% assign blog_posts = english_posts
+       | where_exp: "post", "post.section != 'interests'" %}
+
+
+    <div class="blog-library">
+
+      {% for post in blog_posts %}
+
+      <article class="blog-library-item{% unless post.image %} no-image{% endunless %}">
+
+        {% if post.image %}
+
+        <a
+          class="blog-library-image"
+          href="{{ post.url | relative_url }}">
+
+          <img
+            src="{{ post.image | relative_url }}"
+            alt="{{ post.title | escape }}">
+
+        </a>
+
+        {% endif %}
+
+
+        <div class="blog-library-content">
+
+
+          <!-- META -->
+
+          <div class="blog-library-meta">
+
+            <span class="blog-library-date">
+              {{ post.date | date: "%d %B %Y" }}
+            </span>
+
+
+            {% if post.categories %}
+
+            <div class="blog-library-categories">
+
+              {% for category in post.categories %}
+                <span>{{ category }}</span>
+              {% endfor %}
+
+            </div>
+
+            {% endif %}
+
+          </div>
+
+
+          <!-- TITLE -->
+
+          <h3>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+
+
+          <!-- EXCERPT -->
+
+          <div class="blog-library-excerpt">
+            {{ post.excerpt }}
+          </div>
+
+
+          <!-- LINK -->
+
+          <a
+            class="blog-library-link"
+            href="{{ post.url | relative_url }}">
+            Read more →
+          </a>
+
+        </div>
+
+      </article>
+
+      {% endfor %}
+
+    </div>
+
+  </section>
 
 </div>
