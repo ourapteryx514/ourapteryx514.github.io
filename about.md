@@ -1,81 +1,81 @@
 ---
-layout: fa-page
-title: درباره من
-permalink: /fa/about/
+layout: clean-page
+title: About
+permalink: /about/
 ---
 
-# درباره من
+# ABOUT
 
-من در سال **۱۹۸۲ در گنبد کاووس، ایران** به دنیا آمدم. فیزیکدان، مشاور فناوری و صنعت و فعال در حوزه تجارت و کسب‌وکار بین‌المللی هستم و تجربه فعالیت در پژوهش دانشگاهی، پروژه‌های صنعتی و تجارت فرامرزی را دارم.
+I was born in **1982 in Gonbad-e Kavus, Iran**. I am a physicist, technology and industry consultant, and international business professional with experience spanning academic research, industrial projects and cross-border trade.
 
-پیشینه علمی من عمدتاً در زمینه **فوتونیک، لیزرهای فوق‌سریع و اپتیک غیرخطی** است، در حالی که فعالیت‌های حرفه‌ای من در سال‌های بعد به حوزه‌های فناوری، انرژی، مواد صنعتی، پلیمرها، تأمین بین‌المللی و مشاوره فنی و تجاری نیز گسترش یافته است.
+My scientific background is primarily in **photonics, ultrafast lasers and nonlinear optics**, while my professional activities have expanded into technology, energy, industrial materials, polymers, international sourcing and technical-commercial consulting.
 
-## پیشینه علمی و دانشگاهی
+## Academic & Scientific Background
 
-در سال **۲۰۰۰** تحصیلات دانشگاهی خود را در رشته فیزیک کاربردی در **دانشگاه صنعتی شریف** در تهران آغاز کردم.
+In **2000**, I began my university studies at **Sharif University of Technology** in Tehran, Iran, where I studied Applied Physics.
 
-پس از پذیرفته شدن در **مؤسسه ماکس پلانک برای اپتیک کوانتومی (Max Planck Institute for Quantum Optics – MPQ)** در مونیخ آلمان، برای ادامه تحصیل و فعالیت علمی به مونیخ رفتم.
+After being accepted at the **Max Planck Institute for Quantum Optics (MPQ)** in Munich, Germany, I moved to Munich to continue my studies and scientific training.
 
-در همان سال به بارسلونا، اسپانیا، نقل مکان کردم و تحصیلات کارشناسی ارشد خود در رشته فوتونیک را در قالب **برنامه مشترک دانشگاه پلی‌تکنیک کاتالونیا (UPC)، دانشگاه بارسلونا (UB) و دانشگاه خودمختار بارسلونا (UAB)** ادامه دادم. هم‌زمان برای انجام فعالیت‌های پژوهشی به **مؤسسه علوم فوتونیک (ICFO)** پیوستم.
+Later that year, I moved to Barcelona, Spain, where I continued my master's studies in Photonics through a **joint program of the Universitat Politècnica de Catalunya (UPC), Universitat de Barcelona (UB) and Universitat Autònoma de Barcelona (UAB)**. At the same time, I joined **ICFO – The Institute of Photonic Sciences** for my research work.
 
-در ICFO با گروه **نوسان‌سازهای پارامتری نوری (Optical Parametric Oscillators)** فعالیت می‌کردم و پژوهش‌های من بر سامانه‌های لیزری فوق‌سریع، تبدیل فرکانس غیرخطی و نوسان‌سازهای پارامتری نوری متمرکز بود.
+At ICFO, I worked with the **Optical Parametric Oscillators** group, focusing on ultrafast laser systems, nonlinear frequency conversion and optical parametric oscillators.
 
-پس از آن، پژوهش‌ها و مطالعات دوره دکتری خود را در ICFO ادامه دادم. موضوع پژوهش دکتری من **نوسان‌سازهای پارامتری نوری فوق‌سریع و پرتوان از ناحیه مرئی تا فروسرخ میانی** بود و سامانه‌های فمتوثانیه و پیکوثانیه، منابع با نرخ تکرار بالا و تبدیل فرکانس غیرخطی را در بر می‌گرفت.
+I subsequently continued my doctoral research and studies at ICFO. My PhD research focused on **high-power ultrafast optical parametric oscillators from the visible to the mid-infrared**, including femtosecond and picosecond systems, high-repetition-rate sources and nonlinear frequency conversion.
 
-پس از پایان مرحله پژوهشی و تحصیلی دوره دکتری در ICFO در سال **۲۰۱۰**، به ایالات متحده رفتم و فعالیت‌های دانشگاهی و پژوهشی خود را در **دانشگاه تگزاس در آستین (University of Texas at Austin)** در زمینه اپتیک و فوتونیک ادامه دادم.
+After completing the research and study phase of my PhD at ICFO in **2010**, I moved to the United States and continued my academic and research activities at the **University of Texas at Austin**, working in optics and photonics.
 
-فعالیت‌های علمی من شامل کار با مواد اپتیکی غیرخطی مانند PPLN و BIBO، نوسان‌سازهای پارامتری نوری با پمپاژ هم‌زمان، منابع پمپ‌شده با لیزر فیبری، سامانه‌های با نرخ تکرار بالا، تولید هارمونیک و فوتونیک فوق‌سریع بوده است.
+My scientific work has involved nonlinear optical materials such as PPLN and BIBO, synchronously pumped optical parametric oscillators, fiber-laser-pumped sources, high-repetition-rate systems, harmonic generation and ultrafast photonics.
 
-## افتخارات و جوایز
+## Recognition & Awards
 
-تعهد من به آزادی علمی، مسئولیت علمی و استفاده اخلاقی از دانش علمی مورد توجه و تقدیر بین‌المللی قرار گرفته است.
+My commitment to scientific freedom, scientific responsibility and the ethical use of scientific knowledge has received international recognition.
 
-در سال **۲۰۱۴**، **جایزه آندری ساخاروف** انجمن فیزیک آمریکا (APS) را به دلیل ایستادگی در برابر به‌کارگیری دانش فیزیک در پروژه‌هایی که آن‌ها را برای بشریت زیان‌بار می‌دانستم، دریافت کردم.
+In **2014**, I received the **Andrei Sakharov Prize** from the American Physical Society (APS), recognizing my courage in refusing to apply my physics knowledge to projects that I considered harmful to humanity.
 
-در همان سال، **جایزه آزادی و مسئولیت علمی** انجمن پیشبرد علوم آمریکا (AAAS) نیز به من اعطا شد؛ جایزه‌ای که بر آزادی علمی، مسئولیت دانشمندان و استفاده اخلاقی از تخصص علمی تأکید دارد.
+In the same year, I received the **Scientific Freedom and Responsibility Award** from the American Association for the Advancement of Science (AAAS), recognizing my commitment to scientific freedom, responsibility and the ethical use of scientific expertise.
 
-همچنین از حمایت آموزشی و پژوهشی مشترک **Optica و SPIE** بهره‌مند شده‌ام.
+I have also received educational and research support through a **joint Optica and SPIE grant**.
 
-## مشارکت در کتاب‌ها و ترجمه
+## Books, Translation & Editorial Contributions
 
-در کنار فعالیت‌های علمی، در ترجمه، تدوین و آماده‌سازی برخی آثار فارسی در حوزه‌های حقوق بشر، علوم اجتماعی، اندیشه سیاسی و علم نیز مشارکت داشته‌ام.
+Alongside my scientific work, I have contributed to Persian-language publications in the fields of human rights, social sciences, political thought and science.
 
-**اطلس حقوق بشر**  
-نوشته **اندرو فاگان (Andrew Fagan)**  
-ترجمه مشترک با **مهدی خدایی**  
-عنوان اصلی: *The Atlas of Human Rights: Mapping Violations of Freedom Around the Globe*  
-انتشارات **آرمان‌شهر**، ۱۳۹۳.
+**The Atlas of Human Rights: Mapping Violations of Freedom Around the Globe**  
+Andrew Fagan  
+Persian translation with **Mehdi Khodaei**  
+Published in Persian as *اطلس حقوق بشر* by **Armanshahr**, 2014.
 
-**جنبش‌های اجتماعی و دموکراتیزاسیون**  
-به اهتمام **سعید مدنی قهفرخی**  
-مشارکت به‌عنوان مترجم مقاله **«رادیکالیسم و محیط‌زیست‌گرایی طبقه متوسط»** نوشته Stephen Cotgrove و Andrew Duff.  
-انتشارات **روزنه**، تهران.
+**Social Movements and Democratization**  
+*جنبش‌های اجتماعی و دموکراتیزاسیون*  
+Compiled by **Saeed Madani Ghahfarokhi**  
+Contributor and Persian translator of **“Middle-Class Radicalism and Environmentalism”** by Stephen Cotgrove and Andrew Duff.  
+Published by **Rowzaneh**, Tehran.
 
-**گودل، اشر، باخ: بافتهٔ گرانسنگ ابدی**  
-اثر **داگلاس هوفشتاتر (Douglas Hofstadter)**  
-ترجمه **مرتضی خزانه‌داری، سروش ثابت و عبدالرضا خزانه‌داری**.  
-در فرایند ترجمه این کتاب، در گفت‌وگوهای علمی با مترجمان درباره موضوعات مختلف اثر، به‌ویژه مفاهیم مرتبط با فیزیک نوین، مشارکت داشتم. همچنین در یافتن برابرنهادهای فارسی مناسب برای شماری از واژگان و مفاهیم پیچیده و تخصصی کتاب همکاری کردم. مترجمان در مقدمه نسخه فارسی از این مشارکت و گفت‌وگوها قدردانی کرده‌اند.
+**Gödel, Escher, Bach: An Eternal Golden Braid**  
+Douglas Hofstadter  
+Persian translation by **Morteza Khazenedari, Soroush Sabet and Abdolreza Khazenedari**.  
+I contributed through discussions with the translators on several of the book's subjects, particularly concepts related to modern physics, and assisted in finding appropriate Persian equivalents for a number of complex and specialized terms. The translators acknowledged these contributions in the introduction to the Persian edition.
 
-## فناوری، صنعت و تجارت بین‌المللی
+## Technology, Industry & International Business
 
-فعالیت‌های حرفه‌ای من به پژوهش دانشگاهی و فیزیک محدود نمی‌شود.
+My professional activities extend beyond academic physics and scientific research.
 
-در طول سال‌ها در حوزه‌هایی از جمله **فناوری صنعتی، پلیمرها و صنایع شیمیایی، انرژی، تأمین بین‌المللی، لجستیک و تجارت فرامرزی** فعالیت داشته‌ام.
+Over the years, I have been involved in areas including **industrial technology, polymers and chemicals, energy, international sourcing, logistics and cross-border trade**.
 
-به‌ویژه به پروژه‌هایی علاقه‌مندم که در آن‌ها بتوان تفکر علمی و تحلیلی را برای حل مسائل عملی صنعت به کار گرفت؛ از سامانه‌های انرژی و عیب‌یابی و ارزیابی سامانه‌های فتوولتائیک گرفته تا مواد، فناوری‌های صنعتی، ارزیابی فنی و تصمیم‌گیری‌های فنی و تجاری.
+I am particularly interested in projects where scientific and analytical thinking can be applied to practical industrial challenges — from energy systems and photovoltaic diagnostics to materials, industrial technologies, technical evaluation and commercial decision-making.
 
-فعالیت‌های بین‌المللی من همچنین شامل همکاری و هماهنگی با تأمین‌کنندگان، مشتریان و شرکای صنعتی در کشورها و بازارهای مختلف بوده است و در این فعالیت‌ها تلاش کرده‌ام دانش فنی را با تجارت، تأمین و همکاری‌های بین‌المللی ترکیب کنم.
+My international work has involved working with suppliers, customers and industrial partners across different countries and markets, combining technical understanding with international business, sourcing and trade.
 
-## حوزه‌های مورد علاقه
+## Areas of Interest
 
-- فوتونیک و فناوری لیزر
-- اپتیک فوق‌سریع و غیرخطی
-- انرژی و سامانه‌های فتوولتائیک
-- فناوری صنعتی
-- پلیمرها و صنایع شیمیایی
-- مشاوره فنی و فناوری
-- تأمین و تجارت بین‌المللی
-- توسعه پروژه‌های صنعتی و تجاری
-- تاریخ، زبان‌ها و فرهنگ‌ها
-- کتاب و ادبیات
-- حشره‌شناسی
+- Photonics and laser technology
+- Ultrafast and nonlinear optics
+- Energy and photovoltaic systems
+- Industrial technology
+- Polymers and chemical industries
+- Technical and technology consulting
+- International sourcing and trade
+- Industrial and commercial project development
+- History, languages and cultures
+- Books and literature
+- Entomology
