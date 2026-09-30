@@ -146,7 +146,7 @@ permalink: /fa/contact/
 
 
   <!-- =====================================================
-       SOCIAL
+       CONTACT & SOCIAL
        ===================================================== -->
 
   <section class="page-section contact-section">
@@ -156,9 +156,9 @@ permalink: /fa/contact/
       <p class="section-number">۰۲</p>
 
       <div>
-        <h2>شبکه‌های اجتماعی</h2>
+        <h2>راه‌های ارتباطی و شبکه‌های اجتماعی</h2>
         <p>
-          در اینستاگرام نیز می‌توانید من را دنبال کنید.
+          برای تماس مستقیم یا ارتباط حرفه‌ای می‌توانید از راه‌های زیر استفاده کنید.
         </p>
       </div>
 
@@ -166,6 +166,54 @@ permalink: /fa/contact/
 
 
     <div class="contact-links">
+
+      <!-- EMAIL -->
+
+      <a
+        class="contact-link-card"
+        href="mailto:omid@kokabee.com">
+
+        <div class="contact-link-label">
+          ایمیل
+        </div>
+
+        <div class="contact-link-main" dir="ltr">
+          <strong>omid@kokabee.com</strong>
+          <span>Professional enquiries and correspondence</span>
+        </div>
+
+        <div class="contact-link-arrow">
+          ←
+        </div>
+
+      </a>
+
+
+      <!-- LINKEDIN -->
+
+      <a
+        class="contact-link-card"
+        href="https://www.linkedin.com/in/omidkokabee/"
+        target="_blank"
+        rel="noopener">
+
+        <div class="contact-link-label">
+          LinkedIn
+        </div>
+
+        <div class="contact-link-main" dir="ltr">
+          <strong>Omid Kokabee</strong>
+          <span>linkedin.com/in/omidkokabee</span>
+        </div>
+
+        <div class="contact-link-arrow">
+          ↗
+        </div>
+
+      </a>
+
+
+      <!-- INSTAGRAM -->
 
       <a
         class="contact-link-card"
