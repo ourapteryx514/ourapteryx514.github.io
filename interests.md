@@ -4,98 +4,200 @@ title: Interests
 permalink: /interests/
 ---
 
-# INTERESTS
+<div class="content-page interests-page">
 
-Beyond my professional work in physics, technology and industry, I study a number of subjects independently and in considerable depth.
+  <!-- =====================================================
+       HERO
+       ===================================================== -->
 
-This section brings together articles, reading notes, references and observations related to these interests.
+  <section class="page-hero interests-hero">
 
-<div class="interest-filters">
+    <p class="page-kicker">INTERESTS</p>
 
-  <button class="interest-filter active" data-filter="all">
-    <strong>All</strong>
-    <span>View all interest articles</span>
-  </button>
+    <h1>
+      Independent study, reading and long-term intellectual interests.
+    </h1>
 
-  <button class="interest-filter" data-filter="Iran">
-    <strong>Iran</strong>
-    <span>History, society, geography and culture</span>
-  </button>
-
-  <button class="interest-filter" data-filter="Turkmens">
-    <strong>Turkmens</strong>
-    <span>History, culture, peoples and Central Asia</span>
-  </button>
-
-  <button class="interest-filter" data-filter="Languages">
-    <strong>Languages</strong>
-    <span>Linguistics, etymology and writing systems</span>
-  </button>
-
-  <button class="interest-filter" data-filter="Entomology">
-    <strong>Entomology</strong>
-    <span>Insects, taxonomy, ecology and evolution</span>
-  </button>
-
-  <button class="interest-filter" data-filter="Books">
-    <strong>Books & Reviews</strong>
-    <span>Books, reviews and reading notes</span>
-  </button>
-
-</div>
-
-
-{% assign interest_posts = site.posts | where: "lang", "en" | where: "section", "interests" %}
-
-<div class="blog-list interest-articles">
-
-{% for post in interest_posts %}
-
-<article class="blog-entry interest-article{% unless post.image %} no-image{% endunless %}"
-         data-tags="{{ post.tags | join: '|' }}">
-
-  {% if post.image %}
-  <div>
-    <img
-      src="{{ post.image | relative_url }}"
-      alt="{{ post.title | escape }}"
-      style="width:220px; height:150px; object-fit:cover; border-radius:8px; display:block;">
-  </div>
-  {% endif %}
-
-  <div class="blog-entry-content">
-
-    <p class="blog-date">
-      {{ post.date | date: "%d %B %Y" }}
+    <p class="page-lead">
+      Beyond my professional work in science, technology and industry,
+      I study a number of subjects independently and in considerable depth.
+      This section brings together
+      <strong>articles, reading notes, references and observations</strong>
+      developed around those interests.
     </p>
 
-    {% if post.tags %}
-    <p class="interest-tags">
-      {% for tag in post.tags %}
-        <span>{{ tag }}</span>
-      {% endfor %}
-    </p>
-    {% endif %}
-
-    <h2>
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-
-    <div class="blog-excerpt">
-      {{ post.excerpt }}
+    <div class="page-focus">
+      <span>Iran</span>
+      <span>Turkmens</span>
+      <span>Languages</span>
+      <span>Entomology</span>
+      <span>Books & Reviews</span>
     </div>
 
-    <a class="read-more" href="{{ post.url | relative_url }}">
-      Read article →
-    </a>
+  </section>
 
-  </div>
 
-</article>
+  <!-- =====================================================
+       SUBJECT FILTERS
+       ===================================================== -->
 
-{% endfor %}
+  <section class="page-section interests-section">
+
+    <div class="section-heading">
+
+      <p class="section-number">01</p>
+
+      <div>
+        <h2>Browse by Subject</h2>
+        <p>
+          Filter the articles according to the subjects you are interested in.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="interest-filter-bar">
+
+      <button
+        class="interest-filter-chip active"
+        data-filter="all">
+        All
+      </button>
+
+      <button
+        class="interest-filter-chip"
+        data-filter="Iran">
+        Iran
+      </button>
+
+      <button
+        class="interest-filter-chip"
+        data-filter="Turkmens">
+        Turkmens
+      </button>
+
+      <button
+        class="interest-filter-chip"
+        data-filter="Languages">
+        Languages
+      </button>
+
+      <button
+        class="interest-filter-chip"
+        data-filter="Entomology">
+        Entomology
+      </button>
+
+      <button
+        class="interest-filter-chip"
+        data-filter="Books">
+        Books & Reviews
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       ARTICLES
+       ===================================================== -->
+
+  <section class="page-section page-section-last interests-section">
+
+    <div class="section-heading">
+
+      <p class="section-number">02</p>
+
+      <div>
+        <h2>Articles & Notes</h2>
+        <p>
+          Essays, research notes, reading notes and source-based explorations.
+        </p>
+      </div>
+
+    </div>
+
+
+    {% assign interest_posts = site.posts
+       | where: "lang", "en"
+       | where: "section", "interests" %}
+
+
+    <div class="interest-library">
+
+      {% for post in interest_posts %}
+
+      <article
+        class="interest-library-item{% unless post.image %} no-image{% endunless %}"
+        data-tags="{{ post.tags | join: '|' }}">
+
+        {% if post.image %}
+
+        <a
+          class="interest-library-image"
+          href="{{ post.url | relative_url }}">
+
+          <img
+            src="{{ post.image | relative_url }}"
+            alt="{{ post.title | escape }}">
+
+        </a>
+
+        {% endif %}
+
+
+        <div class="interest-library-content">
+
+          <div class="interest-library-meta">
+
+            <span class="interest-library-date">
+              {{ post.date | date: "%d %B %Y" }}
+            </span>
+
+            {% if post.tags %}
+
+            <div class="interest-library-tags">
+
+              {% for tag in post.tags %}
+                <span>{{ tag }}</span>
+              {% endfor %}
+
+            </div>
+
+            {% endif %}
+
+          </div>
+
+
+          <h3>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+
+
+          <div class="interest-library-excerpt">
+            {{ post.excerpt }}
+          </div>
+
+
+          <a
+            class="interest-library-link"
+            href="{{ post.url | relative_url }}">
+            Read article →
+          </a>
+
+        </div>
+
+      </article>
+
+      {% endfor %}
+
+    </div>
+
+  </section>
 
 </div>
 
@@ -103,8 +205,8 @@ This section brings together articles, reading notes, references and observation
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
-  const filters = document.querySelectorAll(".interest-filter");
-  const articles = document.querySelectorAll(".interest-article");
+  const filters = document.querySelectorAll(".interest-filter-chip");
+  const articles = document.querySelectorAll(".interest-library-item");
 
   filters.forEach(function (button) {
 
@@ -120,7 +222,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
       articles.forEach(function (article) {
 
-        const tags = article.dataset.tags.split("|");
+        const tags = article.dataset.tags
+          ? article.dataset.tags.split("|")
+          : [];
 
         if (selected === "all" || tags.includes(selected)) {
           article.style.display = "";
