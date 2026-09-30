@@ -11,21 +11,20 @@ permalink: /fa/blog/
 </p>
 
 {% assign persian_posts = site.posts | where: "lang", "fa" %}
+{% assign blog_posts = persian_posts | where_exp: "post", "post.section != 'interests'" %}
 
 <div class="blog-list">
 
-{% for post in persian_posts %}
+{% for post in blog_posts %}
 
 <article class="blog-entry">
 
   {% if post.image %}
   <div>
-    <a href="{{ post.url | relative_url }}">
-      <img
-        src="{{ post.image | relative_url }}"
-        alt="{{ post.title | escape }}"
-        style="width:220px; height:150px; object-fit:cover; border-radius:8px; display:block;">
-    </a>
+    <img
+      src="{{ post.image | relative_url }}"
+      alt="{{ post.title | escape }}"
+      style="width:220px; height:150px; object-fit:cover; border-radius:8px; display:block;">
   </div>
   {% endif %}
 
