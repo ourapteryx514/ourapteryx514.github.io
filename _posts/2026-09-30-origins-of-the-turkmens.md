@@ -9,6 +9,7 @@ tags:
   - Oghuz
   - Central Asia
   - History
+image: /assets/images/turkmen-origins.jpeg
 excerpt: "An introduction to the historical formation of the Turkmens, from the early Oghuz confederations to the emergence of a distinct Turkmen identity."
 permalink: /interests/2026/09/30/origins-of-the-turkmens/
 ---
