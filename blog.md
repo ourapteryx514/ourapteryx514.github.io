@@ -11,10 +11,11 @@ Personal notes, photographs, books, travel, science, technology and observations
 </p>
 
 {% assign english_posts = site.posts | where: "lang", "en" %}
+{% assign blog_posts = english_posts | where_exp: "post", "post.section != 'interests'" %}
 
 <div class="blog-list">
 
-{% for post in english_posts %}
+{% for post in blog_posts %}
 
 <article class="blog-entry">
 
