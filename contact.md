@@ -145,7 +145,7 @@ permalink: /contact/
 
 
   <!-- =====================================================
-       SOCIAL
+       CONTACT & SOCIAL
        ===================================================== -->
 
   <section class="page-section contact-section">
@@ -155,9 +155,9 @@ permalink: /contact/
       <p class="section-number">02</p>
 
       <div>
-        <h2>Social</h2>
+        <h2>Contact & Social</h2>
         <p>
-          You can also find me on Instagram.
+          Direct ways to contact me or connect professionally.
         </p>
       </div>
 
@@ -165,6 +165,54 @@ permalink: /contact/
 
 
     <div class="contact-links">
+
+      <!-- EMAIL -->
+
+      <a
+        class="contact-link-card"
+        href="mailto:omid@kokabee.com">
+
+        <div class="contact-link-label">
+          Email
+        </div>
+
+        <div class="contact-link-main">
+          <strong>omid@kokabee.com</strong>
+          <span>Professional enquiries and correspondence</span>
+        </div>
+
+        <div class="contact-link-arrow">
+          →
+        </div>
+
+      </a>
+
+
+      <!-- LINKEDIN -->
+
+      <a
+        class="contact-link-card"
+        href="https://www.linkedin.com/in/omidkokabee/"
+        target="_blank"
+        rel="noopener">
+
+        <div class="contact-link-label">
+          LinkedIn
+        </div>
+
+        <div class="contact-link-main">
+          <strong>Omid Kokabee</strong>
+          <span>linkedin.com/in/omidkokabee</span>
+        </div>
+
+        <div class="contact-link-arrow">
+          ↗
+        </div>
+
+      </a>
+
+
+      <!-- INSTAGRAM -->
 
       <a
         class="contact-link-card"
