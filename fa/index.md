@@ -71,10 +71,11 @@ permalink: /fa/
 </div>
 
 {% assign persian_posts = site.posts | where: "lang", "fa" %}
+{% assign recent_posts = persian_posts | where_exp: "post", "post.section != 'interests'" %}
 
 <div class="recent-notes">
 
-{% for post in persian_posts limit:3 %}
+{% for post in recent_posts limit:3 %}
 
   <div class="recent-note-home">
 
