@@ -51,7 +51,7 @@ permalink: /fa/interests/
 
 {% for post in interest_posts %}
 
-<article class="blog-entry interest-article"
+<article class="blog-entry interest-article{% unless post.image %} no-image{% endunless %}"
          data-tags="{{ post.tags | join: '|' }}">
 
   {% if post.image %}
