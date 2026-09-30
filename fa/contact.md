@@ -4,14 +4,213 @@ title: تماس
 permalink: /fa/contact/
 ---
 
-# تماس
+<div class="content-page contact-page">
 
-برای ارتباط در زمینه پژوهش، پروژه‌های فنی، فعالیت‌های صنعتی یا همکاری حرفه‌ای می‌توانید از راه‌های زیر با من در تماس باشید.
+  <!-- =====================================================
+       HERO
+       ===================================================== -->
 
-### ایمیل
+  <section class="page-hero contact-hero">
 
-[ارسال ایمیل](mailto:omid@kokabee.com)
+    <p class="page-kicker">تماس</p>
 
-### LinkedIn
+    <h1>
+      در ارتباط باشیم.
+    </h1>
 
-[پروفایل LinkedIn](https://www.linkedin.com/in/omidkokabee)
+    <p class="page-lead">
+      برای گفت‌وگو و همکاری در حوزه‌های
+      <strong>علم، فناوری، صنعت، انرژی، تجارت بین‌المللی
+      و توسعه کسب‌وکارهای جدید</strong>
+      علاقه‌مند به ارتباط هستم.
+    </p>
+
+  </section>
+
+
+  <!-- =====================================================
+       PROFESSIONAL CONTACT
+       ===================================================== -->
+
+  <section class="page-section contact-section">
+
+    <div class="section-heading">
+
+      <p class="section-number">۰۱</p>
+
+      <div>
+        <h2>موضوعات حرفه‌ای</h2>
+        <p>
+          حوزه‌هایی که برای تبادل نظر، ارزیابی فرصت‌ها
+          یا بررسی همکاری مورد توجه من هستند.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="contact-topic-grid">
+
+      <div class="contact-topic">
+
+        <span class="contact-topic-number">۰۱</span>
+
+        <div>
+          <h3>فناوری و صنعت</h3>
+          <p>
+            مشاوره فنی، فناوری‌های صنعتی، مواد،
+            پلیمرها، مواد شیمیایی و ارزیابی فنی-تجاری.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="contact-topic">
+
+        <span class="contact-topic-number">۰۲</span>
+
+        <div>
+          <h3>انرژی و خورشیدی</h3>
+          <p>
+            سامانه‌های فتوولتائیک، عیب‌یابی PV، ذخیره‌سازی انرژی،
+            عملکرد نیروگاه و بهینه‌سازی انرژی صنعتی.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="contact-topic">
+
+        <span class="contact-topic-number">۰۳</span>
+
+        <div>
+          <h3>تجارت بین‌المللی</h3>
+          <p>
+            پتروشیمی، پلیمرها، مواد شیمیایی، کودها،
+            مواد معدنی، تأمین، توسعه بازار و تجارت بین‌المللی.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="contact-topic">
+
+        <span class="contact-topic-number">۰۴</span>
+
+        <div>
+          <h3>کارآفرینی</h3>
+          <p>
+            ارزیابی کسب‌وکار جدید، ورود به بازار،
+            استراتژی کسب‌وکار، ساختار تأمین و توسعه پروژه‌های اولیه.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="contact-topic">
+
+        <span class="contact-topic-number">۰۵</span>
+
+        <div>
+          <h3>علم و پژوهش</h3>
+          <p>
+            فوتونیک، لیزرهای فوق‌سریع، اپتیک غیرخطی،
+            سامانه‌های پارامتری نوری و همکاری علمی.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="contact-topic">
+
+        <span class="contact-topic-number">۰۶</span>
+
+        <div>
+          <h3>نوشتن و مطالعات مستقل</h3>
+          <p>
+            تاریخ، مطالعات ترکمن، زبان‌ها، کتاب،
+            علم و دیگر موضوعاتی که در این وب‌سایت دنبال می‌کنم.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       SOCIAL
+       ===================================================== -->
+
+  <section class="page-section contact-section">
+
+    <div class="section-heading">
+
+      <p class="section-number">۰۲</p>
+
+      <div>
+        <h2>شبکه‌های اجتماعی</h2>
+        <p>
+          در اینستاگرام نیز می‌توانید من را دنبال کنید.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="contact-links">
+
+      <a
+        class="contact-link-card"
+        href="https://www.instagram.com/omidkokabee/"
+        target="_blank"
+        rel="noopener">
+
+        <div class="contact-link-label">
+          Instagram
+        </div>
+
+        <div class="contact-link-main" dir="ltr">
+          <strong>@omidkokabee</strong>
+          <span>instagram.com/omidkokabee</span>
+        </div>
+
+        <div class="contact-link-arrow">
+          ↗
+        </div>
+
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       NOTE
+       ===================================================== -->
+
+  <section class="page-section page-section-last contact-section">
+
+    <div class="contact-note">
+
+      <p class="contact-note-label">درباره تماس</p>
+
+      <p>
+        اگر درباره یک پروژه حرفه‌ای با من تماس می‌گیرید،
+        بهتر است توضیح کوتاهی درباره موضوع، کشور یا بازار مربوطه
+        و نوع همکاری یا مشاوره مورد نظر خود ارائه کنید.
+      </p>
+
+    </div>
+
+  </section>
+
+</div>
