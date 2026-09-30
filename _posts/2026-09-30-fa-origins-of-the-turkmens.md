@@ -9,6 +9,7 @@ tags:
   - اوغوز
   - آسیای مرکزی
   - تاریخ
+image: /assets/images/turkmen-origins.jpeg
 excerpt: "درآمدی بر شکل‌گیری تاریخی ترکمن‌ها؛ از اتحادیه‌های اوغوز تا پیدایش تدریجی هویت متمایز ترکمنی."
 permalink: /fa/interests/2026/09/30/origins-of-the-turkmens/
 ---
