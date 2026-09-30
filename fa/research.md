@@ -4,51 +4,506 @@ title: پژوهش
 permalink: /fa/research/
 ---
 
-# پژوهش
+<div class="content-page research-page">
 
-زمینه اصلی پژوهشی من **فوتونیک، لیزرهای فوق‌سریع و اپتیک غیرخطی** است، با تمرکز ویژه بر نوسان‌سازهای پارامتری نوری و تبدیل فرکانس از محدوده مرئی تا فروسرخ میانی.
+  <!-- HERO -->
 
-<div style="display:flex; flex-wrap:wrap; gap:10px; margin:22px 0 35px;">
+  <section class="page-hero">
 
-<span style="display:inline-block; padding:7px 13px; border:1px solid #dddddd; border-radius:20px; font-size:14px; color:#555; background:#fafafa;">
-فوتونیک فوق‌سریع
-</span>
+    <p class="page-kicker">پژوهش</p>
 
-<span style="display:inline-block; padding:7px 13px; border:1px solid #dddddd; border-radius:20px; font-size:14px; color:#555; background:#fafafa;">
-اپتیک غیرخطی
-</span>
+    <h1>
+      فوتونیک فوق‌سریع، اپتیک غیرخطی و سامانه‌های پارامتری نوری.
+    </h1>
 
-<span style="display:inline-block; padding:7px 13px; border:1px solid #dddddd; border-radius:20px; font-size:14px; color:#555; background:#fafafa;">
-نوسان‌سازهای پارامتری نوری
-</span>
+    <p class="page-lead">
+      پژوهش‌های من بر تولید و کنترل پالس‌های نوری فوق‌کوتاه با استفاده از
+      فرایندهای اپتیکی غیرخطی متمرکز بوده است؛ به‌ویژه
+      <strong>نوسان‌سازهای پارامتری نوری، تبدیل فرکانس و سامانه‌های لیزری با نرخ تکرار بالا</strong>.
+    </p>
 
-<span style="display:inline-block; padding:7px 13px; border:1px solid #dddddd; border-radius:20px; font-size:14px; color:#555; background:#fafafa;">
-فروسرخ میانی
-</span>
+    <div class="page-focus">
+      <span>فوتونیک فوق‌سریع</span>
+      <span>اپتیک غیرخطی</span>
+      <span>نوسان‌سازهای پارامتری نوری</span>
+      <span>مرئی تا فروسرخ میانی</span>
+      <span>لیزرهای با نرخ تکرار بالا</span>
+    </div>
 
-<span style="display:inline-block; padding:7px 13px; border:1px solid #dddddd; border-radius:20px; font-size:14px; color:#555; background:#fafafa;">
-سامانه‌های لیزری
-</span>
+  </section>
+
+
+  <!-- RESEARCH PROFILE -->
+
+  <section class="page-section">
+
+    <div class="section-heading">
+
+      <p class="section-number">۰۱</p>
+
+      <div>
+        <h2>حوزه پژوهشی</h2>
+        <p>
+          پژوهش تجربی در زمینه لیزرهای فوق‌سریع و تبدیل فرکانس غیرخطی.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="research-intro-grid">
+
+      <div class="research-intro-main">
+
+        <p>
+          بخش اصلی فعالیت علمی من در حوزه
+          <strong>فوتونیک فوق‌سریع و غیرخطی</strong>
+          و به‌ویژه نوسان‌سازهای پارامتری نوری با پمپاژ هم‌زمان
+          (SPOPO) بوده است.
+        </p>
+
+        <p>
+          این سامانه‌ها با استفاده از برهم‌کنش‌های اپتیکی غیرخطی،
+          انرژی لیزر پمپ فوق‌سریع را به تابش قابل تنظیم در طول موج‌هایی
+          تبدیل می‌کنند که دستیابی مستقیم به آن‌ها با محیط‌های بهره لیزری
+          متداول دشوار است.
+        </p>
+
+        <p>
+          پژوهش‌های من منابعی از
+          <strong>ناحیه مرئی تا فروسرخ میانی</strong>
+          را شامل می‌شود و سامانه‌های فمتوثانیه و پیکوثانیه با نرخ تکرار
+          از ده‌ها مگاهرتز تا محدوده گیگاهرتز را در بر می‌گیرد.
+        </p>
+
+      </div>
+
+
+      <div class="research-summary-card">
+
+        <p class="research-summary-label">زمینه پژوهش</p>
+
+        <h3>فوتونیک غیرخطی فوق‌سریع</h3>
+
+        <div class="research-stat">
+          <span>محدوده طیفی</span>
+          <strong>مرئی ← فروسرخ میانی</strong>
+        </div>
+
+        <div class="research-stat">
+          <span>نوع پالس</span>
+          <strong>فمتوثانیه و پیکوثانیه</strong>
+        </div>
+
+        <div class="research-stat">
+          <span>نرخ تکرار</span>
+          <strong>۷۶ مگاهرتز ← ۱ گیگاهرتز</strong>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CORE THEMES -->
+
+  <section class="page-section">
+
+    <div class="section-heading">
+
+      <p class="section-number">۰۲</p>
+
+      <div>
+        <h2>موضوعات اصلی پژوهش</h2>
+        <p>
+          محورهای علمی اصلی که بخش عمده فعالیت آزمایشگاهی من پیرامون آن‌ها شکل گرفته است.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="research-theme-grid">
+
+      <article class="research-theme-card">
+
+        <p class="research-theme-number">۰۱</p>
+
+        <h3>نوسان‌سازهای پارامتری نوری</h3>
+
+        <p>
+          طراحی و توسعه OPOهای با پمپاژ هم‌زمان برای تولید
+          پالس‌های فوق‌کوتاه، پرتوان و قابل تنظیم در گستره وسیعی از طول موج‌ها.
+        </p>
+
+      </article>
+
+
+      <article class="research-theme-card">
+
+        <p class="research-theme-number">۰۲</p>
+
+        <h3>تبدیل فرکانس غیرخطی</h3>
+
+        <p>
+          تولید پارامتری، دوبرابرکردن فرکانس و تولید هارمونیک
+          با استفاده از بلورهای اپتیکی غیرخطی و منابع لیزری فوق‌سریع.
+        </p>
+
+      </article>
+
+
+      <article class="research-theme-card">
+
+        <p class="research-theme-number">۰۳</p>
+
+        <h3>منابع با نرخ تکرار بالا</h3>
+
+        <p>
+          توسعه معماری‌های OPO فوق‌سریع از نرخ‌های تکرار متداول
+          در محدوده مگاهرتز تا سامانه‌های نزدیک به محدوده گیگاهرتز.
+        </p>
+
+      </article>
+
+
+      <article class="research-theme-card">
+
+        <p class="research-theme-number">۰۴</p>
+
+        <h3>فوتونیک مرئی و فروسرخ میانی</h3>
+
+        <p>
+          گسترش منابع فوق‌سریع به محدوده‌های طیفی مناسب برای
+          طیف‌سنجی، آشکارسازی، تصویربرداری و فرایندهای اپتیکی غیرخطی.
+        </p>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- DOCTORAL RESEARCH -->
+
+  <section class="page-section">
+
+    <div class="section-heading">
+
+      <p class="section-number">۰۳</p>
+
+      <div>
+        <h2>پژوهش دکتری</h2>
+        <p>
+          نوسان‌سازهای پارامتری نوری فوق‌سریع و پرتوان از ناحیه مرئی تا فروسرخ میانی.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="research-feature">
+
+      <p class="research-feature-label">پژوهش دکتری</p>
+
+      <h3>
+        نوسان‌سازهای پارامتری نوری فوق‌سریع و پرتوان از ناحیه مرئی تا فروسرخ میانی
+      </h3>
+
+      <p>
+        پژوهش دکتری من به توسعه
+        <strong>نوسان‌سازهای پارامتری نوری با پمپاژ هم‌زمان و توان بالا</strong>
+        در گستره طیفی وسیع و با نرخ‌های تکرار از حدود
+        <strong>۷۶ مگاهرتز تا ۱ گیگاهرتز</strong>
+        اختصاص داشت.
+      </p>
+
+      <p>
+        این پژوهش معماری‌های فمتوثانیه و پیکوثانیه،
+        تبدیل فرکانس غیرخطی، تولید هارمونیک درون‌کاواک،
+        مدیریت پاشندگی و طراحی تشدیدگرهای با نرخ تکرار بالا را شامل می‌شد.
+      </p>
+
+      <p>
+        در بخشی از این پژوهش، تولید کارآمد پالس‌های فمتوثانیه
+        با قابلیت تنظیم گسترده در ناحیه قرمز طیف با استفاده از
+        <strong>PPLN</strong> به‌عنوان محیط بهره پارامتری و
+        <strong>BIBO</strong> برای دوبرابرکردن فرکانس درون‌کاواک
+        نشان داده شد.
+      </p>
+
+
+      <div class="research-result-grid">
+
+        <div>
+          <span>محدوده تنظیم در ناحیه قرمز</span>
+          <strong>۶۶۵–۷۸۵ نانومتر</strong>
+        </div>
+
+        <div>
+          <span>بازده تبدیل</span>
+          <strong>۱۷٫۲٪</strong>
+        </div>
+
+        <div>
+          <span>بیشترین نرخ تکرار</span>
+          <strong>۱ گیگاهرتز</strong>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- EXPERIMENTAL PLATFORMS -->
+
+  <section class="page-section">
+
+    <div class="section-heading">
+
+      <p class="section-number">۰۴</p>
+
+      <div>
+        <h2>سامانه‌ها و روش‌های آزمایشگاهی</h2>
+        <p>
+          مواد، منابع لیزری و تکنیک‌های اپتیکی مورد استفاده در پژوهش‌ها.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="research-tech-grid">
+
+      <div class="research-tech-group">
+
+        <h3>مواد غیرخطی</h3>
+
+        <div class="research-tech-tags">
+          <span>PPLN</span>
+          <span>MgO:PPLN</span>
+          <span>BIBO</span>
+        </div>
+
+      </div>
+
+
+      <div class="research-tech-group">
+
+        <h3>منابع لیزری</h3>
+
+        <div class="research-tech-tags">
+          <span>Ti:Sapphire</span>
+          <span>لیزرهای فیبری Yb</span>
+          <span>منابع فمتوثانیه</span>
+          <span>منابع پیکوثانیه</span>
+        </div>
+
+      </div>
+
+
+      <div class="research-tech-group">
+
+        <h3>معماری‌های OPO</h3>
+
+        <div class="research-tech-tags">
+          <span>SPOPO</span>
+          <span>کاواک‌های گسترش‌یافته</span>
+          <span>نرخ تکرار گیگاهرتز</span>
+          <span>SHG درون‌کاواک</span>
+        </div>
+
+      </div>
+
+
+      <div class="research-tech-group">
+
+        <h3>تکنیک‌های اپتیکی</h3>
+
+        <div class="research-tech-tags">
+          <span>کنترل پاشندگی</span>
+          <span>منشورهای SF11</span>
+          <span>دوبرابرکردن فرکانس</span>
+          <span>تولید هارمونیک</span>
+          <span>طراحی‌های آنتی‌رزونانسی</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- PUBLICATIONS -->
+
+  <section class="page-section">
+
+    <div class="section-heading">
+
+      <p class="section-number">۰۵</p>
+
+      <div>
+        <h2>مقالات منتخب</h2>
+        <p>
+          نمونه‌ای از مقالات پژوهشی در زمینه اپتیک غیرخطی و سامانه‌های پارامتری نوری.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="publication-list">
+
+      <article class="publication-item">
+
+        <div class="publication-year">۲۰۱۰</div>
+
+        <div class="publication-content">
+
+          <h3>
+            Efficient, high-power, ytterbium-fiber-laser-pumped picosecond optical parametric oscillator
+          </h3>
+
+          <p class="publication-authors">
+            O. Kokabee, A. Esteban-Martin, M. Ebrahim-Zadeh
+          </p>
+
+          <p class="publication-journal">
+            Optics Letters · 35 · 3210–3212
+          </p>
+
+          <p class="publication-doi">
+            DOI: 10.1364/OL.35.003210
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <article class="publication-item">
+
+        <div class="publication-year">۲۰۰۹</div>
+
+        <div class="publication-content">
+
+          <h3>
+            Extended-cavity, tunable, GHz-repetition-rate femtosecond optical parametric oscillator pumped at 76 MHz
+          </h3>
+
+          <p class="publication-authors">
+            O. Kokabee, A. Esteban-Martin, M. Ebrahim-Zadeh
+          </p>
+
+          <p class="publication-journal">
+            Optics Express · 17 · 15635–15640
+          </p>
+
+          <p class="publication-doi">
+            DOI: 10.1364/OE.17.015635
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <article class="publication-item">
+
+        <div class="publication-year">۲۰۱۰</div>
+
+        <div class="publication-content">
+
+          <h3>
+            Optimum output coupling in optical oscillators using an antiresonant ring interferometer
+          </h3>
+
+          <p class="publication-authors">
+            A. Esteban-Martin, O. Kokabee, M. Ebrahim-Zadeh
+          </p>
+
+          <p class="publication-journal">
+            Optics Letters · 35 · 2786–2788
+          </p>
+
+          <p class="publication-doi">
+            DOI: 10.1364/OL.35.002786
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <article class="publication-item">
+
+        <div class="publication-year">۲۰۱۰</div>
+
+        <div class="publication-content">
+
+          <h3>
+            Femtosecond nonlinear frequency conversion based on BiB₃O₆
+          </h3>
+
+          <p class="publication-authors">
+            V. Petrov, M. Ghotbi, O. Kokabee, et al.
+          </p>
+
+          <p class="publication-journal">
+            Laser & Photonics Reviews · 4 · 53–98
+          </p>
+
+          <p class="publication-doi">
+            DOI: 10.1002/lpor.200810075
+          </p>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- CURRENT INTERESTS -->
+
+  <section class="page-section page-section-last">
+
+    <div class="section-heading">
+
+      <p class="section-number">۰۶</p>
+
+      <div>
+        <h2>علایق پژوهشی</h2>
+        <p>
+          حوزه‌های علمی و فنی که همچنان مورد توجه من هستند.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="interest-cloud">
+
+      <span>فوتونیک فوق‌سریع</span>
+      <span>اپتیک غیرخطی</span>
+      <span>نوسان‌سازهای پارامتری نوری</span>
+      <span>تبدیل فرکانس</span>
+      <span>فوتونیک فروسرخ میانی</span>
+      <span>سامانه‌های لیزری</span>
+      <span>منابع با نرخ تکرار بالا</span>
+      <span>اندازه‌گیری اپتیکی</span>
+      <span>فناوری‌های پیشرفته فوتونیک</span>
+
+    </div>
+
+  </section>
 
 </div>
-
-## پژوهش دکتری
-
-پژوهش دکتری من بر توسعه **نوسان‌سازهای پارامتری نوری فوق‌سریع و پرتوان از محدوده مرئی تا فروسرخ میانی** متمرکز بود.
-
-این پژوهش شامل توسعه و مشخصه‌یابی سامانه‌های فمتوثانیه و پیکوثانیه با نرخ تکرار از ده‌ها مگاهرتز تا محدوده گیگاهرتز بود.
-
-## زمینه‌های پژوهشی
-
-- فوتونیک فوق‌سریع
-- اپتیک غیرخطی
-- منابع پارامتری نوری
-- فناوری لیزر فروسرخ میانی
-- اندازه‌گیری و مشخصه‌یابی لیزر
-- سامانه‌های لیزری پرتوان
-- فناوری‌های فوتونیکی صنعتی
-- روش‌های اپتیکی در انرژی و سامانه‌های فتوولتائیک
-
-## مقالات منتخب
-
-فهرستی از مقالات و فعالیت‌های علمی منتخب من در این بخش ارائه خواهد شد.
