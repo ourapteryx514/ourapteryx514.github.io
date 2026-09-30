@@ -1,7 +1,7 @@
 ---
-layout: fa-page
-title: پژوهش
-permalink: /fa/research/
+layout: clean-page
+title: Research
+permalink: /research/
 ---
 
 <div class="content-page research-page">
@@ -12,44 +12,44 @@ permalink: /fa/research/
 
   <section class="page-hero research-hero">
 
-    <p class="page-kicker">پژوهش</p>
+    <p class="page-kicker">RESEARCH</p>
 
     <h1>
-      فوتونیک فوق‌سریع، اپتیک غیرخطی و منابع پارامتری نوری.
+      Ultrafast photonics, nonlinear optics and optical parametric sources.
     </h1>
 
     <p class="page-lead">
-      فعالیت‌های پژوهشی من عمدتاً بر توسعه
-      <strong>منابع نوری فوق‌سریع، پرتوان، با نرخ تکرار بالا و قابلیت تنظیم گسترده طول موج</strong>
-      متمرکز بوده است؛ به‌ویژه نوسان‌سازهای پارامتری نوری با پمپاژ هم‌زمان
-      و سامانه‌های تبدیل فرکانس غیرخطی از ناحیه مرئی تا فروسرخ میانی.
+      My research has centered on the development of
+      <strong>high-power, high-repetition-rate and widely tunable ultrafast optical sources</strong>,
+      particularly synchronously pumped optical parametric oscillators and nonlinear
+      frequency-conversion systems spanning the visible to the mid-infrared.
     </p>
 
     <div class="page-focus">
-      <span>فوتونیک فوق‌سریع</span>
-      <span>اپتیک غیرخطی</span>
-      <span>نوسان‌سازهای پارامتری نوری</span>
-      <span>تبدیل فرکانس</span>
-      <span>مرئی ← فروسرخ میانی</span>
+      <span>Ultrafast Photonics</span>
+      <span>Nonlinear Optics</span>
+      <span>Optical Parametric Oscillators</span>
+      <span>Frequency Conversion</span>
+      <span>Visible → Mid-IR</span>
     </div>
 
   </section>
 
 
   <!-- =====================================================
-       OVERVIEW
+       RESEARCH OVERVIEW
        ===================================================== -->
 
   <section class="page-section research-section">
 
     <div class="section-heading">
 
-      <p class="section-number">۰۱</p>
+      <p class="section-number">01</p>
 
       <div>
-        <h2>مروری بر پژوهش‌ها</h2>
+        <h2>Research Overview</h2>
         <p>
-          تولید منابع نوری قابل تنظیم و فوق‌سریع با استفاده از برهم‌کنش‌های اپتیکی غیرخطی.
+          Tunable ultrafast sources through nonlinear optical interactions.
         </p>
       </div>
 
@@ -58,27 +58,27 @@ permalink: /fa/research/
     <div class="research-overview">
 
       <p>
-        محور اصلی پژوهش‌های من استفاده از
-        <strong>برهم‌کنش‌های اپتیکی غیرخطی برای تولید پالس‌های فوق‌کوتاه
-        در طول موج‌ها و نرخ‌های تکراری بوده است که دستیابی مستقیم به آن‌ها
-        با محیط‌های بهره لیزری متداول دشوار است</strong>.
+        The central theme of my research is the use of
+        <strong>nonlinear optical interactions to generate ultrashort pulses
+        at wavelengths and repetition rates that are difficult to obtain directly
+        from conventional laser gain media</strong>.
       </p>
 
       <p>
-        بخش مهمی از این فعالیت‌ها بر
-        <strong>نوسان‌سازهای پارامتری نوری با پمپاژ هم‌زمان (SPOPO)</strong>
-        متمرکز بوده است. در این سامانه‌ها، پالس‌های سیگنال درون کاواک با
-        پالس‌های لیزر پمپ هم‌زمان می‌شوند و انتقال مؤثر انرژی پارامتری را
-        در کنار نرخ تکرار بالا، قابلیت تنظیم گسترده و کیفیت مناسب زمانی،
-        طیفی و فضایی فراهم می‌کنند.
+        A major part of this work has involved
+        <strong>synchronously pumped optical parametric oscillators (SPOPOs)</strong>.
+        In these systems, circulating signal pulses are synchronized with an ultrafast
+        pump laser, allowing efficient parametric energy transfer while maintaining
+        high repetition rates, broad tunability and good temporal, spectral and
+        spatial beam quality.
       </p>
 
       <p>
-        این پژوهش‌ها سامانه‌های فمتوثانیه و پیکوثانیه با پمپاژ
-        Ti:sapphire و لیزرهای فیبری Yb، مواد غیرخطی پولینگ‌شده،
-        تبدیل فرکانس درون‌کاواک، مدیریت پاشندگی، کار در هارمونیک‌های
-        نرخ تکرار، کوپلینگ خروجی تداخلی و افزایش توان در فروسرخ نزدیک
-        و میانی را در بر گرفته‌اند.
+        My work has included femtosecond and picosecond systems pumped by
+        Ti:sapphire and Yb-fiber lasers, periodically poled nonlinear materials,
+        intracavity frequency conversion, dispersion management, harmonic
+        repetition-rate operation, interferometric output coupling and
+        near- to mid-infrared power scaling.
       </p>
 
     </div>
@@ -94,12 +94,12 @@ permalink: /fa/research/
 
     <div class="section-heading">
 
-      <p class="section-number">۰۲</p>
+      <p class="section-number">02</p>
 
       <div>
-        <h2>محورهای اصلی پژوهش</h2>
+        <h2>Principal Research</h2>
         <p>
-          مهم‌ترین سامانه‌ها و مفاهیم تجربی توسعه‌یافته در جریان پژوهش‌های من.
+          The main experimental directions developed across my work at ICFO.
         </p>
       </div>
 
@@ -109,205 +109,202 @@ permalink: /fa/research/
     <div class="research-program-grid">
 
 
+      <!-- VISIBLE -->
+
       <article class="research-program-card">
 
-        <p class="research-card-kicker">منابع فوق‌سریع در ناحیه مرئی</p>
+        <p class="research-card-kicker">Visible ultrafast sources</p>
 
         <h3>
-          OPO فمتوثانیه با دوبرابرکردن فرکانس درون‌کاواک
+          Femtosecond OPO with intracavity frequency doubling
         </h3>
 
         <p>
-          یک OPO فمتوثانیه مبتنی بر PPLN که با لیزر Ti:sapphire
-          با نرخ تکرار ۷۶ مگاهرتز پمپ می‌شد توسعه یافت و پالس‌های
-          سیگنال فروسرخ آن درون کاواک با استفاده از BIBO دوبرابر فرکانس شدند.
+          We developed a PPLN-based femtosecond OPO synchronously pumped by a
+          76 MHz Ti:sapphire laser, generating infrared signal pulses that were
+          internally frequency-doubled in BIBO.
         </p>
 
         <p>
-          ترکیب بهره غیرخطی بالا و پهنای پذیرش مناسب PPLN و BIBO،
-          پوشش پیوسته ناحیه
-          <strong>۶۶۵ تا ۷۸۵ نانومتر</strong>
-          را ممکن ساخت. توان خروجی تا حدود
-          <strong>۲۶۰ میلی‌وات</strong>
-          و طول پالس قرمز تا حدود
-          <strong>۱۴۰ فمتوثانیه</strong>
-          به دست آمد.
+          The combination of the high nonlinear gain and broad phase-matching
+          acceptance of PPLN and BIBO enabled continuous coverage across
+          <strong>665–785 nm</strong>. Output reached approximately
+          <strong>260 mW</strong>, with red pulses as short as
+          <strong>140 fs</strong>.
         </p>
 
         <p>
-          یکی از ویژگی‌های مهم سامانه این بود که تنظیم طول موج عمدتاً با
-          تغییر تأخیر کاواک OPO انجام می‌شد و نیاز به تنظیم مداوم دمای PPLN،
-          زاویه تطبیق فاز BIBO یا طول موج پمپ نبود.
+          An important feature of the architecture was that wavelength tuning
+          could be achieved primarily by changing the OPO cavity delay rather than
+          repeatedly adjusting the nonlinear-crystal temperature, BIBO angle or
+          pump wavelength.
         </p>
 
       </article>
 
 
+      <!-- GHz FEMTOSECOND -->
+
       <article class="research-program-card">
 
-        <p class="research-card-kicker">فمتوثانیه در محدوده گیگاهرتز</p>
+        <p class="research-card-kicker">GHz femtosecond operation</p>
 
         <h3>
-          نوسان‌سازهای پارامتری با نرخ تکرار هارمونیکی
+          Harmonic repetition-rate optical parametric oscillators
         </h3>
 
         <p>
-          در بخش دیگری از پژوهش، برای افزایش نرخ تکرار SPOPO به‌جای
-          افزایش مستقیم نرخ تکرار لیزر پمپ، طول کاواک OPO
-          <strong>بیش از طول بنیادی کاواک هم‌زمان</strong>
-          انتخاب شد.
+          A second direction explored a different approach to increasing the
+          repetition rate of a SPOPO: rather than increasing the repetition rate
+          of the pump laser itself, the OPO cavity was made
+          <strong>longer than the fundamental synchronous cavity length</strong>.
         </p>
 
         <p>
-          با این روش، خروجی در هارمونیک‌های متوالی پمپ ۷۶ مگاهرتزی
-          ایجاد شد و عملکرد تا
-          <strong>هارمونیک سیزدهم، معادل ۹۸۸ مگاهرتز</strong>
-          با پالس‌های فمتوثانیه نزدیک به حد تبدیل حاصل شد.
+          This enabled output at successive harmonics of a 76 MHz Ti:sapphire
+          pump. Operation reached the <strong>13th harmonic at 988 MHz</strong>,
+          with near-transform-limited femtosecond pulses.
         </p>
 
         <p>
-          با جبران پاشندگی درون کاواک به کمک
-          <strong>یک جفت منشور SF11</strong>،
-          خروجی پایدار تا
-          <strong>هارمونیک چهاردهم، معادل ۱۰۶۴ مگاهرتز</strong>
-          ایجاد شد و در عین حال قابلیت تنظیم طول موج در ناحیه مخابراتی
-          حدود ۱٫۵ میکرومتر حفظ شد.
+          With intracavity dispersion compensation using
+          <strong>SF11 prisms</strong>, stable output was obtained up to the
+          <strong>14th harmonic, 1064 MHz</strong>, while retaining wavelength
+          tunability around the 1.5 μm telecommunications region.
         </p>
 
       </article>
 
 
+      <!-- MULTI GHz PICOSECOND -->
+
       <article class="research-program-card">
 
-        <p class="research-card-kicker">منابع پیکوثانیه چندگیگاهرتزی</p>
+        <p class="research-card-kicker">Multi-GHz picosecond sources</p>
 
         <h3>
-          تولید پالس پارامتری با نرخ تکرار ۱۶ گیگاهرتز
+          16 GHz optical parametric pulse generation
         </h3>
 
         <p>
-          مفهوم نرخ تکرار هارمونیکی به یک سامانه پیکوثانیه با پمپاژ
-          <strong>لیزر فیبری Yb با نرخ ۸۱ مگاهرتز</strong>
-          نیز گسترش یافت.
+          The harmonic-repetition-rate concept was extended to picosecond
+          operation using an <strong>81 MHz Yb-fiber laser</strong>.
         </p>
 
         <p>
-          این OPO پالس‌های پیکوثانیه با نرخ حدود
-          <strong>۱۶ گیگاهرتز</strong>،
-          نزدیک به هارمونیک ۱۹۸ پمپ، و توان متوسط حدود
-          <strong>۶۵۰ میلی‌وات</strong>
-          تولید کرد.
+          The resulting OPO generated picosecond pulses at approximately
+          <strong>16 GHz</strong> — close to the 198th harmonic of the pump
+          repetition rate — with about <strong>650 mW</strong> of average power.
         </p>
 
         <p>
-          خروجی تقریباً در محدوده
-          <strong>۱٫۴۵ تا ۱٫۷۵ میکرومتر</strong>
-          قابل تنظیم بود و نشان داد که می‌توان بدون نیاز به لیزر پمپ
-          چندگیگاهرتزی، یک منبع فوق‌سریع با نرخ تکرار بسیار بالا ایجاد کرد.
+          The source was tunable across approximately
+          <strong>1.45–1.75 μm</strong>, demonstrating the potential of
+          synchronously pumped OPOs for multi-GHz wavelength-tunable ultrafast
+          sources without requiring a multi-GHz pump laser.
         </p>
 
       </article>
 
 
+      <!-- HIGH POWER -->
+
       <article class="research-program-card">
 
-        <p class="research-card-kicker">توان بالا در فروسرخ نزدیک و میانی</p>
+        <p class="research-card-kicker">High-power near- to mid-IR</p>
 
         <h3>
-          OPO پیکوثانیه با پمپاژ لیزر فیبری Yb
+          Yb-fiber-laser-pumped picosecond OPO
         </h3>
 
         <p>
-          یکی دیگر از محورهای اصلی پژوهش، افزایش توان با استفاده از
-          <strong>بلور ۵۰ میلی‌متری MgO:PPLN</strong>
-          و پمپاژ هم‌زمان توسط پالس‌های ۲۰٫۸ پیکوثانیه‌ای
-          لیزر فیبری Yb با نرخ ۸۱٫۱ مگاهرتز بود.
+          A major part of the work focused on power scaling using a
+          <strong>50 mm MgO:PPLN crystal</strong> synchronously pumped by
+          20.8 ps pulses from an 81.1 MHz Yb-fiber laser.
         </p>
 
         <p>
-          این سامانه به‌طور هم‌زمان
-          <strong>۷٫۱ وات سیگنال در ۱٫۵۶ میکرومتر</strong>
-          و
-          <strong>۴٫۶ وات آیدلر در ۳٫۳۳ میکرومتر</strong>
-          تولید کرد؛ یعنی در مجموع
-          <strong>۱۱٫۷ وات توان متوسط خروجی</strong>
-          با بازده استخراج حدود
-          <strong>۷۳ درصد</strong>.
+          The system simultaneously produced
+          <strong>7.1 W of signal at 1.56 μm</strong> and
+          <strong>4.6 W of idler at 3.33 μm</strong>, corresponding to
+          <strong>11.7 W of total average output power</strong> and an extraction
+          efficiency of approximately <strong>73%</strong>.
         </p>
 
         <p>
-          تنظیم طول موج تقریباً
-          <strong>۱٫۴۳ تا ۱٫۶۳ میکرومتر</strong>
-          برای سیگنال و
-          <strong>۳٫۰۶ تا ۴٫۱۶ میکرومتر</strong>
-          برای آیدلر امکان‌پذیر بود و خروجی، پروفایل فضایی تک‌مد و
-          پایداری توان مناسبی داشت.
+          Broad tuning extended from approximately
+          <strong>1.43–1.63 μm</strong> for the signal and
+          <strong>3.06–4.16 μm</strong> for the idler, while maintaining
+          single-mode spatial output and good long-term power stability.
         </p>
 
       </article>
 
 
+      <!-- OUTPUT COUPLING -->
+
       <article class="research-program-card">
 
-        <p class="research-card-kicker">بهینه‌سازی توان</p>
+        <p class="research-card-kicker">Power optimization</p>
 
         <h3>
-          کوپلینگ خروجی متغیر مبتنی بر تداخل‌سنج
+          Interferometric variable output coupling
         </h3>
 
         <p>
-          در بسیاری از نوسان‌سازهای نوری از یک کوپلر خروجی ثابت استفاده
-          می‌شود، در حالی که مقدار بهینه کوپلینگ به توان پمپ، طول موج
-          و تلفات درون کاواک وابسته است.
+          Conventional optical oscillators normally use a fixed output coupler,
+          even though the optimum coupling depends on pump power, wavelength and
+          intracavity loss.
         </p>
 
         <p>
-          برای حل این مسئله، یک
-          <strong>تداخل‌سنج حلقوی آنتی‌رزونانسی</strong>
-          به‌عنوان کوپلر خروجی پیوسته‌متغیر معرفی شد که امکان تغییر
-          کوپلینگ تقریباً از
-          <strong>۱ تا ۶۰ درصد</strong>
-          را در یک گستره طیفی وسیع فراهم می‌کرد.
+          We introduced an
+          <strong>antiresonant ring interferometer</strong> as a continuously
+          variable output coupler, providing output coupling over approximately
+          <strong>1–60%</strong> across a broad spectral range.
         </p>
 
         <p>
-          در OPO فمتوثانیه، تنظیم کوپلینگ در حدود ۳۰ درصد بیش از دو برابر
-          کوپلر معمولی با عبور کم، توان استخراج‌شده ایجاد کرد، بدون آن‌که
-          کیفیت فضایی پرتو یا مدت پالس افت محسوسی پیدا کند.
+          In a femtosecond OPO, optimization near 30% coupling produced about
+          twice the extracted power of a conventional low-transmission coupler
+          without degrading pulse duration or spatial beam quality.
         </p>
 
         <p>
-          این روش سپس به OPOهای حلقوی پرتوان و به مطالعات دقیق‌تر
-          بهینه‌سازی توان در سامانه‌های پیکوثانیه با پمپاژ لیزر فیبری گسترش یافت.
+          The concept was subsequently extended to high-power ring OPOs and to
+          detailed optimization of Yb-fiber-pumped picosecond systems.
         </p>
 
       </article>
 
 
+      <!-- MATERIALS / BIBO -->
+
       <article class="research-program-card">
 
-        <p class="research-card-kicker">مواد اپتیکی غیرخطی</p>
+        <p class="research-card-kicker">Nonlinear materials</p>
 
         <h3>
-          BIBO و تبدیل فرکانس فمتوثانیه
+          BIBO and femtosecond nonlinear frequency conversion
         </h3>
 
         <p>
-          در یک مطالعه جامع نیز در بررسی
-          <strong>تری‌بورات بیسموت، BiB₃O₆ یا BIBO</strong>
-          به‌عنوان یک ماده غیرخطی برای تبدیل فرکانس منابع فوق‌سریع مشارکت داشتم.
+          I also contributed to a comprehensive study of
+          <strong>bismuth triborate, BiB₃O₆ (BIBO)</strong>, as a nonlinear
+          optical material for ultrafast frequency conversion.
         </p>
 
         <p>
-          این مطالعه ویژگی‌های اپتیکی خطی و غیرخطی، پیکربندی‌های تطبیق فاز،
-          عدم‌تطابق سرعت گروهی، پذیرش طیفی و زاویه‌ای، پهنای بهره پارامتری،
-          پاشندگی سرعت گروهی و walk-off فضایی را بررسی می‌کرد.
+          The work examined linear and nonlinear optical properties,
+          phase-matching configurations, group-velocity mismatch,
+          spectral and angular acceptance, parametric gain bandwidth,
+          group-velocity dispersion and spatial walk-off.
         </p>
 
         <p>
-          این پارامترها برای انتخاب بلور و هندسه مناسب در تبدیل فرکانس
-          با بازده بالا و در عین حال حفظ طول پالس کوتاه و کیفیت فضایی پرتو
-          اهمیت اساسی دارند.
+          These parameters are central to selecting nonlinear crystals and
+          geometries for efficient frequency conversion while preserving short
+          pulse duration and high spatial beam quality.
         </p>
 
       </article>
@@ -318,19 +315,19 @@ permalink: /fa/research/
 
 
   <!-- =====================================================
-       RELATED RESEARCH
+       RELATED / EARLIER RESEARCH
        ===================================================== -->
 
   <section class="page-section research-section">
 
     <div class="section-heading">
 
-      <p class="section-number">۰۳</p>
+      <p class="section-number">03</p>
 
       <div>
-        <h2>پژوهش‌های مرتبط و اولیه</h2>
+        <h2>Related & Earlier Research</h2>
         <p>
-          فعالیت‌های دیگر در اپتیک غیرخطی مجتمع و فیزیک لیزرهای پرشدت.
+          Additional work in integrated nonlinear optics and high-intensity laser physics.
         </p>
       </div>
 
@@ -341,21 +338,20 @@ permalink: /fa/research/
 
       <article class="research-secondary-item">
 
-        <h3>موجبرهای نیمه‌رسانای quasi-phase-matched</h3>
+        <h3>Quasi-phase-matched semiconductor waveguides</h3>
 
         <p>
-          در پژوهشی درباره موجبرهای نیمه‌رسانای
-          <strong>GaAs/AlGaAs</strong>
-          با quasi-phase matching که با روش quantum-well intermixing
-          و domain disorder ساخته شده بودند نیز مشارکت داشتم.
+          I contributed to work on domain-disordered quasi-phase-matched
+          <strong>GaAs/AlGaAs semiconductor waveguides</strong> produced using
+          quantum-well intermixing.
         </p>
 
         <p>
-          این مطالعه تولید هارمونیک دوم با پالس‌های پیکوثانیه و محدودیت‌های
-          عملی ناشی از غیرخطی‌های مرتبه سوم، عدم‌تطابق سرعت گروهی و
-          هم‌پوشانی طیفی با پهنای تبدیل را بررسی می‌کرد. استفاده از
-          پالس‌های بلندتر پیکوثانیه‌ای نیز به‌عنوان روشی برای کاهش این
-          محدودیت‌ها و ارزیابی دقیق‌تر بازده بررسی شد.
+          The study investigated second-harmonic generation with picosecond pulses
+          and the practical limitations imposed by third-order nonlinear effects,
+          group-velocity mismatch and spectral overlap with the conversion
+          bandwidth. Longer picosecond pulses were investigated as a route toward
+          more reliable evaluation and improved conversion performance.
         </p>
 
       </article>
@@ -363,19 +359,19 @@ permalink: /fa/research/
 
       <article class="research-secondary-item">
 
-        <h3>لیزرهای فوق‌پرتوان و ترانس‌موتاسیون فوتوهسته‌ای</h3>
+        <h3>Ultra-intense lasers and photonuclear transmutation</h3>
 
         <p>
-          در دوره‌ای اولیه‌تر، پژوهش من شامل تحلیل نظری فرایندهای
-          فوتوهسته‌ای ناشی از برهم‌کنش لیزر فوق‌پرتوان با ماده نیز بود.
+          My earlier research included theoretical analysis of photonuclear
+          transmutation driven by ultra-intense laser–solid interactions.
         </p>
 
         <p>
-          الکترون‌های نسبیتی حاصل از برهم‌کنش لیزر و هدف جامد از طریق
-          Bremsstrahlung پرتوهای γ تولید می‌کنند که می‌توانند واکنش‌های
-          فوتوهسته‌ای ایجاد کنند. در این مطالعه امکان تبدیل
-          <strong>¹³⁷Cs از طریق واکنش (γ,n)</strong>
-          و فعالیت هسته‌ای حاصل، بر اساس داده‌های تجربی موجود بررسی شد.
+          Relativistic electrons generated in the laser–solid interaction produce
+          bremsstrahlung γ-rays, which can drive photonuclear reactions. The study
+          examined the possible transmutation of long-lived
+          <strong>¹³⁷Cs through the (γ,n) reaction</strong> and evaluated the
+          resulting activity using experimental laser-interaction data.
         </p>
 
       </article>
@@ -393,12 +389,12 @@ permalink: /fa/research/
 
     <div class="section-heading">
 
-      <p class="section-number">۰۴</p>
+      <p class="section-number">04</p>
 
       <div>
-        <h2>پژوهش دکتری</h2>
+        <h2>Doctoral Research</h2>
         <p>
-          جمع‌بندی سامانه‌ها و مفاهیم اصلی توسعه‌یافته در پژوهش‌های OPO فوق‌سریع.
+          A synthesis of the main ultrafast OPO systems and concepts.
         </p>
       </div>
 
@@ -408,29 +404,29 @@ permalink: /fa/research/
     <div class="research-feature">
 
       <h3>
-        نوسان‌سازهای پارامتری نوری فوق‌سریع و پرتوان از ناحیه مرئی تا فروسرخ میانی
+        High-power ultrafast optical parametric oscillators from the visible to mid-infrared
       </h3>
 
       <p>
-        پژوهش دکتری من مجموعه‌ای از سامانه‌های OPO با پمپاژ هم‌زمان را
-        در شرایط بسیار متفاوت در بر می‌گیرد: پالس‌های فمتوثانیه و پیکوثانیه،
-        طول موج‌های مرئی تا فروسرخ میانی، نرخ‌های تکرار مگاهرتز تا گیگاهرتز
-        و سامانه‌هایی که برای انعطاف طیفی یا توان متوسط بالا بهینه شده‌اند.
+        My doctoral work brings together the development of synchronously pumped
+        optical parametric oscillators over a broad range of operating regimes:
+        femtosecond and picosecond pulses, visible through mid-infrared wavelengths,
+        MHz through GHz repetition rates, and systems optimized for either spectral
+        flexibility or high average power.
       </p>
 
       <p>
-        هدف مشترک این سامانه‌ها استفاده هم‌زمان از بهره غیرخطی،
-        هم‌زمان‌سازی کاواک، کنترل پاشندگی و استخراج بهینه توان برای
-        دستیابی به منابعی با
-        <strong>تنظیم‌پذیری گسترده طول موج، بازده تبدیل بالا،
-        نرخ تکرار زیاد و کیفیت مناسب پالس‌های فوق‌کوتاه</strong>
-        بوده است.
+        The common objective was to exploit nonlinear optical gain, cavity
+        synchronization, dispersion control and optimized power extraction to
+        obtain sources combining
+        <strong>wide wavelength tunability, high conversion efficiency,
+        high repetition rate and high-quality ultrashort pulses</strong>.
       </p>
 
       <a class="research-link"
          href="https://doi.org/10.5821/dissertation-2117-449779"
          target="_blank" rel="noopener">
-        رساله دکتری ↗
+        Doctoral thesis ↗
       </a>
 
     </div>
@@ -446,12 +442,12 @@ permalink: /fa/research/
 
     <div class="section-heading">
 
-      <p class="section-number">۰۵</p>
+      <p class="section-number">05</p>
 
       <div>
-        <h2>سامانه‌ها و روش‌های آزمایشگاهی</h2>
+        <h2>Experimental Platforms & Techniques</h2>
         <p>
-          مواد، منابع لیزری و روش‌های اصلی مورد استفاده در پژوهش‌ها.
+          Principal materials, laser systems and optical methods used in the research.
         </p>
       </div>
 
@@ -461,7 +457,7 @@ permalink: /fa/research/
     <div class="research-tech-grid">
 
       <div class="research-tech-group">
-        <h3>مواد غیرخطی</h3>
+        <h3>Nonlinear Materials</h3>
         <div class="research-tech-tags">
           <span>PPLN</span>
           <span>MgO:PPLN</span>
@@ -471,33 +467,33 @@ permalink: /fa/research/
       </div>
 
       <div class="research-tech-group">
-        <h3>منابع لیزری</h3>
+        <h3>Laser Platforms</h3>
         <div class="research-tech-tags">
           <span>KLM Ti:Sapphire</span>
           <span>Yb Fiber Lasers</span>
-          <span>فمتوثانیه</span>
-          <span>پیکوثانیه</span>
+          <span>Femtosecond</span>
+          <span>Picosecond</span>
         </div>
       </div>
 
       <div class="research-tech-group">
-        <h3>طراحی OPO</h3>
+        <h3>OPO Design</h3>
         <div class="research-tech-tags">
           <span>SPOPO</span>
-          <span>کاواک گسترش‌یافته</span>
-          <span>کاواک خطی</span>
-          <span>کاواک حلقوی</span>
-          <span>نرخ تکرار هارمونیکی</span>
+          <span>Extended Cavities</span>
+          <span>Linear Cavities</span>
+          <span>Ring Cavities</span>
+          <span>Harmonic Repetition Rate</span>
         </div>
       </div>
 
       <div class="research-tech-group">
-        <h3>روش‌های اپتیکی</h3>
+        <h3>Optical Techniques</h3>
         <div class="research-tech-tags">
           <span>Intracavity SHG</span>
-          <span>جبران پاشندگی</span>
-          <span>منشور SF11</span>
-          <span>کوپلینگ تداخلی</span>
+          <span>Dispersion Compensation</span>
+          <span>SF11 Prisms</span>
+          <span>Interferometric Coupling</span>
           <span>Quasi-Phase Matching</span>
         </div>
       </div>
@@ -515,19 +511,19 @@ permalink: /fa/research/
 
     <div class="section-heading publications-heading">
 
-      <p class="section-number">۰۶</p>
+      <p class="section-number">06</p>
 
       <div>
-        <h2>مقالات و آثار علمی</h2>
+        <h2>Publications & Scholarly Works</h2>
         <p>
-          مقالات ژورنالی، مقالات کنفرانسی، پیش‌چاپ و پژوهش دانشگاهی.
+          Journal papers, conference proceedings, preprint and graduate research.
         </p>
       </div>
 
     </div>
 
 
-    <div class="publication-list compact-publications" dir="ltr">
+    <div class="publication-list compact-publications">
 
 
       <article class="publication-item">
@@ -774,34 +770,34 @@ permalink: /fa/research/
 
 
   <!-- =====================================================
-       RESEARCH INTERESTS
+       CURRENT INTERESTS
        ===================================================== -->
 
   <section class="page-section page-section-last research-section">
 
     <div class="section-heading">
 
-      <p class="section-number">۰۷</p>
+      <p class="section-number">07</p>
 
       <div>
-        <h2>علایق پژوهشی</h2>
+        <h2>Research Interests</h2>
         <p>
-          حوزه‌های علمی و فنی که همچنان مورد توجه من هستند.
+          Scientific and technical areas that continue to interest me.
         </p>
       </div>
 
     </div>
 
     <div class="interest-cloud">
-      <span>فوتونیک فوق‌سریع</span>
-      <span>اپتیک غیرخطی</span>
-      <span>نوسان‌سازهای پارامتری نوری</span>
-      <span>فوتونیک فروسرخ میانی</span>
-      <span>منابع با نرخ تکرار بالا</span>
-      <span>تبدیل فرکانس</span>
-      <span>اندازه‌گیری اپتیکی</span>
-      <span>سامانه‌های لیزری</span>
-      <span>فوتونیک غیرخطی مجتمع</span>
+      <span>Ultrafast Photonics</span>
+      <span>Nonlinear Optics</span>
+      <span>Optical Parametric Oscillators</span>
+      <span>Mid-Infrared Photonics</span>
+      <span>High-Repetition-Rate Sources</span>
+      <span>Frequency Conversion</span>
+      <span>Optical Metrology</span>
+      <span>Laser Systems</span>
+      <span>Integrated Nonlinear Photonics</span>
     </div>
 
   </section>
