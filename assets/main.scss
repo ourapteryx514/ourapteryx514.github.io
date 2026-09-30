@@ -639,3 +639,79 @@ body {
     height: 200px;
   }
 }
+/* INTERESTS */
+
+.interest-filters {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 35px 0 50px;
+}
+
+.interest-filter {
+  appearance: none;
+  width: 100%;
+  padding: 18px 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  background: transparent;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.interest-filter:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 20px rgba(0,0,0,0.07);
+}
+
+.interest-filter.active {
+  border-color: #999;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+
+.interest-filter strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.interest-filter span {
+  display: block;
+  font-size: 14px;
+  color: #777;
+}
+
+.fa-page .interest-filter {
+  text-align: right;
+}
+
+.interest-tags {
+  margin: 5px 0 8px;
+}
+
+.interest-tags span {
+  display: inline-block;
+  padding: 3px 9px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  font-size: 13px;
+  color: #777;
+}
+
+.fa-page .interest-tags span {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .interest-filters {
+    grid-template-columns: 1fr;
+  }
+
+}
