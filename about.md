@@ -20,9 +20,9 @@ Later that year, I moved to Barcelona, Spain, where I continued my master's stud
 
 At ICFO, I worked with the **Optical Parametric Oscillators** group, focusing on ultrafast laser systems, nonlinear frequency conversion and optical parametric oscillators.
 
-I subsequently continued my PhD research and studies at ICFO. My doctoral research focused on **high-power ultrafast optical parametric oscillators from the visible to the mid-infrared**, including femtosecond and picosecond systems, high-repetition-rate sources and nonlinear frequency conversion.
+I subsequently continued my doctoral research and studies at ICFO. My PhD research focused on **high-power ultrafast optical parametric oscillators from the visible to the mid-infrared**, including femtosecond and picosecond systems, high-repetition-rate sources and nonlinear frequency conversion.
 
-After completing my PhD research and studies at ICFO in **2010**, I moved to the United States and continued my academic and research activities at the **University of Texas at Austin**, working in optics and photonics.
+After completing the research and study phase of my PhD at ICFO in **2010**, I moved to the United States and continued my academic and research activities at the **University of Texas at Austin**, working in optics and photonics.
 
 My scientific work has involved nonlinear optical materials such as PPLN and BIBO, synchronously pumped optical parametric oscillators, fiber-laser-pumped sources, high-repetition-rate systems, harmonic generation and ultrafast photonics.
 
@@ -30,11 +30,26 @@ My scientific work has involved nonlinear optical materials such as PPLN and BIB
 
 My commitment to scientific freedom, scientific responsibility and the ethical use of scientific knowledge has received international recognition.
 
-In **2014**, I received the **Andrei Sakharov Prize** from the American Physical Society (APS), recognizing my commitment to the responsible use of scientific knowledge and my position against applying scientific expertise to purposes that could be harmful to humanity.
+In **2014**, I received the **Andrei Sakharov Prize** from the American Physical Society (APS), recognizing my courage in refusing to apply my physics knowledge to projects that I considered harmful to humanity.
 
-In the same year, I received the **Scientific Freedom and Responsibility Award** from the American Association for the Advancement of Science (AAAS), recognizing my defense of scientific responsibility and the principle that scientific knowledge should be used responsibly and for the benefit of society.
+In the same year, I received the **Scientific Freedom and Responsibility Award** from the American Association for the Advancement of Science (AAAS), recognizing my commitment to scientific freedom, responsibility and the ethical use of scientific expertise.
 
 I have also received educational and research support through a **joint Optica and SPIE grant**.
+
+## Books & Translation
+
+Alongside my scientific work, I have contributed to Persian-language publications in the fields of human rights, society and political thought.
+
+**The Atlas of Human Rights: Mapping Violations of Freedom Around the Globe**  
+Andrew Fagan  
+Persian translation with **Mehdi Khodaei**  
+Published in Persian as *اطلس حقوق بشر* by **Armanshahr**, 2014.
+
+**Social Movements and Democratization**  
+*جنبش‌های اجتماعی و دموکراتیزاسیون*  
+Compiled by **Saeed Madani Ghahfarokhi**  
+Contributor and Persian translator of **“Middle-Class Radicalism and Environmentalism”** by Stephen Cotgrove and Andrew Duff.  
+Published by **Rowzaneh**, Tehran, 2017.
 
 ## Technology, Industry & International Business
 
@@ -56,4 +71,6 @@ My international work has involved working with suppliers, customers and industr
 - Technical and technology consulting
 - International sourcing and trade
 - Industrial and commercial project development
-- Science, history and technology
+- History, languages and cultures
+- Books and literature
+- Entomology
