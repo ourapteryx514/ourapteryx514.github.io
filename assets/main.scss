@@ -254,8 +254,37 @@ body {
 
 
 /* =========================================================
-   BLOG PAGE
+   05. BLOG
    ========================================================= */
+
+/* Individual blog posts */
+
+.blog-date {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.blog-post-page {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.blog-post-body {
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.blog-post-body img {
+  width: 100%;
+  height: 420px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin: 25px 0;
+}
+
+
+/* Blog index */
 
 .blog-page .page-hero {
   padding-bottom: 36px;
@@ -268,11 +297,6 @@ body {
 .blog-page .section-heading {
   margin-bottom: 22px;
 }
-
-
-/* ---------------------------------------------------------
-   BLOG LIBRARY
-   --------------------------------------------------------- */
 
 .blog-library {
   border-top: 1px solid #e8e8e8;
@@ -290,9 +314,6 @@ body {
   grid-template-columns: 1fr;
 }
 
-
-/* Image */
-
 .blog-library-image {
   display: block;
   align-self: start;
@@ -306,15 +327,9 @@ body {
   border-radius: 9px;
 }
 
-
-/* Main content */
-
 .blog-library-content {
   min-width: 0;
 }
-
-
-/* Metadata */
 
 .blog-library-meta {
   display: flex;
@@ -329,9 +344,6 @@ body {
   font-size: 11.5px;
   color: #999;
 }
-
-
-/* Categories */
 
 .blog-library-categories {
   display: flex;
@@ -349,9 +361,6 @@ body {
   color: #777;
 }
 
-
-/* Title */
-
 .blog-library-content h3 {
   margin: 0 0 6px;
   font-size: 18px;
@@ -368,9 +377,6 @@ body {
   text-decoration: underline;
 }
 
-
-/* Excerpt */
-
 .blog-library-excerpt {
   max-width: 720px;
   margin-bottom: 6px;
@@ -382,9 +388,6 @@ body {
 .blog-library-excerpt p {
   margin: 0;
 }
-
-
-/* Read link */
 
 .blog-library-link {
   display: inline-block;
@@ -398,9 +401,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   PERSIAN / RTL
-   --------------------------------------------------------- */
+/* Persian / RTL blog index */
 
 .fa-page .blog-library-content,
 .fa-page .blog-library-meta,
@@ -409,9 +410,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------
-   TABLET
-   --------------------------------------------------------- */
+/* Blog responsive */
 
 @media screen and (max-width: 760px) {
 
@@ -429,13 +428,7 @@ body {
     width: 125px;
     height: 90px;
   }
-
 }
-
-
-/* ---------------------------------------------------------
-   PHONE
-   --------------------------------------------------------- */
 
 @media screen and (max-width: 560px) {
 
@@ -464,32 +457,6 @@ body {
     font-size: 13px;
     line-height: 1.55;
   }
-
-}
-
-
-.blog-date {
-  margin: 0;
-  font-size: 14px;
-  color: #888;
-}
-
-.blog-post-page {
-  max-width: 780px;
-  margin: 0 auto;
-}
-
-.blog-post-body {
-  font-size: 17px;
-  line-height: 1.8;
-}
-
-.blog-post-body img {
-  width: 100%;
-  height: 420px;
-  object-fit: contain;
-  border-radius: 8px;
-  margin: 25px 0;
 }
 
 
@@ -1844,7 +1811,6 @@ body {
     font-size: 13px;
     line-height: 1.55;
   }
-
 }
 
 
@@ -2191,15 +2157,6 @@ body {
 
   .cards {
     grid-template-columns: 1fr;
-  }
-
-  .blog-entry {
-    grid-template-columns: 1fr;
-  }
-
-  .blog-thumbnail {
-    width: 100%;
-    height: 220px;
   }
 
   .blog-post-body img {
