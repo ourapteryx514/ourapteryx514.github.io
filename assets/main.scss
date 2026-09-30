@@ -715,3 +715,21 @@ body {
   }
 
 }
+/* INTEREST ARTICLE LIST */
+
+.interest-article.no-image {
+  grid-template-columns: 1fr;
+}
+
+.interest-article.no-image .blog-entry-content {
+  width: 100%;
+  max-width: none;
+}
+
+.interest-articles {
+  width: 100%;
+}
+
+.interest-article {
+  width: 100%;
+}
