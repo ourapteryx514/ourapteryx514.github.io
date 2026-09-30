@@ -36,9 +36,9 @@ In the same year, I received the **Scientific Freedom and Responsibility Award**
 
 I have also received educational and research support through a **joint Optica and SPIE grant**.
 
-## Books & Translation
+## Books, Translation & Editorial Contributions
 
-Alongside my scientific work, I have contributed to Persian-language publications in the fields of human rights, society and political thought.
+Alongside my scientific work, I have contributed to Persian-language publications in the fields of human rights, social sciences, political thought and science.
 
 **The Atlas of Human Rights: Mapping Violations of Freedom Around the Globe**  
 Andrew Fagan  
@@ -49,7 +49,12 @@ Published in Persian as *اطلس حقوق بشر* by **Armanshahr**, 2014.
 *جنبش‌های اجتماعی و دموکراتیزاسیون*  
 Compiled by **Saeed Madani Ghahfarokhi**  
 Contributor and Persian translator of **“Middle-Class Radicalism and Environmentalism”** by Stephen Cotgrove and Andrew Duff.  
-Published by **Rowzaneh**, Tehran, 2017.
+Published by **Rowzaneh**, Tehran.
+
+**Gödel, Escher, Bach: An Eternal Golden Braid**  
+Douglas Hofstadter  
+Persian translation by **Morteza Khazenedari, Soroush Sabet and Abdolreza Khazenedari**.  
+I contributed through discussions with the translators on several of the book's subjects, particularly concepts related to modern physics, and assisted in finding appropriate Persian equivalents for a number of complex and specialized terms. The translators acknowledged these contributions in the introduction to the Persian edition.
 
 ## Technology, Industry & International Business
 
