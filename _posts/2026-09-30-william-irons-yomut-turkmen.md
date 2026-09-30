@@ -32,7 +32,7 @@ Nevertheless, the Yomut Turkmen remained an important part of his scholarship fo
 
 ## Fieldwork among the Yomut
 
-Irons carried out his early fieldwork among Yomut communities on the **Gorgan Plain**, east and southeast of the Caspian Sea in northern Iran.
+Irons carried out his early fieldwork among Yomut communities on the **Turkmen Sahra**, east and southeast of the Caspian Sea in northern Iran.
 
 This is particularly significant for the study of Iranian Turkmens.
 
