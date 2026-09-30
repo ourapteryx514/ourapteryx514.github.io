@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<article class="blog-post-page">
+
+  <p class="blog-date">
+    {{ page.date | date: "%d %B %Y" }}
+  </p>
+
+  {% if page.tags %}
+  <p class="interest-tags">
+    {% for tag in page.tags %}
+      <span>{{ tag }}</span>
+    {% endfor %}
+  </p>
+  {% endif %}
+
+  <h1 style="margin-top:0; margin-bottom:25px;">
+    {{ page.title }}
+  </h1>
+
+  <div class="blog-post-body">
+    {{ content }}
+  </div>
+
+  <hr style="
+    margin:50px 0 25px;
+    border:0;
+    border-top:1px solid #eeeeee;
+  ">
+
+  <p>
+    <a href="{{ '/interests/' | relative_url }}">
+      ← Back to Interests
+    </a>
+  </p>
+
+</article>
