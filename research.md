@@ -19,7 +19,8 @@ permalink: /research/
     <p class="page-lead">
       My research has focused on the generation and control of ultrashort optical
       pulses using nonlinear optical processes, particularly
-      <strong>optical parametric oscillators, frequency conversion and high-repetition-rate laser systems</strong>.
+      <strong>optical parametric oscillators, frequency conversion and
+      high-repetition-rate laser systems</strong>.
     </p>
 
     <div class="page-focus">
@@ -33,7 +34,7 @@ permalink: /research/
   </section>
 
 
-  <!-- RESEARCH PROFILE -->
+  <!-- RESEARCH OVERVIEW -->
 
   <section class="page-section">
 
@@ -42,63 +43,35 @@ permalink: /research/
       <p class="section-number">01</p>
 
       <div>
-        <h2>Research Profile</h2>
+        <h2>Research Overview</h2>
         <p>
-          Experimental research in ultrafast laser science and nonlinear frequency conversion.
+          Experimental work in ultrafast laser science and nonlinear frequency conversion.
         </p>
       </div>
 
     </div>
 
 
-    <div class="research-intro-grid">
+    <div class="research-overview">
 
-      <div class="research-intro-main">
+      <p>
+        My scientific work has been centered on
+        <strong>ultrafast and nonlinear photonics</strong>, with particular emphasis
+        on synchronously pumped optical parametric oscillators (SPOPOs).
+      </p>
 
-        <p>
-          My scientific work has been centered on
-          <strong>ultrafast and nonlinear photonics</strong>, with particular emphasis
-          on synchronously pumped optical parametric oscillators (SPOPOs).
-        </p>
+      <p>
+        These systems use nonlinear optical interactions to convert ultrafast pump
+        radiation into widely tunable optical output at wavelengths that are difficult
+        to access directly with conventional laser gain media.
+      </p>
 
-        <p>
-          These systems use nonlinear optical interactions to convert the output of
-          ultrafast pump lasers into widely tunable radiation at wavelengths that are
-          difficult to access directly with conventional laser gain media.
-        </p>
-
-        <p>
-          My research has covered sources operating from the
-          <strong>visible spectral region to the mid-infrared</strong>, using both
-          femtosecond and picosecond pulses and repetition rates ranging from
-          tens of megahertz to the gigahertz regime.
-        </p>
-
-      </div>
-
-
-      <div class="research-summary-card">
-
-        <p class="research-summary-label">Research field</p>
-
-        <h3>Ultrafast Nonlinear Photonics</h3>
-
-        <div class="research-stat">
-          <span>Spectral range</span>
-          <strong>Visible → Mid-IR</strong>
-        </div>
-
-        <div class="research-stat">
-          <span>Pulse regimes</span>
-          <strong>fs & ps</strong>
-        </div>
-
-        <div class="research-stat">
-          <span>Repetition rates</span>
-          <strong>76 MHz → 1 GHz</strong>
-        </div>
-
-      </div>
+      <p>
+        My research has covered sources operating from the
+        <strong>visible spectral region to the mid-infrared</strong>, including
+        femtosecond and picosecond systems and architectures operating from
+        conventional MHz repetition rates into the GHz regime.
+      </p>
 
     </div>
 
@@ -126,58 +99,35 @@ permalink: /research/
     <div class="research-theme-grid">
 
       <article class="research-theme-card">
-
-        <p class="research-theme-number">01</p>
-
         <h3>Optical Parametric Oscillators</h3>
-
         <p>
-          Design and development of synchronously pumped OPOs for the generation
-          of high-power, tunable ultrashort pulses across broad spectral regions.
+          Design and development of synchronously pumped OPOs for generating
+          high-power, tunable ultrashort pulses across broad spectral regions.
         </p>
-
       </article>
 
-
       <article class="research-theme-card">
-
-        <p class="research-theme-number">02</p>
-
         <h3>Nonlinear Frequency Conversion</h3>
-
         <p>
           Parametric generation, frequency doubling and harmonic generation using
           nonlinear optical crystals and ultrafast laser sources.
         </p>
-
       </article>
 
-
       <article class="research-theme-card">
-
-        <p class="research-theme-number">03</p>
-
         <h3>High-Repetition-Rate Sources</h3>
-
         <p>
           Development of ultrafast OPO architectures operating from conventional
-          MHz repetition rates to systems approaching the GHz regime.
+          MHz repetition rates to the GHz regime.
         </p>
-
       </article>
 
-
       <article class="research-theme-card">
-
-        <p class="research-theme-number">04</p>
-
         <h3>Visible & Mid-Infrared Photonics</h3>
-
         <p>
-          Extending ultrafast sources into wavelength regions with applications
-          in spectroscopy, sensing, imaging and nonlinear optics.
+          Extension of ultrafast sources into wavelength regions relevant to
+          spectroscopy, sensing, imaging and nonlinear optics.
         </p>
-
       </article>
 
     </div>
@@ -205,8 +155,6 @@ permalink: /research/
 
     <div class="research-feature">
 
-      <p class="research-feature-label">PhD research</p>
-
       <h3>
         High-power ultrafast optical parametric oscillators from the visible to mid-infrared
       </h3>
@@ -214,8 +162,8 @@ permalink: /research/
       <p>
         My doctoral research investigated the development of
         <strong>high-power synchronously pumped optical parametric oscillators</strong>
-        operating over a very broad spectral range and at repetition rates from
-        approximately <strong>76 MHz to 1 GHz</strong>.
+        operating over a broad spectral range and across repetition rates extending
+        from tens of megahertz to the gigahertz regime.
       </p>
 
       <p>
@@ -230,25 +178,6 @@ permalink: /research/
         <strong>PPLN</strong> as the parametric gain medium with
         <strong>BIBO</strong> for intracavity frequency doubling.
       </p>
-
-      <div class="research-result-grid">
-
-        <div>
-          <span>Tunable red output</span>
-          <strong>665–785 nm</strong>
-        </div>
-
-        <div>
-          <span>Conversion efficiency</span>
-          <strong>17.2%</strong>
-        </div>
-
-        <div>
-          <span>Highest repetition rate</span>
-          <strong>1 GHz</strong>
-        </div>
-
-      </div>
 
     </div>
 
@@ -276,50 +205,36 @@ permalink: /research/
     <div class="research-tech-grid">
 
       <div class="research-tech-group">
-
         <h3>Nonlinear Materials</h3>
-
         <div class="research-tech-tags">
           <span>PPLN</span>
           <span>MgO:PPLN</span>
           <span>BIBO</span>
         </div>
-
       </div>
 
-
       <div class="research-tech-group">
-
         <h3>Laser Platforms</h3>
-
         <div class="research-tech-tags">
           <span>Ti:Sapphire</span>
           <span>Yb Fiber Lasers</span>
           <span>Femtosecond Sources</span>
           <span>Picosecond Sources</span>
         </div>
-
       </div>
 
-
       <div class="research-tech-group">
-
         <h3>OPO Architectures</h3>
-
         <div class="research-tech-tags">
           <span>SPOPO</span>
           <span>Extended Cavities</span>
           <span>GHz Repetition Rate</span>
           <span>Intracavity SHG</span>
         </div>
-
       </div>
 
-
       <div class="research-tech-group">
-
         <h3>Optical Techniques</h3>
-
         <div class="research-tech-tags">
           <span>Dispersion Control</span>
           <span>SF11 Prisms</span>
@@ -327,7 +242,6 @@ permalink: /research/
           <span>Harmonic Generation</span>
           <span>Antiresonant Designs</span>
         </div>
-
       </div>
 
     </div>
@@ -346,7 +260,7 @@ permalink: /research/
       <div>
         <h2>Selected Publications</h2>
         <p>
-          Selected publications from my work in nonlinear optics and optical parametric systems.
+          Selected journal publications in nonlinear optics and optical parametric systems.
         </p>
       </div>
 
@@ -366,16 +280,19 @@ permalink: /research/
           </h3>
 
           <p class="publication-authors">
-            O. Kokabee, A. Esteban-Martin, M. Ebrahim-Zadeh
+            <strong>O. Kokabee</strong>, A. Esteban-Martin, M. Ebrahim-Zadeh
           </p>
 
-          <p class="publication-journal">
-            Optics Letters · 35 · 3210–3212
-          </p>
+          <div class="publication-meta">
+            <span>Optics Letters</span>
+            <span>35</span>
+            <span>3210–3212</span>
+          </div>
 
-          <p class="publication-doi">
-            DOI: 10.1364/OL.35.003210
-          </p>
+          <a class="publication-doi"
+             href="https://doi.org/10.1364/OL.35.003210">
+            DOI 10.1364/OL.35.003210 ↗
+          </a>
 
         </div>
 
@@ -393,16 +310,19 @@ permalink: /research/
           </h3>
 
           <p class="publication-authors">
-            O. Kokabee, A. Esteban-Martin, M. Ebrahim-Zadeh
+            <strong>O. Kokabee</strong>, A. Esteban-Martin, M. Ebrahim-Zadeh
           </p>
 
-          <p class="publication-journal">
-            Optics Express · 17 · 15635–15640
-          </p>
+          <div class="publication-meta">
+            <span>Optics Express</span>
+            <span>17</span>
+            <span>15635–15640</span>
+          </div>
 
-          <p class="publication-doi">
-            DOI: 10.1364/OE.17.015635
-          </p>
+          <a class="publication-doi"
+             href="https://doi.org/10.1364/OE.17.015635">
+            DOI 10.1364/OE.17.015635 ↗
+          </a>
 
         </div>
 
@@ -420,16 +340,19 @@ permalink: /research/
           </h3>
 
           <p class="publication-authors">
-            A. Esteban-Martin, O. Kokabee, M. Ebrahim-Zadeh
+            A. Esteban-Martin, <strong>O. Kokabee</strong>, M. Ebrahim-Zadeh
           </p>
 
-          <p class="publication-journal">
-            Optics Letters · 35 · 2786–2788
-          </p>
+          <div class="publication-meta">
+            <span>Optics Letters</span>
+            <span>35</span>
+            <span>2786–2788</span>
+          </div>
 
-          <p class="publication-doi">
-            DOI: 10.1364/OL.35.002786
-          </p>
+          <a class="publication-doi"
+             href="https://doi.org/10.1364/OL.35.002786">
+            DOI 10.1364/OL.35.002786 ↗
+          </a>
 
         </div>
 
@@ -447,16 +370,19 @@ permalink: /research/
           </h3>
 
           <p class="publication-authors">
-            V. Petrov, M. Ghotbi, O. Kokabee, et al.
+            V. Petrov, M. Ghotbi, <strong>O. Kokabee</strong>, et al.
           </p>
 
-          <p class="publication-journal">
-            Laser & Photonics Reviews · 4 · 53–98
-          </p>
+          <div class="publication-meta">
+            <span>Laser & Photonics Reviews</span>
+            <span>4</span>
+            <span>53–98</span>
+          </div>
 
-          <p class="publication-doi">
-            DOI: 10.1002/lpor.200810075
-          </p>
+          <a class="publication-doi"
+             href="https://doi.org/10.1002/lpor.200810075">
+            DOI 10.1002/lpor.200810075 ↗
+          </a>
 
         </div>
 
@@ -467,7 +393,7 @@ permalink: /research/
   </section>
 
 
-  <!-- CURRENT INTERESTS -->
+  <!-- RESEARCH INTERESTS -->
 
   <section class="page-section page-section-last">
 
@@ -486,7 +412,6 @@ permalink: /research/
 
 
     <div class="interest-cloud">
-
       <span>Ultrafast Photonics</span>
       <span>Nonlinear Optics</span>
       <span>Optical Parametric Oscillators</span>
@@ -496,7 +421,6 @@ permalink: /research/
       <span>High-Repetition-Rate Sources</span>
       <span>Optical Metrology</span>
       <span>Advanced Photonic Technologies</span>
-
     </div>
 
   </section>
