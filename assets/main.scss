@@ -1186,3 +1186,85 @@ body {
 .interest-article .blog-excerpt {
   max-width: 850px;
 }
+/* =========================================================
+   PERSIAN / RTL MODERN CONTENT PAGES
+   ========================================================= */
+
+.fa-page .content-page {
+  direction: rtl;
+  text-align: right;
+}
+
+.fa-page .page-kicker,
+.fa-page .page-hero h1,
+.fa-page .page-lead,
+.fa-page .section-heading h2,
+.fa-page .section-heading > div > p,
+.fa-page .timeline-content,
+.fa-page .recognition-card,
+.fa-page .book-card,
+.fa-page .industry-text {
+  text-align: right;
+}
+
+
+/* Timeline line must move to the right in RTL */
+
+.fa-page .timeline-item::before {
+  left: auto;
+  right: 7px;
+}
+
+
+/* Persian timeline */
+
+.fa-page .timeline-meta {
+  text-align: right;
+}
+
+.fa-page .timeline-content {
+  max-width: 730px;
+}
+
+
+/* Highlight */
+
+.fa-page .highlight-label {
+  text-align: right;
+}
+
+
+/* Research-support note */
+
+.fa-page .support-note {
+  border-left: 0;
+  border-right: 3px solid #cccccc;
+}
+
+
+/* Tags and pills */
+
+.fa-page .page-focus,
+.fa-page .industry-topics,
+.fa-page .interest-cloud {
+  justify-content: flex-start;
+}
+
+
+/* English titles/technical text inside Persian book cards */
+
+.fa-page .book-subtitle {
+  line-height: 1.7;
+}
+
+
+/* MOBILE RTL */
+
+@media screen and (max-width: 760px) {
+
+  .fa-page .timeline-meta,
+  .fa-page .timeline-content {
+    grid-column: 2;
+  }
+
+}
