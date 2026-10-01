@@ -2,6 +2,7 @@
 layout: interest-post
 title: "William Irons and the Anthropology of the Yomut Turkmen"
 date: 2026-09-30
+permalink: /interests/william-irons-yomut-turkmens/
 lang: en
 section: interests
 tags:
@@ -11,7 +12,7 @@ tags:
   - Iran
 image: /assets/images/william-irons.jpeg
 excerpt: "William Irons spent years studying the Yomut Turkmen of northern Iran. His work on kinship, nomadism, political organization and demography remains an important ethnographic record of Turkmen society during a period of rapid change."
-permalink: /interests/2026/09/30/william-irons-yomut-turkmen/
+
 ---
 ![William Irons]({{ '/assets/images/william-irons.jpeg' | relative_url }})
 Among the scholars who have studied the Turkmens of Iran, the American anthropologist **William Irons** occupies a particularly interesting position.
