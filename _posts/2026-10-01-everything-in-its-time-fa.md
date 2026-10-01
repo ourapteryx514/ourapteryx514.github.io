@@ -1,7 +1,7 @@
 ---
 layout: fa-blog-post
 title: "تجربه هرچیزی به وقتش خوبه!"
-date: 2026-10-01
+date: 2017-09-17
 permalink: /fa/blog/everything-in-its-time/
 lang: fa
 categories:
