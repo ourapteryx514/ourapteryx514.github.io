@@ -9,10 +9,8 @@ categories:
   - ترکمن‌صحرا
 image: /assets/images/omid_kheyrkhojeh.jpg
 image_caption: "روستای خیرخواجه علیا (روستای پدری)، بخش داشلی برون، گنبدکاووس"
-first_published: "17 September 2017"
-first_published_fa: "۱۷ سپتامبر ۲۰۱۷"
-first_published_platform: "Instagram"
-first_published_platform_fa: "اینستاگرام"
+first_published: "۱۷ سپتامبر ۲۰۱۷"
+first_published_platform: "اینستاگرام"
 excerpt: "تابستونای دوره ابتدایی‌مو میومدم اینجا. من و پسرعموهام حمید و مجید و رحیم به قول معروف «ساغچی» جالیز خربزه و هندوانه بودیم، یعنی نگهبان."
 ---
 
