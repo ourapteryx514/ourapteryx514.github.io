@@ -2,6 +2,7 @@
 layout: fa-interest-post
 title: "خاستگاه تاریخی ترکمن‌ها"
 date: 2026-09-30
+permalink: /fa/interests/origins-of-the-turkmens/
 lang: fa
 section: interests
 tags:
@@ -11,7 +12,7 @@ tags:
   - تاریخ
 image: /assets/images/turkmen-origins.jpeg
 excerpt: "درآمدی بر شکل‌گیری تاریخی ترکمن‌ها؛ از اتحادیه‌های اوغوز تا پیدایش تدریجی هویت متمایز ترکمنی."
-permalink: /fa/interests/2026/09/30/origins-of-the-turkmens/
+
 ---
 ![Turkmen history and culture]({{ '/assets/images/turkmen-origins.jpeg' | relative_url }})
 برای شناخت تاریخ **ترکمن‌ها** نمی‌توان تنها به مرزهای کشور امروزی ترکمنستان نگاه کرد. ریشه‌های تاریخی آنان بخشی از داستان بسیار گسترده‌تری است که **اوغوزها، آسیای مرکزی، خراسان، ایران، حوزه خزر و در نهایت آناتولی و خاورمیانه** را به یکدیگر پیوند می‌دهد.
