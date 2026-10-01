@@ -12,15 +12,11 @@ layout: default
 
     <h1>{{ page.title }}</h1>
 
-    {% if page.first_published %}
-      <p class="first-publication">
-        First published:
-        {{ page.first_published }}
-        {% if page.first_published_platform %}
-          · {{ page.first_published_platform }}
-        {% endif %}
-      </p>
-    {% endif %}
+  {% if page.first_published_platform %}
+  <p class="first-publication">
+    Originally published on {{ page.first_published_platform }}
+  </p>
+{% endif %}
 
   </header>
 
