@@ -2,6 +2,7 @@
 layout: interest-post
 title: "The Historical Origins of the Turkmens"
 date: 2026-09-30
+permalink: /interests/origins-of-the-turkmens/
 lang: en
 section: interests
 tags:
@@ -11,7 +12,7 @@ tags:
   - History
 image: /assets/images/turkmen-origins.jpeg
 excerpt: "An introduction to the historical formation of the Turkmens, from the early Oghuz confederations to the emergence of a distinct Turkmen identity."
-permalink: /interests/2026/09/30/origins-of-the-turkmens/
+
 ---
 ![Turkmen history and culture]({{ '/assets/images/turkmen-origins.jpeg' | relative_url }})
 The history of the **Turkmens** cannot be understood simply by looking at the borders of modern Turkmenistan. Their historical roots belong to a much larger Eurasian story involving the **Oghuz Turks**, Central Asia, Khorasan, Iran, the Caspian region and, eventually, Anatolia and the Middle East.
