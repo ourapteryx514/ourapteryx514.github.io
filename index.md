@@ -35,34 +35,49 @@ title: Home
 
   <div class="card">
     <h3>
-      <a href="{{ '/research/' | relative_url }}">Research</a>
+      <a href="{{ '/research/' | relative_url }}">
+        Research
+      </a>
     </h3>
     <p>
-      Photonics, ultrafast lasers, optical parametric oscillators
-      and related scientific work.
+      Photonics, ultrafast lasers, nonlinear optics and optical parametric systems.
     </p>
   </div>
 
   <div class="card">
     <h3>
-      <a href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a href="{{ '/projects/' | relative_url }}">
+        Projects
+      </a>
     </h3>
     <p>
-      Selected technical, industrial and interdisciplinary projects.
+      Technology, energy, industrial materials and international business.
     </p>
   </div>
 
   <div class="card">
     <h3>
-      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      <a href="{{ '/interests/' | relative_url }}">
+        Interests
+      </a>
     </h3>
     <p>
-      Personal notes, photographs, books, travel, science and everyday observations.
+      Independent study in history, Turkmens, languages, entomology and books.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>
+      <a href="{{ '/blog/' | relative_url }}">
+        Blog
+      </a>
+    </h3>
+    <p>
+      Personal notes, photographs, memories, science, travel and observations.
     </p>
   </div>
 
 </div>
-
 
 <div class="section-title">
   <h2>Recent Notes</h2>
