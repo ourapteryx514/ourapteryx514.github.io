@@ -2347,3 +2347,57 @@ body {
   }
 
 }
+/* =========================================================
+   HOMEPAGE RECENT NOTES GRID
+   ========================================================= */
+
+.recent-notes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 28px;
+}
+
+.recent-note-home {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.recent-note-home img {
+  width: 120px;
+  height: 84px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+@media screen and (max-width: 760px) {
+
+  .recent-notes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .recent-note-home {
+    grid-template-columns: 125px minmax(0, 1fr);
+  }
+
+  .recent-note-home img {
+    width: 125px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+
+  .recent-note-home {
+    grid-template-columns: 105px minmax(0, 1fr);
+    gap: 13px;
+  }
+
+  .recent-note-home img {
+    width: 105px;
+    height: 78px;
+  }
+}
