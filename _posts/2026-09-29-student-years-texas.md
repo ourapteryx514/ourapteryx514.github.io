@@ -2,6 +2,7 @@
 layout: fa-blog-post
 title: "مطالعه‌های دوران دانشجویی"
 date: 2026-10-01
+permalink: /fa/blog/student-days/
 lang: fa
 categories:
   - خاطرات
