@@ -4,43 +4,54 @@ layout: default
 
 <article class="blog-post-page fa-page" dir="rtl" lang="fa">
 
-  <p class="blog-date">
-    {{ page.date | date: "%Y/%m/%d" }}
-  </p>
+  <header class="blog-post-header">
 
-  {% if page.categories %}
-  <p style="font-size:13px; color:#777; margin:5px 0 12px;">
-    {% for category in page.categories %}
-      <span style="
-        display:inline-block;
-        padding:3px 9px;
-        margin-left:5px;
-        border:1px solid #ddd;
-        border-radius:14px;">
-        {{ category }}
-      </span>
-    {% endfor %}
-  </p>
-  {% endif %}
+    <p class="blog-date">
+      {{ page.date | date: "%Y/%m/%d" }}
+    </p>
 
-  <h1 style="margin-top:0; margin-bottom:25px;">
-    {{ page.title }}
-  </h1>
+    <h1>{{ page.title }}</h1>
+
+    {% if page.first_published %}
+      <p class="first-publication">
+        نخستین انتشار:
+        {{ page.first_published }}
+        {% if page.first_published_platform %}
+          · {{ page.first_published_platform }}
+        {% endif %}
+      </p>
+    {% endif %}
+
+  </header>
+
 
   <div class="blog-post-body">
+
+    {% if page.image %}
+      <figure class="blog-post-figure">
+
+        <img
+          src="{{ page.image | relative_url }}"
+          alt="{{ page.image_caption | default: page.title | escape }}">
+
+        {% if page.image_caption %}
+          <figcaption>
+            {{ page.image_caption }}
+          </figcaption>
+        {% endif %}
+
+      </figure>
+    {% endif %}
+
     {{ content }}
+
   </div>
 
-  <hr style="
-    margin:50px 0 25px;
-    border:0;
-    border-top:1px solid #eeeeee;
-  ">
 
-  <p>
+  <div class="blog-post-back">
     <a href="{{ '/fa/blog/' | relative_url }}">
       بازگشت به وبلاگ ←
     </a>
-  </p>
+  </div>
 
 </article>
