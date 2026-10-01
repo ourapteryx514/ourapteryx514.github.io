@@ -2,6 +2,7 @@
 layout: fa-interest-post
 title: "ویلیام آیرونز و پژوهش‌های او درباره ترکمن‌های یموت"
 date: 2026-09-30
+permalink: /fa/interests/william-irons-yomut-turkmens/
 lang: fa
 section: interests
 tags:
@@ -11,7 +12,7 @@ tags:
   - ایران
 image: /assets/images/william-irons.jpeg
 excerpt: "ویلیام آیرونز سال‌ها به مطالعه میدانی ترکمن‌های یموت شمال ایران پرداخت. آثار او درباره خویشاوندی، کوچ‌نشینی، ساختار سیاسی و جمعیت‌شناسی از منابع مهم شناخت جامعه ترکمن در دوره‌ای از تحولات سریع اجتماعی است."
-permalink: /fa/interests/2026/09/30/william-irons-yomut-turkmen/
+
 ---
 ![ویلیام آیرونز]({{ '/assets/images/william-irons.jpeg' | relative_url }})
 در میان پژوهشگرانی که درباره ترکمن‌های ایران مطالعه کرده‌اند، **ویلیام آیرونز (William Irons)** جایگاه قابل توجهی دارد.
