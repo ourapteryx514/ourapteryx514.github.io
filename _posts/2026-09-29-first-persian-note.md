@@ -1,7 +1,7 @@
 ---
 layout: fa-blog-post
 title: "دوری کردن از آیین محموله‌پرستی"
-date: 2026-10-01
+date: 2017-05-11
 permalink: /fa/blog/cargo-cult-science/
 lang: fa
 categories:
