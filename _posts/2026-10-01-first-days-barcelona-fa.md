@@ -1,7 +1,7 @@
 ---
 layout: fa-blog-post
 title: "روزهای اول در بارسلونا"
-date: 2026-10-01
+date: 2019-12-29
 permalink: /fa/blog/first-days-in-barcelona/
 lang: fa
 categories:
