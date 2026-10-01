@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: "Omid in the Laser Lab (2009)"
-date: 2026-09-20
+date: 2016-05-02
 lang: en
 categories:
   - Photonics
