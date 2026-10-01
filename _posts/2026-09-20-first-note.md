@@ -8,9 +8,10 @@ categories:
   - Research
   - Barcelona
 image: /assets/images/omid-laser-lab-barcelona.jpeg
+image_caption: "Laser Lab at ICFO, Barcelona, Spain"
+first_published: "2 May 2016"
+first_published_platform: "Instagram"
 excerpt: "Back in 2009 at the Nonlinear Optics Lab at ICFO in Barcelona, working on a PPLN picosecond OPO pumped by a fiber laser."
 ---
 
-![Omid in the Nonlinear Optics Lab at ICFO, Barcelona]({{ '/assets/images/omid-laser-lab-barcelona.jpeg' | relative_url }})
-
-Back in 2009 at the **Nonlinear Optics Lab at The Institute of Photonic Sciences (ICFO)** in Barcelona, Spain, while working on a **PPLN picosecond optical parametric oscillator (OPO)** pumped by a fiber laser.
+Back in 2009 at the Nonlinear Optics Lab at The Institute of Photonic Sciences (ICFO), Barcelona, Spain, while working on a PPLN Picosecond OPO pumped by a Fiber Laser.
