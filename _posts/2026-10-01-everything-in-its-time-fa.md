@@ -2,6 +2,7 @@
 layout: fa-blog-post
 title: "تجربه هرچیزی به وقتش خوبه!"
 date: 2026-10-01
+permalink: /fa/blog/everything-in-its-time/
 lang: fa
 categories:
   - خاطرات
