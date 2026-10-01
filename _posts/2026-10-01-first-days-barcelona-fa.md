@@ -10,7 +10,9 @@ categories:
 image: /assets/images/omid-barcelona.jpg
 image_caption: "حوالی کریسمس، پارک گوئِل، سال 2007، بارسلونا"
 first_published: "29 December 2019"
+first_published_fa: "۲۹ دسامبر ۲۰۱۹"
 first_published_platform: "Instagram"
+first_published_platform_fa: "اینستاگرام"
 excerpt: "اینجا مدتی بود که به بارسلونا نقل مکان کرده بودم، به گروه تحقیقاتی جدیدم تو مرکز تحقیقات فوتونیک اروپا که روی لیزرهای نسل جدید کار میکرد."
 ---
 
