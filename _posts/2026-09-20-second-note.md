@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: "At Home in Austin, Texas"
-date: 2026-09-20
+date: 2017-08-22
 permalink: /blog/at-home-in-austin-texas/
 lang: en
 categories:
