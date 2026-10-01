@@ -8,13 +8,12 @@ categories:
   - Research
   - Texas
 image: /assets/images/omid-texas-01.jpeg
+image_caption: "تگزاس، آمریکا ۲۰۱۰"
+first_published: "22 August 2017"
+first_published_platform: "Instagram"
 excerpt: "At home in Austin, Texas, while studying at the University of Texas at Austin in September 2010."
 ---
 
-<p style="color:#777; font-size:15px; margin-top:-15px; margin-bottom:25px;">
-Austin, Texas, USA · September 2010
-</p>
-
-![At home in Austin, Texas]({{ '/assets/images/omid-texas-01.jpeg' | relative_url }})
+At home in Austin, Texas, while studying at the University of Texas at Austin, USA, in September 2010.
 
 At that time, my only responsibility was to equip myself with more knowledge and skills so that I could become a more experienced and knowledgeable laser scientist.
