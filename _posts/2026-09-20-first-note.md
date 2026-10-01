@@ -2,7 +2,7 @@
 layout: blog-post
 title: "Omid in the Laser Lab (2009)"
 
-date: 2026-10-01
+date: 2016-05-02
 
 permalink: /blog/omid-in-the-laser-lab-2009/
 
