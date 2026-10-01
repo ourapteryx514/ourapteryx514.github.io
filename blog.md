@@ -15,14 +15,8 @@ permalink: /blog/
     <p class="page-kicker">BLOG</p>
 
     <h1>
-      Notes, photographs and observations along the way.
+      Notes
     </h1>
-
-    <p class="page-lead">
-      A more informal part of this website for
-      <strong>personal notes, science, books, travel, photographs,
-      memories and everyday observations</strong>.
-    </p>
 
     <div class="page-focus">
       <span>Personal Notes</span>
@@ -40,20 +34,6 @@ permalink: /blog/
        ===================================================== -->
 
   <section class="page-section page-section-last blog-section">
-
-    <div class="section-heading">
-
-      <p class="section-number">01</p>
-
-      <div>
-        <h2>Notes & Posts</h2>
-        <p>
-          The latest entries from my personal blog.
-        </p>
-      </div>
-
-    </div>
-
 
     {% assign english_posts = site.posts | where: "lang", "en" %}
     {% assign blog_posts = english_posts
