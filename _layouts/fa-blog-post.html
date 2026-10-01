@@ -28,6 +28,7 @@ layout: default
   <div class="blog-post-body">
 
     {% if page.image %}
+
       <figure class="blog-post-figure">
 
         <img
@@ -41,7 +42,9 @@ layout: default
         {% endif %}
 
       </figure>
+
     {% endif %}
+
 
     {{ content }}
 
@@ -49,9 +52,11 @@ layout: default
 
 
   <div class="blog-post-back">
+
     <a href="{{ '/fa/blog/' | relative_url }}">
       بازگشت به وبلاگ ←
     </a>
+
   </div>
 
 </article>
