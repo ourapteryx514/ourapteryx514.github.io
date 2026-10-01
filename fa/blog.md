@@ -15,14 +15,8 @@ permalink: /fa/blog/
     <p class="page-kicker">وبلاگ</p>
 
     <h1>
-      یادداشت‌ها، تصاویر و چیزهایی که در مسیر توجهم را جلب می‌کنند.
+      یادداشت‌ها
     </h1>
-
-    <p class="page-lead">
-      بخش غیررسمی‌تر این وب‌سایت برای
-      <strong>یادداشت‌های شخصی، علم، کتاب، سفر، تصاویر،
-      خاطرات و مشاهدات روزمره</strong>.
-    </p>
 
     <div class="page-focus">
       <span>یادداشت‌های شخصی</span>
@@ -40,20 +34,6 @@ permalink: /fa/blog/
        ===================================================== -->
 
   <section class="page-section page-section-last blog-section">
-
-    <div class="section-heading">
-
-      <p class="section-number">۰۱</p>
-
-      <div>
-        <h2>یادداشت‌ها و مطالب</h2>
-        <p>
-          تازه‌ترین نوشته‌های وبلاگ شخصی من.
-        </p>
-      </div>
-
-    </div>
-
 
     {% assign persian_posts = site.posts | where: "lang", "fa" %}
     {% assign blog_posts = persian_posts
