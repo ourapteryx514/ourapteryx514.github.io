@@ -1,7 +1,7 @@
 ---
 layout: fa-blog-post
 title: "مطالعه‌های دوران دانشجویی"
-date: 2026-10-01
+date: 2017-08-22
 permalink: /fa/blog/student-days/
 lang: fa
 categories:
