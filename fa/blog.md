@@ -1,125 +1,65 @@
 ---
-layout: fa-page
-title: وبلاگ
-permalink: /fa/blog/
+layout: default
 ---
 
-<div class="content-page blog-page">
+<article class="blog-post-page fa-page" dir="rtl" lang="fa">
 
-  <!-- =====================================================
-       HERO
-       ===================================================== -->
+  <header class="blog-post-header">
 
-  <section class="page-hero blog-hero">
+    <p class="blog-date">
+      {{ page.date | date: "%Y/%m/%d" }}
+    </p>
 
-    <p class="page-kicker">وبلاگ</p>
+    <h1>{{ page.title }}</h1>
 
-    <h1>
-      یادداشت‌ها
-    </h1>
+    {% if page.first_published_fa %}
+      <p class="first-publication">
+        نخستین انتشار:
+        {{ page.first_published_fa }}
+        {% if page.first_published_platform_fa %}
+          · {{ page.first_published_platform_fa }}
+        {% endif %}
+      </p>
+    {% elsif page.first_published %}
+      <p class="first-publication">
+        نخستین انتشار:
+        {{ page.first_published }}
+      </p>
+    {% endif %}
 
-    <div class="page-focus">
-      <span>یادداشت‌های شخصی</span>
-      <span>علم</span>
-      <span>کتاب</span>
-      <span>سفر</span>
-      <span>تصاویر</span>
-    </div>
-
-  </section>
-
-
-  <!-- =====================================================
-       POSTS
-       ===================================================== -->
-
-  <section class="page-section page-section-last blog-section">
-
-    {% assign persian_posts = site.posts | where: "lang", "fa" %}
-    {% assign blog_posts = persian_posts
-       | where_exp: "post", "post.section != 'interests'" %}
+  </header>
 
 
-    <div class="blog-library">
+  <div class="blog-post-body">
 
-      {% for post in blog_posts %}
+    {% if page.image %}
 
-      <article class="blog-library-item{% unless post.image %} no-image{% endunless %}">
+      <figure class="blog-post-figure">
 
-        {% if post.image %}
+        <img
+          src="{{ page.image | relative_url }}"
+          alt="{{ page.image_caption | default: page.title | escape }}">
 
-        <a
-          class="blog-library-image"
-          href="{{ post.url | relative_url }}">
-
-          <img
-            src="{{ post.image | relative_url }}"
-            alt="{{ post.title | escape }}">
-
-        </a>
-
+        {% if page.image_caption %}
+          <figcaption>
+            {{ page.image_caption }}
+          </figcaption>
         {% endif %}
 
+      </figure>
 
-        <div class="blog-library-content">
-
-
-          <!-- META -->
-
-          <div class="blog-library-meta">
-
-            <span class="blog-library-date">
-              {{ post.date | date: "%Y/%m/%d" }}
-            </span>
+    {% endif %}
 
 
-            {% if post.categories %}
+    {{ content }}
 
-            <div class="blog-library-categories">
-
-              {% for category in post.categories %}
-                <span>{{ category }}</span>
-              {% endfor %}
-
-            </div>
-
-            {% endif %}
-
-          </div>
+  </div>
 
 
-          <!-- TITLE -->
+  <div class="blog-post-back">
+    <a href="{{ '/fa/blog/' | relative_url }}">
+      بازگشت به وبلاگ ←
+    </a>
+  </div>
 
-          <h3>
-            <a href="{{ post.url | relative_url }}">
-              {{ post.title }}
-            </a>
-          </h3>
-
-
-          <!-- EXCERPT -->
-
-          <div class="blog-library-excerpt">
-            {{ post.excerpt }}
-          </div>
-
-
-          <!-- LINK -->
-
-          <a
-            class="blog-library-link"
-            href="{{ post.url | relative_url }}">
-            ادامه مطلب ←
-          </a>
-
-        </div>
-
-      </article>
-
-      {% endfor %}
-
-    </div>
-
-  </section>
-
-</div>
+</article>
